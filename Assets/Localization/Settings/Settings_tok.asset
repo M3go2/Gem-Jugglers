@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Settings_tok
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tok
+  m_SharedData: {fileID: 11400000, guid: fd527a6f91b6a7b4b92b7cd4a824e8f7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6984470528
+    m_Localized: kalama musi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32934629376
+    m_Localized: kalama mu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55680339968
+    m_Localized: toki sina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 356335167115264
+    m_Localized: sitelen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178598612992
+    m_Localized: toki Inli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327165054976
+    m_Localized: toki Nijon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230872223744
+    m_Localized: toki Kanse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360916806701056
+    m_Localized: tawa li ni musi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357099868426240
+    m_Localized: sona kipisi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 653401638473728
+    m_Localized: toki pona
+    m_Metadata:
+      m_Items: []
+  - m_Id: 653349348085760
+    m_Localized: toki Posuka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1725146315264000
+    m_Localized: kalama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1725102660947968
+    m_Localized: kalama ala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362967607447552
+    m_Localized: sitelen toki sona li alente.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

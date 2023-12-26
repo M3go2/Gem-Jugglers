@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07335c7a8fb2a144e9692503627cd249, type: 3}
+  m_Name: Level 6
+  m_EditorClassIdentifier: 
+  width: 6
+  height: 7
+  boardLayout: []
+  dots:
+  - {fileID: 8614924838474643066, guid: 5228ddf112f676946a3116a178d737c2, type: 3}
+  - {fileID: 3483114213310253940, guid: 368bf467004bc5240bb13007384b6748, type: 3}
+  - {fileID: 4492141300796167634, guid: 06f6c540527b76d4ca9d770edf8618bf, type: 3}
+  - {fileID: 7226521100336894959, guid: a5d791a24f8ce66428b0404c0e92cf9b, type: 3}
+  - {fileID: 6422950250267594635, guid: 35584c7f5264cff4f82ad48bb9c1323a, type: 3}
+  eyes:
+  - {fileID: 3020892098597888655, guid: 63fe4bd0bc64c47418d60a56ab4cc3a2, type: 3}
+  - {fileID: 4616197049432330514, guid: f07873a610c6d8b41acd4aeebe657c3f, type: 3}
+  - {fileID: 9065688668680039769, guid: a16ea9546f5812e46bc41b84d95e67ca, type: 3}
+  - {fileID: 3721171702966750543, guid: 693ae164b6d87234e89eb6f9449b4d67, type: 3}
+  - {fileID: 4845659277170574517, guid: 51a0deeb0268ac94c8d8144a5c7ee769, type: 3}
+  eyeRatio: 1
+  balance: 500
+  scoreGoal: 2
+  backgroundColor: {r: 0.235493, g: 0.2646766, b: 0.3396226, a: 1}
+  levelGoals:
+  - _numNeeded: 6
+    goalObject: {fileID: 8614924838474643066, guid: 5228ddf112f676946a3116a178d737c2, type: 3}
+  - _numNeeded: 6
+    goalObject: {fileID: 3483114213310253940, guid: 368bf467004bc5240bb13007384b6748, type: 3}
+  - _numNeeded: 6
+    goalObject: {fileID: 7226521100336894959, guid: a5d791a24f8ce66428b0404c0e92cf9b, type: 3}
+  reqs:
+    _gameType: 0
+    _counter: 100
+  flavorText:
+  - it called to him
+  - unapologetically

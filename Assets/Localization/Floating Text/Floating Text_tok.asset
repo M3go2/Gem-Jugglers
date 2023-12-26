@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Floating Text_tok
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tok
+  m_SharedData: {fileID: 11400000, guid: 073073c25304d71488daae4444f207eb, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 898353762304
+    m_Localized: epiku
+    m_Metadata:
+      m_Items: []
+  - m_Id: 917790167040
+    m_Localized: sewi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 936282853376
+    m_Localized: kule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 952418340864
+    m_Localized: pona
+    m_Metadata:
+      m_Items: []
+  - m_Id: 975101136896
+    m_Localized: sin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 990804611072
+    m_Localized: olin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1005367234560
+    m_Localized: suno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1028020670464
+    m_Localized: toki o
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

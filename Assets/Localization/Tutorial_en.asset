@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tutorial_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 1eb97938a9cda714abdafbae0075a466, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 9010319360
+    m_Localized: The "reset progress" button deletes your current save and resets
+      your progress.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1004666785792
+    m_Localized: Complete all the goals to clear a level.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1144056090624
+    m_Localized: If you're stuck, generate a hint.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1266324246528
+    m_Localized: You can only move pieces when the pearl is green.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3221268369408
+    m_Localized: In-game, you can mute the music or return to the Level Select screen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3346455760896
+    m_Localized: 'Here, you can change your langauge, '
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

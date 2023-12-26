@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Settings Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Settings
+  m_TableCollectionNameGuidString: fd527a6f91b6a7b4b92b7cd4a824e8f7
+  m_Entries:
+  - m_Id: 6984470528
+    m_Key: music_volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32934629376
+    m_Key: effect_volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55680339968
+    m_Key: language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178598612992
+    m_Key: English (en)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230872223744
+    m_Key: French (fr)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327165054976
+    m_Key: Japanese (ja)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 356335167115264
+    m_Key: settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357099868426240
+    m_Key: reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360916806701056
+    m_Key: exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362967607447552
+    m_Key: disclaimer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 653349348085760
+    m_Key: Polish (pl)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 653401638473728
+    m_Key: toki pona (tok)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1725102660947968
+    m_Key: mute_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1725146315264000
+    m_Key: unmute_label
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 992407481764020299
+  references:
+    version: 2
+    RefIds:
+    - rid: 992407481764020299
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1668665100933

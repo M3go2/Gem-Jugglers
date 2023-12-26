@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 9f30d329b6b497b40a07947b8d9b60b3, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 105416396800
+    m_Localized: Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 647840567296
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 779613016064
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1955792326656
+    m_Localized: Home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2706836983808
+    m_Localized: High Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10960912683008
+    m_Localized: Levels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15527796707328
+    m_Localized: 'Goals:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59536883748864
+    m_Localized: Hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59672045195264
+    m_Localized: 'Score:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59763208392704
+    m_Localized: 'Moves:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59825619636224
+    m_Localized: 'Time:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62736126873600
+    m_Localized: Retry!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62803202183168
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62839906537472
+    m_Localized: 'Ending Score:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63117330386944
+    m_Localized: You Lose :(
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64423637979136
+    m_Localized: You Win
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65712501460992
+    m_Localized: New Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 349305077403648
+    m_Localized: 'Level:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4430661239607296
+    m_Localized: Gem Jugglers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5147329955794944
+    m_Localized: Click to Start
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
