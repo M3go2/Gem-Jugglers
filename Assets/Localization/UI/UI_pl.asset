@@ -22,6 +22,14 @@ MonoBehaviour:
     m_Localized: "\u017Bonglerzy klejnot\xF3w\r\n"
     m_Metadata:
       m_Items: []
+  - m_Id: 5147329955794944
+    m_Localized: "kliknij, aby rozpocz\u0105\u0107\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59763208392704
+    m_Localized: "porusza si\u0119\r\n"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

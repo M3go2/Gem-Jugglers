@@ -18,7 +18,6 @@ public class Level : ScriptableObject {
 
     [Header("Score")]
     public int scoreGoal; 
-    public Color backgroundColor; 
 
     [Header("Goals")]
     public BlankGoal[] levelGoals; 

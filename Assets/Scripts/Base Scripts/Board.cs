@@ -173,15 +173,15 @@ public class Board : MonoBehaviour {
             // Debug.Log("s"); 
         }
 
-        if (currentState == GameState.move) {
+     /*   if (currentState == GameState.move) {
             moveIndicatorImage.color = GameColors.moveColors[0]; 
         }
         else if(currentState == GameState.wait) {
             moveIndicatorImage.color = GameColors.moveColors[1]; 
         }
         else {
-            moveIndicatorImage.color = GameColors.moveColors[2]; 
-        }
+            moveIndicatorImage.color = GameColors.moveColors[2];
+        }*/
     }
 
     /// <summary>Generates a breakable tile at all positions marked breakable</summary>
