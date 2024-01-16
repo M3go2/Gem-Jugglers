@@ -1,0 +1,1040 @@
+// This file is generated. Do not modify by hand.
+// XML documentation file not found. To check if public methods have XML comments,
+// make sure the XML doc file is present and located next to the scraped dll
+namespace Unity.Services.Ccd.Management
+{
+    public class AssignBadgeOptions
+    {
+        public string BadgeName { get; set; }
+        public System.Guid BucketId { get; set; }
+        public System.Guid ReleaseId { get; set; }
+        public System.Nullable<int> ReleaseNum { get; set; }
+        public AssignBadgeOptions(System.Guid bucketId, string badgeName, System.Guid releaseId) {}
+        public AssignBadgeOptions(System.Guid bucketId, string badgeName, int releaseNum) {}
+    }
+
+    public static class CcdManagement
+    {
+        public static ICcdManagementServiceSdk Instance { get; }
+        public static void SetBasePath(string basePath);
+        public static void SetEnvironmentId(string envId);
+        public static void SetTimeout(int timeoutms);
+    }
+
+    public static class CcdManagementErrorCodes
+    {
+        public const int AlreadyExists = 19006;
+        public const int InactiveOrganization = 19010;
+        public const int InternalError = 19008;
+        public const int InvalidArgument = 19001;
+        public const int InvalidHashMismatch = 19011;
+        public const int OutOfRange = 19002;
+        public const int Unauthorized = 19003;
+    }
+
+    public class CcdManagementException : Unity.Services.Core.RequestFailedException
+    {
+        public CcdManagementException(System.Exception innerException) {}
+        public CcdManagementException(int reason, string message) {}
+        public CcdManagementException(int reason, string message, System.Exception innerException) {}
+    }
+
+    public struct CcdManagementIdentifier : Unity.Services.Core.Editor.IEditorGameServiceIdentifier
+    {
+        public string GetKey();
+    }
+
+    public class CcdManagementValidationException : CcdManagementException
+    {
+        public System.Collections.Generic.List<object> Details;
+        public CcdManagementValidationException(int reason, string message) {}
+        public CcdManagementValidationException(int reason, string message, System.Collections.Generic.List<object> details) {}
+        public CcdManagementValidationException(int reason, string message, System.Exception innerException) {}
+    }
+
+    public class ContentStatus
+    {
+        public string UploadHash { get; }
+        public int UploadLength { get; }
+        public int UploadOffset { get; }
+        public ContentStatus(string uploadHash, int uploadLength, int uploadOffset) {}
+    }
+
+    public class CreateBucketOptions
+    {
+        public string Description { get; set; }
+        public string Name { get; set; }
+        public CreateBucketOptions(string name) {}
+    }
+
+    public class CreatePermissionsOption
+    {
+        public Models.CcdPermissionCreate.ActionOptions Action { get; set; }
+        public System.Guid BucketId { get; set; }
+        public Models.CcdPermissionCreate.PermissionOptions Permission { get; set; }
+        public CreatePermissionsOption(System.Guid bucketId, Models.CcdPermissionCreate.ActionOptions action, Models.CcdPermissionCreate.PermissionOptions permission) {}
+    }
+
+    public class CreateReleaseOptions
+    {
+        public System.Guid BucketId { get; set; }
+        public System.Collections.Generic.List<Models.CcdReleaseEntryCreate> Entries { get; set; }
+        public Http.JsonObject Metadata { get; set; }
+        public string Notes { get; set; }
+        public System.DateTime Snapshot { get; set; }
+        public CreateReleaseOptions(System.Guid bucketId) {}
+    }
+
+    public class DiffEntriesOptions
+    {
+        public System.Guid BucketId { get; set; }
+        public System.Collections.Generic.List<string> IncludeStates { get; set; }
+        public string Path { get; set; }
+        public DiffEntriesOptions(System.Guid bucketId) {}
+    }
+
+    public class EntryByPathOptions
+    {
+        public System.Guid BucketId { get; set; }
+        public string Path { get; set; }
+        public System.Guid VersionId { get; set; }
+        public EntryByPathOptions(System.Guid bucketId, string path) {}
+    }
+
+    public class EntryModelOptions
+    {
+        public string ContentHash { get; set; }
+        public int ContentSize { get; set; }
+        public string ContentType { get; set; }
+        public System.Collections.Generic.List<string> Labels { get; set; }
+        public Http.JsonObject Metadata { get; set; }
+        public string Path { get; set; }
+        public bool UpdateIfExists { get; set; }
+        public EntryModelOptions(string path, string contentHash, int contentSize) {}
+    }
+
+    public class EntryOptions
+    {
+        public System.Guid BucketId { get; set; }
+        public System.Guid EntryId { get; set; }
+        public string Label { get; set; }
+        public string Path { get; set; }
+        public System.Guid VersionId { get; set; }
+        public EntryOptions(System.Guid bucketId, System.Guid entryId) {}
+    }
+
+    public class EntryVersionsOptions
+    {
+        public System.Guid BucketId { get; set; }
+        public System.Guid EntryId { get; set; }
+        public System.Guid VersionId { get; set; }
+        public EntryVersionsOptions(System.Guid bucketId, System.Guid entryId, System.Guid versionId) {}
+    }
+
+    public enum HashingImplementation
+    {
+        SHA1CryptoServiceProvider = 1,
+        Sha1Managed = 0,
+    }
+
+    public interface ICcdManagementServiceSdk
+    {
+        public System.Threading.Tasks.Task<Models.CcdBadge> AssignBadgeAsync(AssignBadgeOptions assignBadgeOptions);
+        public System.Threading.Tasks.Task<Models.CcdBucket> CreateBucketAsync(CreateBucketOptions createBucketOptions);
+        public System.Threading.Tasks.Task<string> CreateContentAsync(System.Guid bucketId, System.Guid entryId);
+        public System.Threading.Tasks.Task<Models.CcdEntry> CreateEntryAsync(System.Guid bucketId, EntryModelOptions entry);
+        public System.Threading.Tasks.Task<Models.CcdEntry> CreateOrUpdateEntryByPathAsync(EntryByPathOptions entryByPathOptions, EntryModelOptions entry);
+        public System.Threading.Tasks.Task<Models.CcdPermission> CreatePermissionAsync(CreatePermissionsOption permissionsOptions);
+        public System.Threading.Tasks.Task<Models.CcdRelease> CreateReleaseAsync(CreateReleaseOptions createReleaseOptions);
+        public System.Threading.Tasks.Task DeleteBadgeAsync(System.Guid bucketId, string badgeName);
+        public System.Threading.Tasks.Task DeleteBucketAsync(System.Guid bucketId);
+        public System.Threading.Tasks.Task DeleteEntryAsync(System.Guid bucketId, System.Guid entryId);
+        public System.Threading.Tasks.Task DeletePermissionAsync(UpdatePermissionsOption permissionsOptions);
+        public System.Threading.Tasks.Task<Models.CcdBadge> GetBadgeAsync(System.Guid bucketId, string badgeName);
+        public System.Threading.Tasks.Task<Models.CcdBucket> GetBucketAsync(System.Guid bucketId);
+        public System.Threading.Tasks.Task<System.IO.Stream> GetContentAsync(EntryOptions entryOptions);
+        public System.Threading.Tasks.Task<ContentStatus> GetContentStatusAsync(EntryOptions entryOptions);
+        public System.Threading.Tasks.Task<ContentStatus> GetContentStatusVersionAsync(EntryVersionsOptions entryVersionsOption);
+        public System.Threading.Tasks.Task<System.IO.Stream> GetContentVersionAsync(EntryVersionsOptions entryVersionsOption);
+        public System.Threading.Tasks.Task<Models.CcdReleaseChangeVersion> GetDiffAsync(System.Guid bucketId);
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Models.CcdReleaseEntry>> GetDiffEntriesAsync(DiffEntriesOptions diffEntriesOptions, PageOptions pageOptions = default(PageOptions));
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Models.CcdEntry>> GetEntriesAsync(EntryOptions entryOptions, PageOptions pageOptions = default(PageOptions));
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Models.CcdEntry>> GetEntriesAsync(EntryOptions entryOptions, string startingAfter, int perPage = 10);
+        public System.Threading.Tasks.Task<Models.CcdEntry> GetEntryAsync(System.Guid bucketId, System.Guid entryId);
+        public System.Threading.Tasks.Task<Models.CcdEntry> GetEntryByPathAsync(EntryByPathOptions entryByPathOptions);
+        public System.Threading.Tasks.Task<Models.CcdEntry> GetEntryVersionAsync(EntryVersionsOptions entryVersionsOption);
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Models.CcdVersion>> GetEntryVersionsAsync(EntryOptions entryOptions, PageOptions pageOptions = default(PageOptions));
+        public System.Threading.Tasks.Task<Models.CcdEnvironment> GetEnvironmentByNameAsync(System.Guid projectId, string name);
+        public System.Threading.Tasks.Task<Models.CcdOrg> GetOrgAsync();
+        public System.Threading.Tasks.Task<Models.CcdOrgUsage> GetOrgUsageAsync();
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Models.CcdPermission>> GetPermissionsAsync(System.Guid bucketId);
+        public System.Threading.Tasks.Task<Models.CcdRelease> GetReleaseAsync(System.Guid bucketId, System.Guid releaseId);
+        public System.Threading.Tasks.Task<Models.CcdRelease> GetReleaseByBadgeAsync(System.Guid bucketId, string badgeName);
+        public System.Threading.Tasks.Task<Models.CcdReleaseChangeVersion> GetReleaseDiffAsync(ReleaseDiffOptions releaseDiffOptions);
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Models.CcdReleaseEntry>> GetReleaseDiffEntriesAsync(ReleaseDiffOptions releaseDiffOptions, PageOptions pageOptions = default(PageOptions));
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Models.CcdReleaseEntry>> GetReleaseEntriesAsync(ReleaseEntryOptions releaseEntryOptions, PageOptions pageOptions = default(PageOptions));
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Models.CcdReleaseEntry>> GetReleaseEntriesByBadgeAsync(ReleaseByBadgeOptions releaseByBadgeOptions, PageOptions pageOptions = default(PageOptions));
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Models.CcdRelease>> GetReleasesAsync(System.Guid bucketId, PageOptions pageOptions = default(PageOptions));
+        public System.Threading.Tasks.Task<Models.CcdMetricQuantity> GetStatsAsync(ReleaseStatsOptions releaseStatsOptions);
+        public System.Threading.Tasks.Task<Models.CcdUserAPIKey> GetUserApiKeyAsync();
+        public System.Threading.Tasks.Task<Models.CcdUser> GetUserInfoAsync();
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Models.CcdBadge>> ListBadgesAsync(System.Guid bucketId, PageOptions pageOptions = default(PageOptions));
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Models.CcdBucket>> ListBucketsAsync(PageOptions pageOptions = default(PageOptions));
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Models.CcdEnvironment>> ListEnvironmentsByProjectAsync(System.Guid projectId, PageOptions pageOptions = default(PageOptions));
+        public System.Threading.Tasks.Task<Models.CcdRelease> PromoteBucketAsync(PromoteBucketOptions promoteBucketOptions);
+        public System.Threading.Tasks.Task<Models.CcdUserAPIKey> RegenerateUserApiKeyAsync();
+        public System.Threading.Tasks.Task<Models.CcdBucket> UpdateBucketAsync(UpdateBucketOptions updateBucketOptions);
+        public System.Threading.Tasks.Task<Models.CcdEntry> UpdateEntryAsync(EntryOptions entryOptions, EntryModelOptions entry);
+        public System.Threading.Tasks.Task<Models.CcdEntry> UpdateEntryByPathAsync(EntryByPathOptions entryByPathOptions, EntryModelOptions entry);
+        public System.Threading.Tasks.Task<Models.CcdPermission> UpdatePermissionAsync(UpdatePermissionsOption permissionsOptions);
+        public System.Threading.Tasks.Task<Models.CcdRelease> UpdateReleaseAsync(System.Guid bucketId, System.Guid releaseId, string notes);
+        public System.Threading.Tasks.Task UploadContentAsync(UploadContentOptions uploadContentOptions);
+    }
+
+    public interface ICcdManagementServiceSdkConfiguration
+    {
+        public void SetBasePath(string basePath);
+        public void SetTimeout(int timoutms);
+    }
+
+    public class PageOptions
+    {
+        public int Page { get; set; }
+        public int PerPage { get; set; }
+        public PageOptions() {}
+    }
+
+    public delegate void ProgressDelegate(long bytesTransferred, long bytesTotal);
+
+    public class PromoteBucketOptions
+    {
+        public System.Guid BucketId { get; set; }
+        public System.Guid FromRelease { get; set; }
+        public string Notes { get; set; }
+        public PromoteBucketOptions(System.Guid bucketId, System.Guid fromRelease) {}
+    }
+
+    public class ReleaseByBadgeOptions
+    {
+        public string BadgeName { get; set; }
+        public System.Guid BucketId { get; set; }
+        public string Label { get; set; }
+        public ReleaseByBadgeOptions(System.Guid bucketId, string badgeName) {}
+    }
+
+    public class ReleaseDiffOptions
+    {
+        public System.Guid BucketId { get; set; }
+        public System.Guid FromReleaseId { get; set; }
+        public System.Nullable<int> FromReleaseNum { get; set; }
+        public System.Collections.Generic.List<string> Include_States { get; set; }
+        public string Path { get; set; }
+        public System.Guid ToReleaseId { get; set; }
+        public System.Nullable<int> ToReleaseNum { get; set; }
+        public ReleaseDiffOptions(System.Guid bucketId, System.Guid fromReleaseId, System.Guid toReleaseId) {}
+        public ReleaseDiffOptions(System.Guid bucketId, int fromReleaseNum, int toReleaseNum) {}
+    }
+
+    public class ReleaseEntryOptions
+    {
+        public System.Guid BucketId { get; set; }
+        public string Label { get; set; }
+        public System.Guid ReleaseId { get; set; }
+        public ReleaseEntryOptions(System.Guid bucketId, System.Guid releaseId) {}
+    }
+
+    public class ReleaseStatsOptions
+    {
+        public System.Guid BucketId { get; set; }
+        public ReleaseStatsOptions.CcdInterval Interval { get; set; }
+        public ReleaseStatsOptions.CcdMetric Metric { get; set; }
+        public System.Guid ReleaseId { get; set; }
+        public ReleaseStatsOptions(System.Guid bucketId, System.Guid releaseId, ReleaseStatsOptions.CcdMetric metric, ReleaseStatsOptions.CcdInterval interval) {}
+        public enum CcdInterval
+        {
+            Day = 1,
+            Month = 3,
+            Week = 2,
+        }
+        public enum CcdMetric
+        {
+            Downloads = 1,
+            Errors = 2,
+        }
+    }
+
+    public enum RequestMethod
+    {
+        Delete = 5,
+        Get = 0,
+        Head = 2,
+        Options = 4,
+        Patch = 3,
+        Post = 1,
+    }
+
+    public class TusClient
+    {
+        public System.Collections.Generic.Dictionary<string, string> AdditionalHeaders { get; }
+        public static HashingImplementation HashingImplementation { get; set; }
+        public System.Net.IWebProxy Proxy { get; set; }
+        public TusClient() {}
+        public System.Threading.Tasks.Task<string> CreateAsync(string url, long uploadLength, params System.ValueTuple<string, string>[] metadata);
+        public System.Threading.Tasks.Task<string> CreateAsync(string url, System.IO.FileInfo fileInfo, params System.ValueTuple<string, string>[] metadata);
+        public System.Threading.Tasks.Task<bool> Delete(string url);
+        public Unity.Services.Ccd.Management.TusOperation<TusHttpResponse> DownloadAsync(string url, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        public System.Threading.Tasks.Task<TusServerInfo> GetServerInfo(string url);
+        public System.Threading.Tasks.Task<TusHttpResponse> HeadAsync(string url);
+        public Unity.Services.Ccd.Management.TusOperation<System.Collections.Generic.List<TusHttpResponse>> UploadAsync(string url, System.IO.FileInfo file, double chunkSize = 5d, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        public Unity.Services.Ccd.Management.TusOperation<System.Collections.Generic.List<TusHttpResponse>> UploadAsync(string url, System.IO.Stream fileStream, double chunkSize = 5d, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+    }
+
+    public class TusException : System.Net.WebException
+    {
+        public System.Net.WebException OriginalException { get; }
+        public string ResponseContent { get; }
+        public System.Net.HttpStatusCode StatusCode { get; }
+        public string StatusDescription { get; }
+        public TusException(System.OperationCanceledException ex) {}
+        public TusException(System.Net.WebException ex, string message = @"") {}
+        public TusException(TusException ex, string message) {}
+        public override string ToString();
+    }
+
+    public static class TusHeaderNames
+    {
+        public const string ContentLength = @"content-length";
+        public const string ContentType = @"content-type";
+        public const string TusChecksumAlgorithm = @"tus-checksum-algorithm";
+        public const string TusExtension = @"tus-extension";
+        public const string TusMaxSize = @"tus-max-size";
+        public const string TusResumable = @"tus-resumable";
+        public const string TusVersion = @"tus-version";
+        public const string UploadChecksum = @"upload-checksum";
+        public const string UploadHash = @"upload-hash";
+        public const string UploadLength = @"upload-length";
+        public const string UploadMetadata = @"upload-metadata";
+        public const string UploadOffset = @"upload-offset";
+    }
+
+    public class TusHttpClient
+    {
+        public System.Net.IWebProxy Proxy { get; set; }
+        public TusHttpClient() {}
+        public System.Threading.Tasks.Task<TusHttpResponse> PerformRequestAsync(TusHttpRequest request);
+    }
+
+    public class TusHttpRequest
+    {
+        public event ProgressDelegate DownloadProgressed;
+        public event ProgressDelegate UploadProgressed;
+        public System.ArraySegment<byte> BodyBytes { get; }
+        public System.Threading.CancellationToken CancelToken { get; }
+        public System.Collections.Generic.IReadOnlyDictionary<string, string> Headers { get; }
+        public string Method { get; }
+        public System.Uri Url { get; }
+        public TusHttpRequest(string url, RequestMethod method, System.Collections.Generic.IDictionary<string, string> additionalHeaders = default(System.Collections.Generic.IDictionary<string, string>), System.ArraySegment<byte> bodyBytes = default(System.ArraySegment<byte>), System.Nullable<System.Threading.CancellationToken> cancelToken = default(System.Nullable<System.Threading.CancellationToken>)) {}
+        public void AddHeader(string key, string value);
+        public void OnDownloadProgressed(long bytesTransferred, long bytesTotal);
+        public void OnUploadProgressed(long bytesTransferred, long bytesTotal);
+    }
+
+    public class TusHttpResponse
+    {
+        public System.Collections.Generic.IReadOnlyDictionary<string, string> Headers { get; }
+        public byte[] ResponseBytes { get; }
+        public string ResponseString { get; }
+        public System.Net.HttpStatusCode StatusCode { get; }
+        public TusHttpResponse(System.Net.HttpStatusCode statusCode, System.Collections.Generic.IDictionary<string, string> headers = default(System.Collections.Generic.IDictionary<string, string>), byte[] responseBytes = default(byte[])) {}
+    }
+
+    public class TusOperation<T>
+    {
+        public event ProgressDelegate Progressed;
+        public System.Threading.Tasks.Task<T> Operation { get; }
+        public System.Runtime.CompilerServices.TaskAwaiter<T> GetAwaiter();
+        public delegate System.Threading.Tasks.Task<T> OperationDelegate(ProgressDelegate reportProgress);
+    }
+
+    public class TusServerInfo
+    {
+        public string[] Extensions { get; }
+        public long MaxSize { get; }
+        public string[] SupportedChecksumAlgorithms { get; }
+        public string[] SupportedVersions { get; }
+        public bool SupportsDelete { get; }
+        public string Version { get; }
+        public TusServerInfo(string version, string supportedVersions, string extensions, System.Nullable<long> maxSize, string checksumAlgorithms) {}
+    }
+
+    public class UpdateBucketOptions
+    {
+        public System.Guid BucketId { get; set; }
+        public string Description { get; set; }
+        public string Name { get; set; }
+        public UpdateBucketOptions(System.Guid bucketId, string name) {}
+    }
+
+    public class UpdatePermissionsOption
+    {
+        public Models.CcdPermissionUpdate.ActionOptions Action { get; set; }
+        public System.Guid BucketId { get; set; }
+        public Models.CcdPermissionUpdate.PermissionOptions Permission { get; set; }
+        public UpdatePermissionsOption(System.Guid bucketId, Models.CcdPermissionUpdate.ActionOptions action, Models.CcdPermissionUpdate.PermissionOptions permission) {}
+    }
+
+    public class UploadContentOptions
+    {
+        public System.Guid BucketId { get; set; }
+        public double ChunkSize { get; set; }
+        public System.Guid EntryId { get; set; }
+        public System.IO.Stream File { get; set; }
+        public ProgressDelegate OnProgressed { get; set; }
+        public UploadContentOptions(System.Guid bucketId, System.Guid entryId, System.IO.Stream file) {}
+    }
+}
+
+namespace Unity.Services.Ccd.Management.Http
+{
+    public class DeserializationException : System.Exception
+    {
+        public DeserializationException() {}
+        public DeserializationException(string message) {}
+    }
+
+    public class DeserializationSettings
+    {
+        public MissingMemberHandling MissingMemberHandling = MissingMemberHandling.Error;
+        public DeserializationSettings() {}
+    }
+
+    [Newtonsoft.Json.JsonConverter(typeof(JsonObjectConverter))] [UnityEngine.Scripting.Preserve] public interface IDeserializable
+    {
+        public T GetAs<T>(DeserializationSettings deserializationSettings = default(DeserializationSettings));
+        public string GetAsString();
+    }
+
+    [Newtonsoft.Json.JsonConverter(typeof(JsonObjectConverter))] [UnityEngine.Scripting.Preserve] public class JsonObject : IDeserializable
+    {
+        public T GetAs<T>();
+        public T GetAs<T>(DeserializationSettings deserializationSettings = default(DeserializationSettings));
+        public string GetAsString();
+        public static System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<JsonObject>> GetNewJsonObjectResponse(System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<object>> o);
+        public static System.Collections.Generic.Dictionary<string, JsonObject> GetNewJsonObjectResponse(System.Collections.Generic.Dictionary<string, object> o);
+        public static System.Collections.Generic.List<System.Collections.Generic.List<JsonObject>> GetNewJsonObjectResponse(System.Collections.Generic.List<System.Collections.Generic.List<object>> o);
+        public static System.Collections.Generic.List<JsonObject> GetNewJsonObjectResponse(System.Collections.Generic.List<object> o);
+        public static JsonObject GetNewJsonObjectResponse(object o);
+    }
+
+    [UnityEngine.Scripting.Preserve] public class JsonObjectCollectionConverter : Newtonsoft.Json.JsonConverter
+    {
+        public JsonObjectCollectionConverter() {}
+        public override bool CanConvert(System.Type objectType);
+        public override object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, object existingValue, Newtonsoft.Json.JsonSerializer serializer);
+        public override void WriteJson(Newtonsoft.Json.JsonWriter writer, object value, Newtonsoft.Json.JsonSerializer serializer);
+    }
+
+    [UnityEngine.Scripting.Preserve] public class JsonObjectConverter : Newtonsoft.Json.JsonConverter
+    {
+        public JsonObjectConverter() {}
+        public override bool CanConvert(System.Type objectType);
+        public override object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, object existingValue, Newtonsoft.Json.JsonSerializer serializer);
+        public override void WriteJson(Newtonsoft.Json.JsonWriter writer, object value, Newtonsoft.Json.JsonSerializer serializer);
+    }
+
+    public enum MissingMemberHandling
+    {
+        Error = 0,
+        Ignore = 1,
+    }
+}
+
+namespace Unity.Services.Ccd.Management.Models
+{
+    [System.Runtime.Serialization.DataContract(Name = @"AuthenticationError")] [UnityEngine.Scripting.Preserve] public class AuthenticationError
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"detail")] [UnityEngine.Scripting.Preserve] public string Detail { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public AuthenticationError(string title = default(string), int status = 0, string detail = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"AuthorizationError")] [UnityEngine.Scripting.Preserve] public class AuthorizationError
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"detail")] [UnityEngine.Scripting.Preserve] public string Detail { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public AuthorizationError(string title = default(string), int status = 0, string detail = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.badge")] [UnityEngine.Scripting.Preserve] public class CcdBadge
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"created")] [UnityEngine.Scripting.Preserve] public System.DateTime Created { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"created_by")] [UnityEngine.Scripting.Preserve] public string CreatedBy { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"created_by_name")] [UnityEngine.Scripting.Preserve] public string CreatedByName { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"name")] [UnityEngine.Scripting.Preserve] public string Name { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"releaseid")] [UnityEngine.Scripting.Preserve] public System.Guid Releaseid { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"releasenum")] [UnityEngine.Scripting.Preserve] public int Releasenum { get; }
+        [UnityEngine.Scripting.Preserve] public CcdBadge(System.DateTime created = default(System.DateTime), string createdBy = default(string), string createdByName = default(string), string name = default(string), System.Guid releaseid = default(System.Guid), int releasenum = 0) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.badgeAssign")] [UnityEngine.Scripting.Preserve] public class CcdBadgeAssign
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, IsRequired = true, Name = @"name")] [UnityEngine.Scripting.Preserve] public string Name { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"releaseid")] [UnityEngine.Scripting.Preserve] public string Releaseid { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"releasenum")] [UnityEngine.Scripting.Preserve] public string Releasenum { get; }
+        [UnityEngine.Scripting.Preserve] public CcdBadgeAssign(string name, string releaseid = default(string), string releasenum = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.bucket")] [UnityEngine.Scripting.Preserve] public class CcdBucket
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"attributes")] [UnityEngine.Scripting.Preserve] public CcdBucketAttributes Attributes { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"changes")] [UnityEngine.Scripting.Preserve] public CcdReleaseChangeVersion Changes { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"created")] [UnityEngine.Scripting.Preserve] public System.DateTime Created { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"description")] [UnityEngine.Scripting.Preserve] public string Description { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"environment_id")] [UnityEngine.Scripting.Preserve] public System.Guid EnvironmentId { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"environment_name")] [UnityEngine.Scripting.Preserve] public string EnvironmentName { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"id")] [UnityEngine.Scripting.Preserve] public System.Guid Id { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"last_release")] [UnityEngine.Scripting.Preserve] public CcdRelease LastRelease { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"name")] [UnityEngine.Scripting.Preserve] public string Name { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"permissions")] [UnityEngine.Scripting.Preserve] public CcdBucketPermissions Permissions { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, Name = @"private")] [UnityEngine.Scripting.Preserve] public bool Private { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"projectguid")] [UnityEngine.Scripting.Preserve] public System.Guid Projectguid { get; }
+        [UnityEngine.Scripting.Preserve] public CcdBucket(CcdBucketAttributes attributes = default(CcdBucketAttributes), CcdReleaseChangeVersion changes = default(CcdReleaseChangeVersion), System.DateTime created = default(System.DateTime), string description = default(string), System.Guid environmentId = default(System.Guid), string environmentName = default(string), System.Guid id = default(System.Guid), CcdRelease lastRelease = default(CcdRelease), string name = default(string), CcdBucketPermissions permissions = default(CcdBucketPermissions), bool private = false, System.Guid projectguid = default(System.Guid)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.bucketAccessToken")] [UnityEngine.Scripting.Preserve] public class CcdBucketAccessToken
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"created")] [UnityEngine.Scripting.Preserve] public System.DateTime Created { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"description")] [UnityEngine.Scripting.Preserve] public string Description { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"id")] [UnityEngine.Scripting.Preserve] public System.Guid Id { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"token")] [UnityEngine.Scripting.Preserve] public string Token { get; }
+        [UnityEngine.Scripting.Preserve] public CcdBucketAccessToken(System.DateTime created = default(System.DateTime), string description = default(string), System.Guid id = default(System.Guid), string token = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.bucketAccessTokenCreate")] [UnityEngine.Scripting.Preserve] public class CcdBucketAccessTokenCreate
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"description")] [UnityEngine.Scripting.Preserve] public string Description { get; }
+        [UnityEngine.Scripting.Preserve] public CcdBucketAccessTokenCreate(string description = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.bucketAccessTokenUpdate")] [UnityEngine.Scripting.Preserve] public class CcdBucketAccessTokenUpdate
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"description")] [UnityEngine.Scripting.Preserve] public string Description { get; }
+        [UnityEngine.Scripting.Preserve] public CcdBucketAccessTokenUpdate(string description = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.bucketAttributes")] [UnityEngine.Scripting.Preserve] public class CcdBucketAttributes
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, Name = @"promote_only")] [UnityEngine.Scripting.Preserve] public bool PromoteOnly { get; }
+        [UnityEngine.Scripting.Preserve] public CcdBucketAttributes(bool promoteOnly = false) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.bucketCreate")] [UnityEngine.Scripting.Preserve] public class CcdBucketCreate
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"description")] [UnityEngine.Scripting.Preserve] public string Description { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, IsRequired = true, Name = @"name")] [UnityEngine.Scripting.Preserve] public string Name { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, Name = @"private")] [UnityEngine.Scripting.Preserve] public bool Private { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, IsRequired = true, Name = @"projectguid")] [UnityEngine.Scripting.Preserve] public System.Guid Projectguid { get; }
+        [UnityEngine.Scripting.Preserve] public CcdBucketCreate(string name, System.Guid projectguid, string description = default(string), bool private = false) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.bucketPermissions")] [UnityEngine.Scripting.Preserve] public class CcdBucketPermissions
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, Name = @"bucket_promote")] [UnityEngine.Scripting.Preserve] public bool BucketPromote { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, Name = @"bucket_read")] [UnityEngine.Scripting.Preserve] public bool BucketRead { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, Name = @"bucket_release")] [UnityEngine.Scripting.Preserve] public bool BucketRelease { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, Name = @"bucket_write")] [UnityEngine.Scripting.Preserve] public bool BucketWrite { get; }
+        [UnityEngine.Scripting.Preserve] public CcdBucketPermissions(bool bucketPromote = false, bool bucketRead = false, bool bucketRelease = false, bool bucketWrite = false) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.bucketUpdate")] [UnityEngine.Scripting.Preserve] public class CcdBucketUpdate
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"description")] [UnityEngine.Scripting.Preserve] public string Description { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"name")] [UnityEngine.Scripting.Preserve] public string Name { get; }
+        [UnityEngine.Scripting.Preserve] public CcdBucketUpdate(string description = default(string), string name = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.entry")] [UnityEngine.Scripting.Preserve] public class CcdEntry
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, Name = @"complete")] [UnityEngine.Scripting.Preserve] public bool Complete { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_hash")] [UnityEngine.Scripting.Preserve] public string ContentHash { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_link")] [UnityEngine.Scripting.Preserve] public string ContentLink { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_size")] [UnityEngine.Scripting.Preserve] public int ContentSize { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_type")] [UnityEngine.Scripting.Preserve] public string ContentType { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"current_versionid")] [UnityEngine.Scripting.Preserve] public System.Guid CurrentVersionid { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"entryid")] [UnityEngine.Scripting.Preserve] public System.Guid Entryid { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"labels")] [UnityEngine.Scripting.Preserve] public System.Collections.Generic.List<string> Labels { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"last_modified")] [UnityEngine.Scripting.Preserve] public System.DateTime LastModified { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"last_modified_by")] [UnityEngine.Scripting.Preserve] public string LastModifiedBy { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"last_modified_by_name")] [UnityEngine.Scripting.Preserve] public string LastModifiedByName { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"link")] [UnityEngine.Scripting.Preserve] public string Link { get; }
+        [Newtonsoft.Json.JsonConverter(typeof(Unity.Services.Ccd.Management.Http.JsonObjectConverter))] [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"metadata")] [UnityEngine.Scripting.Preserve] public Unity.Services.Ccd.Management.Http.JsonObject Metadata { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"path")] [UnityEngine.Scripting.Preserve] public string Path { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"signed_url")] [UnityEngine.Scripting.Preserve] public string SignedUrl { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"updated_at")] [UnityEngine.Scripting.Preserve] public System.DateTime UpdatedAt { get; }
+        [UnityEngine.Scripting.Preserve] public CcdEntry(bool complete = false, string contentHash = default(string), string contentLink = default(string), int contentSize = 0, string contentType = default(string), System.Guid currentVersionid = default(System.Guid), System.Guid entryid = default(System.Guid), System.Collections.Generic.List<string> labels = default(System.Collections.Generic.List<string>), System.DateTime lastModified = default(System.DateTime), string lastModifiedBy = default(string), string lastModifiedByName = default(string), string link = default(string), object metadata = default(object), string path = default(string), string signedUrl = default(string), System.DateTime updatedAt = default(System.DateTime)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.entryCreate")] [UnityEngine.Scripting.Preserve] public class CcdEntryCreate
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_hash")] [UnityEngine.Scripting.Preserve] public string ContentHash { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_size")] [UnityEngine.Scripting.Preserve] public int ContentSize { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_type")] [UnityEngine.Scripting.Preserve] public string ContentType { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"labels")] [UnityEngine.Scripting.Preserve] public System.Collections.Generic.List<string> Labels { get; }
+        [Newtonsoft.Json.JsonConverter(typeof(Unity.Services.Ccd.Management.Http.JsonObjectConverter))] [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"metadata")] [UnityEngine.Scripting.Preserve] public Unity.Services.Ccd.Management.Http.JsonObject Metadata { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, IsRequired = true, Name = @"path")] [UnityEngine.Scripting.Preserve] public string Path { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, Name = @"signed_url")] [UnityEngine.Scripting.Preserve] public bool SignedUrl { get; }
+        [UnityEngine.Scripting.Preserve] public CcdEntryCreate(string path, string contentHash = default(string), int contentSize = 0, string contentType = default(string), System.Collections.Generic.List<string> labels = default(System.Collections.Generic.List<string>), object metadata = default(object), bool signedUrl = false) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.entryCreateByPath")] [UnityEngine.Scripting.Preserve] public class CcdEntryCreateByPath
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_hash")] [UnityEngine.Scripting.Preserve] public string ContentHash { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_size")] [UnityEngine.Scripting.Preserve] public int ContentSize { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_type")] [UnityEngine.Scripting.Preserve] public string ContentType { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"labels")] [UnityEngine.Scripting.Preserve] public System.Collections.Generic.List<string> Labels { get; }
+        [Newtonsoft.Json.JsonConverter(typeof(Unity.Services.Ccd.Management.Http.JsonObjectConverter))] [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"metadata")] [UnityEngine.Scripting.Preserve] public Unity.Services.Ccd.Management.Http.JsonObject Metadata { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, Name = @"signed_url")] [UnityEngine.Scripting.Preserve] public bool SignedUrl { get; }
+        [UnityEngine.Scripting.Preserve] public CcdEntryCreateByPath(string contentHash = default(string), int contentSize = 0, string contentType = default(string), System.Collections.Generic.List<string> labels = default(System.Collections.Generic.List<string>), object metadata = default(object), bool signedUrl = false) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.entryUpdate")] [UnityEngine.Scripting.Preserve] public class CcdEntryUpdate
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_hash")] [UnityEngine.Scripting.Preserve] public string ContentHash { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_size")] [UnityEngine.Scripting.Preserve] public int ContentSize { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_type")] [UnityEngine.Scripting.Preserve] public string ContentType { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"labels")] [UnityEngine.Scripting.Preserve] public System.Collections.Generic.List<string> Labels { get; }
+        [Newtonsoft.Json.JsonConverter(typeof(Unity.Services.Ccd.Management.Http.JsonObjectConverter))] [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"metadata")] [UnityEngine.Scripting.Preserve] public Unity.Services.Ccd.Management.Http.JsonObject Metadata { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, Name = @"signed_url")] [UnityEngine.Scripting.Preserve] public bool SignedUrl { get; }
+        [UnityEngine.Scripting.Preserve] public CcdEntryUpdate(string contentHash = default(string), int contentSize = 0, string contentType = default(string), System.Collections.Generic.List<string> labels = default(System.Collections.Generic.List<string>), object metadata = default(object), bool signedUrl = false) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.environment")] [UnityEngine.Scripting.Preserve] public class CcdEnvironment
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"id")] [UnityEngine.Scripting.Preserve] public System.Guid Id { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, Name = @"is_default")] [UnityEngine.Scripting.Preserve] public bool IsDefault { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"name")] [UnityEngine.Scripting.Preserve] public string Name { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"project_id")] [UnityEngine.Scripting.Preserve] public System.Guid ProjectId { get; }
+        [UnityEngine.Scripting.Preserve] public CcdEnvironment(System.Guid id = default(System.Guid), bool isDefault = false, string name = default(string), System.Guid projectId = default(System.Guid)) {}
+    }
+
+    [UnityEngine.Scripting.Preserve] public enum CcdErrorCodes
+    {
+        _0 = 0,
+        _1 = 1,
+        _10 = 10,
+        _11 = 11,
+        _12 = 12,
+        _2 = 2,
+        _3 = 3,
+        _4 = 4,
+        _5 = 5,
+        _6 = 6,
+        _7 = 7,
+        _8 = 8,
+        _9 = 9,
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.httpError")] [UnityEngine.Scripting.Preserve] public class CcdHttpError
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"code")] [UnityEngine.Scripting.Preserve] public CcdErrorCodes Code { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"details")] [UnityEngine.Scripting.Preserve] public System.Collections.Generic.List<string> Details { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"reason")] [UnityEngine.Scripting.Preserve] public string Reason { get; }
+        [UnityEngine.Scripting.Preserve] public CcdHttpError(CcdErrorCodes code = CcdErrorCodes._0, System.Collections.Generic.List<string> details = default(System.Collections.Generic.List<string>), string reason = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.metricQuantity")] [UnityEngine.Scripting.Preserve] public class CcdMetricQuantity
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"quantity")] [UnityEngine.Scripting.Preserve] public int Quantity { get; }
+        [UnityEngine.Scripting.Preserve] public CcdMetricQuantity(int quantity = 0) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.org")] [UnityEngine.Scripting.Preserve] public class CcdOrg
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"id")] [UnityEngine.Scripting.Preserve] public string Id { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"name")] [UnityEngine.Scripting.Preserve] public string Name { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"orgid")] [UnityEngine.Scripting.Preserve] public string Orgid { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, Name = @"tos_accepted")] [UnityEngine.Scripting.Preserve] public bool TosAccepted { get; }
+        [UnityEngine.Scripting.Preserve] public CcdOrg(string id = default(string), string name = default(string), string orgid = default(string), bool tosAccepted = false) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.orgTosUpdate")] [UnityEngine.Scripting.Preserve] public class CcdOrgTosUpdate
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"tos_version")] [UnityEngine.Scripting.Preserve] public int TosVersion { get; }
+        [UnityEngine.Scripting.Preserve] public CcdOrgTosUpdate(int tosVersion = 0) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.orgUsage")] [UnityEngine.Scripting.Preserve] public class CcdOrgUsage
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"id")] [UnityEngine.Scripting.Preserve] public string Id { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"start_time")] [UnityEngine.Scripting.Preserve] public System.DateTime StartTime { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"usage")] [UnityEngine.Scripting.Preserve] public System.Collections.Generic.List<CcdUsage> Usage { get; }
+        [UnityEngine.Scripting.Preserve] public CcdOrgUsage(string id = default(string), System.DateTime startTime = default(System.DateTime), System.Collections.Generic.List<CcdUsage> usage = default(System.Collections.Generic.List<CcdUsage>)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.permission")] [UnityEngine.Scripting.Preserve] public class CcdPermission
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"action")] [UnityEngine.Scripting.Preserve] public string Action { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"permission")] [UnityEngine.Scripting.Preserve] public string Permission { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"resource")] [UnityEngine.Scripting.Preserve] public string Resource { get; }
+        [UnityEngine.Scripting.Preserve] public CcdPermission(string action = default(string), string permission = default(string), string resource = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.permissionCreate")] [UnityEngine.Scripting.Preserve] public class CcdPermissionCreate
+    {
+        [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))] [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, IsRequired = true, Name = @"action")] [UnityEngine.Scripting.Preserve] public CcdPermissionCreate.ActionOptions Action { get; }
+        [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))] [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, IsRequired = true, Name = @"permission")] [UnityEngine.Scripting.Preserve] public CcdPermissionCreate.PermissionOptions Permission { get; }
+        [UnityEngine.Scripting.Preserve] public CcdPermissionCreate(CcdPermissionCreate.ActionOptions action, CcdPermissionCreate.PermissionOptions permission) {}
+        [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))] [UnityEngine.Scripting.Preserve] public enum ActionOptions
+        {
+            [System.Runtime.Serialization.EnumMember(Value = @"write")] Write = 1,
+        }
+        [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))] [UnityEngine.Scripting.Preserve] public enum PermissionOptions
+        {
+            [System.Runtime.Serialization.EnumMember(Value = @"allow")] Allow = 1,
+            [System.Runtime.Serialization.EnumMember(Value = @"deny")] Deny = 2,
+        }
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.permissionUpdate")] [UnityEngine.Scripting.Preserve] public class CcdPermissionUpdate
+    {
+        [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))] [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, IsRequired = true, Name = @"action")] [UnityEngine.Scripting.Preserve] public CcdPermissionUpdate.ActionOptions Action { get; }
+        [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))] [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, IsRequired = true, Name = @"permission")] [UnityEngine.Scripting.Preserve] public CcdPermissionUpdate.PermissionOptions Permission { get; }
+        [UnityEngine.Scripting.Preserve] public CcdPermissionUpdate(CcdPermissionUpdate.ActionOptions action, CcdPermissionUpdate.PermissionOptions permission) {}
+        [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))] [UnityEngine.Scripting.Preserve] public enum ActionOptions
+        {
+            [System.Runtime.Serialization.EnumMember(Value = @"write")] Write = 1,
+        }
+        [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))] [UnityEngine.Scripting.Preserve] public enum PermissionOptions
+        {
+            [System.Runtime.Serialization.EnumMember(Value = @"allow")] Allow = 1,
+            [System.Runtime.Serialization.EnumMember(Value = @"deny")] Deny = 2,
+        }
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.promoteBucket")] [UnityEngine.Scripting.Preserve] public class CcdPromoteBucket
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, IsRequired = true, Name = @"from_release")] [UnityEngine.Scripting.Preserve] public System.Guid FromRelease { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"notes")] [UnityEngine.Scripting.Preserve] public string Notes { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, IsRequired = true, Name = @"to_bucket")] [UnityEngine.Scripting.Preserve] public System.Guid ToBucket { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"to_environment")] [UnityEngine.Scripting.Preserve] public System.Guid ToEnvironment { get; }
+        [UnityEngine.Scripting.Preserve] public CcdPromoteBucket(System.Guid fromRelease, System.Guid toBucket, string notes = default(string), System.Guid toEnvironment = default(System.Guid)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.promoteBucketResponse")] [UnityEngine.Scripting.Preserve] public class CcdPromoteBucketResponse
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"promotion_id")] [UnityEngine.Scripting.Preserve] public System.Guid PromotionId { get; }
+        [UnityEngine.Scripting.Preserve] public CcdPromoteBucketResponse(System.Guid promotionId = default(System.Guid)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.promotion")] [UnityEngine.Scripting.Preserve] public class CcdPromotion
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"error")] [UnityEngine.Scripting.Preserve] public string Error { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"from_bucket_id")] [UnityEngine.Scripting.Preserve] public System.Guid FromBucketId { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"from_bucket_name")] [UnityEngine.Scripting.Preserve] public string FromBucketName { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"from_environment_id")] [UnityEngine.Scripting.Preserve] public System.Guid FromEnvironmentId { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"from_environment_name")] [UnityEngine.Scripting.Preserve] public string FromEnvironmentName { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"from_release_id")] [UnityEngine.Scripting.Preserve] public System.Guid FromReleaseId { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"from_release_number")] [UnityEngine.Scripting.Preserve] public int FromReleaseNumber { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"promotion_id")] [UnityEngine.Scripting.Preserve] public System.Guid PromotionId { get; }
+        [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))] [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"promotion_status")] [UnityEngine.Scripting.Preserve] public CcdPromotion.PromotionStatusOptions PromotionStatus { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"to_bucket_id")] [UnityEngine.Scripting.Preserve] public System.Guid ToBucketId { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"to_bucket_name")] [UnityEngine.Scripting.Preserve] public string ToBucketName { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"to_environment_id")] [UnityEngine.Scripting.Preserve] public System.Guid ToEnvironmentId { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"to_environment_name")] [UnityEngine.Scripting.Preserve] public string ToEnvironmentName { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"to_release_id")] [UnityEngine.Scripting.Preserve] public System.Guid ToReleaseId { get; }
+        [UnityEngine.Scripting.Preserve] public CcdPromotion(string error = default(string), System.Guid fromBucketId = default(System.Guid), string fromBucketName = default(string), System.Guid fromEnvironmentId = default(System.Guid), string fromEnvironmentName = default(string), System.Guid fromReleaseId = default(System.Guid), int fromReleaseNumber = 0, System.Guid promotionId = default(System.Guid), CcdPromotion.PromotionStatusOptions promotionStatus = , System.Guid toBucketId = default(System.Guid), string toBucketName = default(string), System.Guid toEnvironmentId = default(System.Guid), string toEnvironmentName = default(string), System.Guid toReleaseId = default(System.Guid)) {}
+        [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))] [UnityEngine.Scripting.Preserve] public enum PromotionStatusOptions
+        {
+            [System.Runtime.Serialization.EnumMember(Value = @"Complete")] Complete = 2,
+            [System.Runtime.Serialization.EnumMember(Value = @"Failed")] Failed = 4,
+            [System.Runtime.Serialization.EnumMember(Value = @"InProgress")] InProgress = 3,
+            [System.Runtime.Serialization.EnumMember(Value = @"NotFound")] NotFound = 1,
+        }
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.release")] [UnityEngine.Scripting.Preserve] public class CcdRelease
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"badges")] [UnityEngine.Scripting.Preserve] public System.Collections.Generic.List<CcdBadge> Badges { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"changes")] [UnityEngine.Scripting.Preserve] public CcdReleaseChangeVersion Changes { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_hash")] [UnityEngine.Scripting.Preserve] public string ContentHash { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_size")] [UnityEngine.Scripting.Preserve] public int ContentSize { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"created")] [UnityEngine.Scripting.Preserve] public System.DateTime Created { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"created_by")] [UnityEngine.Scripting.Preserve] public string CreatedBy { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"created_by_name")] [UnityEngine.Scripting.Preserve] public string CreatedByName { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"entries_link")] [UnityEngine.Scripting.Preserve] public string EntriesLink { get; }
+        [Newtonsoft.Json.JsonConverter(typeof(Unity.Services.Ccd.Management.Http.JsonObjectConverter))] [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"metadata")] [UnityEngine.Scripting.Preserve] public Unity.Services.Ccd.Management.Http.JsonObject Metadata { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"notes")] [UnityEngine.Scripting.Preserve] public string Notes { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"promoted_from_bucket")] [UnityEngine.Scripting.Preserve] public System.Guid PromotedFromBucket { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"promoted_from_release")] [UnityEngine.Scripting.Preserve] public System.Guid PromotedFromRelease { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"releaseid")] [UnityEngine.Scripting.Preserve] public System.Guid Releaseid { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"releasenum")] [UnityEngine.Scripting.Preserve] public int Releasenum { get; }
+        [UnityEngine.Scripting.Preserve] public CcdRelease(System.Collections.Generic.List<CcdBadge> badges = default(System.Collections.Generic.List<CcdBadge>), CcdReleaseChangeVersion changes = default(CcdReleaseChangeVersion), string contentHash = default(string), int contentSize = 0, System.DateTime created = default(System.DateTime), string createdBy = default(string), string createdByName = default(string), string entriesLink = default(string), object metadata = default(object), string notes = default(string), System.Guid promotedFromBucket = default(System.Guid), System.Guid promotedFromRelease = default(System.Guid), System.Guid releaseid = default(System.Guid), int releasenum = 0) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.releaseChangeVersion")] [UnityEngine.Scripting.Preserve] public class CcdReleaseChangeVersion
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"add")] [UnityEngine.Scripting.Preserve] public int Add { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"delete")] [UnityEngine.Scripting.Preserve] public int Delete { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"last_modified")] [UnityEngine.Scripting.Preserve] public System.DateTime LastModified { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"last_modified_by")] [UnityEngine.Scripting.Preserve] public string LastModifiedBy { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"last_modified_by_name")] [UnityEngine.Scripting.Preserve] public string LastModifiedByName { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, Name = @"loading")] [UnityEngine.Scripting.Preserve] public bool Loading { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"unchanged")] [UnityEngine.Scripting.Preserve] public int Unchanged { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"update")] [UnityEngine.Scripting.Preserve] public int Update { get; }
+        [UnityEngine.Scripting.Preserve] public CcdReleaseChangeVersion(int add = 0, int delete = 0, System.DateTime lastModified = default(System.DateTime), string lastModifiedBy = default(string), string lastModifiedByName = default(string), bool loading = false, int unchanged = 0, int update = 0) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.releaseCreate")] [UnityEngine.Scripting.Preserve] public class CcdReleaseCreate
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"entries")] [UnityEngine.Scripting.Preserve] public System.Collections.Generic.List<CcdReleaseEntryCreate> Entries { get; }
+        [Newtonsoft.Json.JsonConverter(typeof(Unity.Services.Ccd.Management.Http.JsonObjectConverter))] [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"metadata")] [UnityEngine.Scripting.Preserve] public Unity.Services.Ccd.Management.Http.JsonObject Metadata { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"notes")] [UnityEngine.Scripting.Preserve] public string Notes { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"snapshot")] [UnityEngine.Scripting.Preserve] public System.DateTime Snapshot { get; }
+        [UnityEngine.Scripting.Preserve] public CcdReleaseCreate(System.Collections.Generic.List<CcdReleaseEntryCreate> entries = default(System.Collections.Generic.List<CcdReleaseEntryCreate>), object metadata = default(object), string notes = default(string), System.DateTime snapshot = default(System.DateTime)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.releaseEntry")] [UnityEngine.Scripting.Preserve] public class CcdReleaseEntry
+    {
+        [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))] [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"change_state")] [UnityEngine.Scripting.Preserve] public CcdReleaseEntry.ChangeStateOptions ChangeState { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, Name = @"complete")] [UnityEngine.Scripting.Preserve] public bool Complete { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_hash")] [UnityEngine.Scripting.Preserve] public string ContentHash { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_link")] [UnityEngine.Scripting.Preserve] public string ContentLink { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_size")] [UnityEngine.Scripting.Preserve] public int ContentSize { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_type")] [UnityEngine.Scripting.Preserve] public string ContentType { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"entryid")] [UnityEngine.Scripting.Preserve] public System.Guid Entryid { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"labels")] [UnityEngine.Scripting.Preserve] public System.Collections.Generic.List<string> Labels { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"last_modified")] [UnityEngine.Scripting.Preserve] public System.DateTime LastModified { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"last_modified_by")] [UnityEngine.Scripting.Preserve] public string LastModifiedBy { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"last_modified_by_name")] [UnityEngine.Scripting.Preserve] public string LastModifiedByName { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"link")] [UnityEngine.Scripting.Preserve] public string Link { get; }
+        [Newtonsoft.Json.JsonConverter(typeof(Unity.Services.Ccd.Management.Http.JsonObjectConverter))] [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"metadata")] [UnityEngine.Scripting.Preserve] public Unity.Services.Ccd.Management.Http.JsonObject Metadata { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"path")] [UnityEngine.Scripting.Preserve] public string Path { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"updated_at")] [UnityEngine.Scripting.Preserve] public System.DateTime UpdatedAt { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"versionid")] [UnityEngine.Scripting.Preserve] public System.Guid Versionid { get; }
+        [UnityEngine.Scripting.Preserve] public CcdReleaseEntry(CcdReleaseEntry.ChangeStateOptions changeState = , bool complete = false, string contentHash = default(string), string contentLink = default(string), int contentSize = 0, string contentType = default(string), System.Guid entryid = default(System.Guid), System.Collections.Generic.List<string> labels = default(System.Collections.Generic.List<string>), System.DateTime lastModified = default(System.DateTime), string lastModifiedBy = default(string), string lastModifiedByName = default(string), string link = default(string), object metadata = default(object), string path = default(string), System.DateTime updatedAt = default(System.DateTime), System.Guid versionid = default(System.Guid)) {}
+        [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))] [UnityEngine.Scripting.Preserve] public enum ChangeStateOptions
+        {
+            [System.Runtime.Serialization.EnumMember(Value = @"Add")] Add = 2,
+            [System.Runtime.Serialization.EnumMember(Value = @"Delete")] Delete = 3,
+            [System.Runtime.Serialization.EnumMember(Value = @"Unchanged")] Unchanged = 1,
+            [System.Runtime.Serialization.EnumMember(Value = @"Update")] Update = 4,
+        }
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.releaseEntryCreate")] [UnityEngine.Scripting.Preserve] public class CcdReleaseEntryCreate
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, IsRequired = true, Name = @"entryid")] [UnityEngine.Scripting.Preserve] public System.Guid Entryid { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, IsRequired = true, Name = @"versionid")] [UnityEngine.Scripting.Preserve] public System.Guid Versionid { get; }
+        [UnityEngine.Scripting.Preserve] public CcdReleaseEntryCreate(System.Guid entryid, System.Guid versionid) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.releaseUpdate")] [UnityEngine.Scripting.Preserve] public class CcdReleaseUpdate
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"notes")] [UnityEngine.Scripting.Preserve] public string Notes { get; }
+        [UnityEngine.Scripting.Preserve] public CcdReleaseUpdate(string notes = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.usage")] [UnityEngine.Scripting.Preserve] public class CcdUsage
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"projectguid")] [UnityEngine.Scripting.Preserve] public System.Guid Projectguid { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"quantity")] [UnityEngine.Scripting.Preserve] public System.Decimal Quantity { get; }
+        [UnityEngine.Scripting.Preserve] public CcdUsage(System.Guid projectguid = default(System.Guid), System.Decimal quantity) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.user")] [UnityEngine.Scripting.Preserve] public class CcdUser
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"id")] [UnityEngine.Scripting.Preserve] public string Id { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"name")] [UnityEngine.Scripting.Preserve] public string Name { get; }
+        [UnityEngine.Scripting.Preserve] public CcdUser(string id = default(string), string name = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.userAPIKey")] [UnityEngine.Scripting.Preserve] public class CcdUserAPIKey
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, IsRequired = true, Name = @"apikey")] [UnityEngine.Scripting.Preserve] public string Apikey { get; }
+        [UnityEngine.Scripting.Preserve] public CcdUserAPIKey(string apikey) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ccd.version")] [UnityEngine.Scripting.Preserve] public class CcdVersion
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_hash")] [UnityEngine.Scripting.Preserve] public string ContentHash { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_link")] [UnityEngine.Scripting.Preserve] public string ContentLink { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_size")] [UnityEngine.Scripting.Preserve] public int ContentSize { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"content_type")] [UnityEngine.Scripting.Preserve] public string ContentType { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"labels")] [UnityEngine.Scripting.Preserve] public System.Collections.Generic.List<string> Labels { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"last_modified")] [UnityEngine.Scripting.Preserve] public System.DateTime LastModified { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"link")] [UnityEngine.Scripting.Preserve] public string Link { get; }
+        [Newtonsoft.Json.JsonConverter(typeof(Unity.Services.Ccd.Management.Http.JsonObjectConverter))] [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"metadata")] [UnityEngine.Scripting.Preserve] public Unity.Services.Ccd.Management.Http.JsonObject Metadata { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"path")] [UnityEngine.Scripting.Preserve] public string Path { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"versionid")] [UnityEngine.Scripting.Preserve] public System.Guid Versionid { get; }
+        [UnityEngine.Scripting.Preserve] public CcdVersion(string contentHash = default(string), string contentLink = default(string), int contentSize = 0, string contentType = default(string), System.Collections.Generic.List<string> labels = default(System.Collections.Generic.List<string>), System.DateTime lastModified = default(System.DateTime), string link = default(string), object metadata = default(object), string path = default(string), System.Guid versionid = default(System.Guid)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ConflictError")] [UnityEngine.Scripting.Preserve] public class ConflictError
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"detail")] [UnityEngine.Scripting.Preserve] public string Detail { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public ConflictError(string title = default(string), int status = 0, string detail = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"GatewayTimeoutError")] [UnityEngine.Scripting.Preserve] public class GatewayTimeoutError
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public GatewayTimeoutError(string title = default(string), int status = 0) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"inline_object")] [UnityEngine.Scripting.Preserve] public class InlineObject
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, IsRequired = true, Name = @"file")] [UnityEngine.Scripting.Preserve] public System.IO.Stream File { get; }
+        [UnityEngine.Scripting.Preserve] public InlineObject(System.IO.Stream file) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"inline_object_1")] [UnityEngine.Scripting.Preserve] public class InlineObject1
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = true, IsRequired = true, Name = @"file")] [UnityEngine.Scripting.Preserve] public System.IO.Stream File { get; }
+        [UnityEngine.Scripting.Preserve] public InlineObject1(System.IO.Stream file) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"inline_response_400")] [UnityEngine.Scripting.Preserve] public class InlineResponse400
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"detail")] [UnityEngine.Scripting.Preserve] public string Detail { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"details")] [UnityEngine.Scripting.Preserve] public System.Collections.Generic.List<object> Details { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"requestId")] [UnityEngine.Scripting.Preserve] public string RequestId { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public InlineResponse400(string title = default(string), int status = 0, string detail = default(string), System.Collections.Generic.List<object> details = default(System.Collections.Generic.List<object>), string requestId = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"inline_response_401")] [UnityEngine.Scripting.Preserve] public class InlineResponse401
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"detail")] [UnityEngine.Scripting.Preserve] public string Detail { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"requestId")] [UnityEngine.Scripting.Preserve] public string RequestId { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public InlineResponse401(string title = default(string), int status = 0, string detail = default(string), string requestId = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"inline_response_403")] [UnityEngine.Scripting.Preserve] public class InlineResponse403
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"detail")] [UnityEngine.Scripting.Preserve] public string Detail { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"requestId")] [UnityEngine.Scripting.Preserve] public string RequestId { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public InlineResponse403(string title = default(string), int status = 0, string detail = default(string), string requestId = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"inline_response_404")] [UnityEngine.Scripting.Preserve] public class InlineResponse404
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"detail")] [UnityEngine.Scripting.Preserve] public string Detail { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"requestId")] [UnityEngine.Scripting.Preserve] public string RequestId { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public InlineResponse404(string title = default(string), int status = 0, string detail = default(string), string requestId = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"inline_response_429")] [UnityEngine.Scripting.Preserve] public class InlineResponse429
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"detail")] [UnityEngine.Scripting.Preserve] public string Detail { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"requestId")] [UnityEngine.Scripting.Preserve] public string RequestId { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public InlineResponse429(string title = default(string), int status = 0, string detail = default(string), string requestId = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"inline_response_500")] [UnityEngine.Scripting.Preserve] public class InlineResponse500
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"requestId")] [UnityEngine.Scripting.Preserve] public string RequestId { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public InlineResponse500(string title = default(string), int status = 0, string requestId = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"inline_response_503")] [UnityEngine.Scripting.Preserve] public class InlineResponse503
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"requestId")] [UnityEngine.Scripting.Preserve] public string RequestId { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public InlineResponse503(string title = default(string), int status = 0, string requestId = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"InternalServerError")] [UnityEngine.Scripting.Preserve] public class InternalServerError
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public InternalServerError(string title = default(string), int status = 0) {}
+    }
+
+    public interface IOneOf
+    {
+        public System.Type Type { get; }
+        public object Value { get; }
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"MethodNotAllowedError")] [UnityEngine.Scripting.Preserve] public class MethodNotAllowedError
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"detail")] [UnityEngine.Scripting.Preserve] public string Detail { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public MethodNotAllowedError(string title = default(string), int status = 0, string detail = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"NotFoundError")] [UnityEngine.Scripting.Preserve] public class NotFoundError
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"detail")] [UnityEngine.Scripting.Preserve] public string Detail { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"requestId")] [UnityEngine.Scripting.Preserve] public string RequestId { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public NotFoundError(string title = default(string), int status = 0, string detail = default(string), string requestId = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"PayloadTooLargeError")] [UnityEngine.Scripting.Preserve] public class PayloadTooLargeError
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"detail")] [UnityEngine.Scripting.Preserve] public string Detail { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public PayloadTooLargeError(string title = default(string), int status = 0, string detail = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"QuotaExceededError")] [UnityEngine.Scripting.Preserve] public class QuotaExceededError
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"detail")] [UnityEngine.Scripting.Preserve] public string Detail { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public QuotaExceededError(string title = default(string), int status = 0, string detail = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"RatelimitExceededError")] [UnityEngine.Scripting.Preserve] public class RatelimitExceededError
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"detail")] [UnityEngine.Scripting.Preserve] public string Detail { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public RatelimitExceededError(string title = default(string), int status = 0, string detail = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ServiceUnavailableError")] [UnityEngine.Scripting.Preserve] public class ServiceUnavailableError
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public ServiceUnavailableError(string title = default(string), int status = 0) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"TooManyRequestsError")] [UnityEngine.Scripting.Preserve] public class TooManyRequestsError
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"detail")] [UnityEngine.Scripting.Preserve] public string Detail { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public TooManyRequestsError(string title = default(string), int status = 0, string detail = default(string)) {}
+    }
+
+    [System.Runtime.Serialization.DataContract(Name = @"ValidationError")] [UnityEngine.Scripting.Preserve] public class ValidationError
+    {
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"detail")] [UnityEngine.Scripting.Preserve] public string Detail { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"details")] [UnityEngine.Scripting.Preserve] public System.Collections.Generic.List<object> Details { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"status")] [UnityEngine.Scripting.Preserve] public int Status { get; }
+        [System.Runtime.Serialization.DataMember(EmitDefaultValue = false, Name = @"title")] [UnityEngine.Scripting.Preserve] public string Title { get; }
+        [UnityEngine.Scripting.Preserve] public ValidationError(string title = default(string), int status = 0, string detail = default(string), System.Collections.Generic.List<object> details = default(System.Collections.Generic.List<object>)) {}
+    }
+}

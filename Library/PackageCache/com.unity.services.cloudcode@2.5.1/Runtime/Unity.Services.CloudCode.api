@@ -1,0 +1,98 @@
+// This file is generated. Do not modify by hand.
+// XML documentation file not found. To check if public methods have XML comments,
+// make sure the XML doc file is present and located next to the scraped dll
+namespace Unity.Services.CloudCode
+{
+    [System.Obsolete(@"The interface provided by CloudCode has moved to CloudCodeService.Instance, and should be accessed from there instead. This API will be removed in an upcoming release.")] public static class CloudCode
+    {
+        [System.Obsolete(@"The interface provided by CloudCode.CallEndpointAsync(string, object) has been replaced by CloudCodeService.Instance.CallEndpointAsync(string, Dictionary<string, object>), and should be accessed from there instead. This API will be removed in an upcoming release.", false)] public static System.Threading.Tasks.Task<string> CallEndpointAsync(string function, object args);
+        [System.Obsolete(@"The interface provided by CloudCode.CallEndpointAsync<TResult>(string, object) has been replaced by CloudCodeService.Instance.CallEndpointAsync<TResult>(string, Dictionary<string, object>), and should be accessed from there instead. This API will be removed in an upcoming release.", false)] public static System.Threading.Tasks.Task<TResult> CallEndpointAsync<TResult>(string function, object args);
+    }
+
+    public class CloudCodeException : Unity.Services.Core.RequestFailedException
+    {
+        public override string Message { get; }
+        public CloudCodeExceptionReason Reason { get; }
+        public override string ToString();
+    }
+
+    public enum CloudCodeExceptionReason
+    {
+        AccessTokenMissing = 4,
+        InvalidArgument = 5,
+        NoInternetConnection = 1,
+        NotFound = 7,
+        PlayerIdMissing = 3,
+        ProjectIdMissing = 2,
+        ScriptError = 10,
+        ServiceUnavailable = 9,
+        SubscriptionError = 11,
+        TooManyRequests = 8,
+        Unauthorized = 6,
+        Unknown = 0,
+    }
+
+    public class CloudCodeRateLimitedException : CloudCodeException
+    {
+        public int RetryAfter { get; }
+    }
+
+    public class CloudCodeService
+    {
+        public static ICloudCodeService Instance { get; }
+        public CloudCodeService() {}
+    }
+
+    public interface ICloudCodeService
+    {
+        public System.Threading.Tasks.Task<string> CallEndpointAsync(string function, System.Collections.Generic.Dictionary<string, object> args = default(System.Collections.Generic.Dictionary<string, object>));
+        public System.Threading.Tasks.Task<TResult> CallEndpointAsync<TResult>(string function, System.Collections.Generic.Dictionary<string, object> args = default(System.Collections.Generic.Dictionary<string, object>));
+        public System.Threading.Tasks.Task<string> CallModuleEndpointAsync(string module, string function, System.Collections.Generic.Dictionary<string, object> args = default(System.Collections.Generic.Dictionary<string, object>));
+        public System.Threading.Tasks.Task<TResult> CallModuleEndpointAsync<TResult>(string module, string function, System.Collections.Generic.Dictionary<string, object> args = default(System.Collections.Generic.Dictionary<string, object>));
+        public System.Threading.Tasks.Task<Subscriptions.ISubscriptionEvents> SubscribeToPlayerMessagesAsync(Subscriptions.SubscriptionEventCallbacks callbacks);
+        public System.Threading.Tasks.Task<Subscriptions.ISubscriptionEvents> SubscribeToProjectMessagesAsync(Subscriptions.SubscriptionEventCallbacks callbacks);
+    }
+}
+
+namespace Unity.Services.CloudCode.Subscriptions
+{
+    public enum EventConnectionState
+    {
+        Error = 5,
+        Subscribed = 3,
+        Subscribing = 2,
+        Unknown = 0,
+        Unsubscribed = 1,
+        Unsynced = 4,
+    }
+
+    public interface IMessageReceivedEvent
+    {
+        public string CorrelationId { get; }
+        public string EnvironmentId { get; }
+        public string Id { get; }
+        public string Message { get; }
+        public string MessageType { get; }
+        public string ProjectId { get; }
+        public string Source { get; }
+        public string SpecVersion { get; }
+        public System.DateTime Time { get; }
+        public string Type { get; }
+    }
+
+    public interface ISubscriptionEvents
+    {
+        public SubscriptionEventCallbacks Callbacks { get; }
+        public System.Threading.Tasks.Task SubscribeAsync();
+        public System.Threading.Tasks.Task UnsubscribeAsync();
+    }
+
+    public class SubscriptionEventCallbacks
+    {
+        public event System.Action<EventConnectionState> ConnectionStateChanged;
+        public event System.Action<string> Error;
+        public event System.Action Kicked;
+        public event System.Action<IMessageReceivedEvent> MessageReceived;
+        public SubscriptionEventCallbacks() {}
+    }
+}

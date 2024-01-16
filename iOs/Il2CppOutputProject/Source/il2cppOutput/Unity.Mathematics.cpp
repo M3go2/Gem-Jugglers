@@ -16,6 +16,12 @@ struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA;
 struct IFormatProvider_tC202922D43BFF3525109ABF3FB79625F5646AB52;
 struct Il2CppEagerStaticClassConstructionAttribute_t01F60DE85CC3427802A892466A27D5245AEA1BAF;
 struct String_t;
+struct DebuggerProxy_t7ADF52C52717A46ECA0C565057AE4DE54B2C69B8;
+struct DebuggerProxy_tD5F63FE661BF3F780BEFBE721E36E7A87B310121;
+struct DebuggerProxy_tE4ABD062E1F1465B4A2601D1A2B183D9A691F3E7;
+struct DebuggerProxy_t834C4C5984734C3563C7BCAA0995DB56453E04DB;
+struct DebuggerProxy_tFD3C8C80DBBCC5A0DBFB6C74F3A6C2BDFD1F362A;
+struct DebuggerProxy_t3A8A5A2398C653D7A869D7B07919E08EB23696E8;
 
 IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
@@ -72,21 +78,39 @@ struct math_t084A7021C0897F87DB209393BE7FBDFD6A7FBFA6  : public RuntimeObject
 };
 struct DebuggerProxy_t7ADF52C52717A46ECA0C565057AE4DE54B2C69B8  : public RuntimeObject
 {
+	float ___x;
+	float ___y;
+	float ___z;
 };
 struct DebuggerProxy_tD5F63FE661BF3F780BEFBE721E36E7A87B310121  : public RuntimeObject
 {
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
 };
 struct DebuggerProxy_tE4ABD062E1F1465B4A2601D1A2B183D9A691F3E7  : public RuntimeObject
 {
+	int32_t ___x;
+	int32_t ___y;
 };
 struct DebuggerProxy_t834C4C5984734C3563C7BCAA0995DB56453E04DB  : public RuntimeObject
 {
+	uint32_t ___x;
+	uint32_t ___y;
 };
 struct DebuggerProxy_tFD3C8C80DBBCC5A0DBFB6C74F3A6C2BDFD1F362A  : public RuntimeObject
 {
+	uint32_t ___x;
+	uint32_t ___y;
+	uint32_t ___z;
 };
 struct DebuggerProxy_t3A8A5A2398C653D7A869D7B07919E08EB23696E8  : public RuntimeObject
 {
+	uint32_t ___x;
+	uint32_t ___y;
+	uint32_t ___z;
+	uint32_t ___w;
 };
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
@@ -393,6 +417,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float3_ToString_m334A7F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mF468A56B3A746EFD805E0604EE7A2873DA157ADE (float* __this, String_t* ___0_format, RuntimeObject* ___1_provider, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float3_ToString_mE1BA3E91F84DDD745685C09F509410358A83D081_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_xyz, float ___1_w, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_rhs, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4_Equals_m4D841ABA91D26FA16B07205DC9D51612265FFAB4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, RuntimeObject* ___0_o, const RuntimeMethod* method) ;
@@ -452,7 +477,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 53373
+// Method Definition Index: 53817
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Il2CppEagerStaticClassConstructionAttribute__ctor_mCACE94326399F3059F318EB568BD8E45037E3139 (Il2CppEagerStaticClassConstructionAttribute_t01F60DE85CC3427802A892466A27D5245AEA1BAF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -468,9 +493,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Il2CppEagerStaticClassConstructionAttrib
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 53374
+// Method Definition Index: 53818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m8ECC7CFBA8D302A2A3E9468DE65D705E9C1298EB (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_v, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1780>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_v;
@@ -482,12 +508,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m8ECC7CFBA8D302A2A3E9468DE
 		L_3 = uint3_op_Multiply_m756859015AC9BE9CB34BACE67DF92F64EA76C9AD_inline(L_1, L_2, NULL);
 		uint32_t L_4;
 		L_4 = math_csum_m9C15CCCED13E8ADB45EFC388D141E55091A61C1C_inline(L_3, NULL);
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_4, ((int32_t)-682290183)));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_4, ((int32_t)-682290183)));
+		goto IL_002e;
+	}
+
+IL_002e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1781>
+		uint32_t L_5 = V_0;
+		return L_5;
 	}
 }
-// Method Definition Index: 53375
+// Method Definition Index: 53819
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m53E875B2DC4324BD20573419DBE27D0F651FA4D4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_v, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3950>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_v;
@@ -499,12 +534,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m53E875B2DC4324BD20573419D
 		L_3 = uint4_op_Multiply_mDD93D0730642A1089848321B9B0E5E923EE575ED_inline(L_1, L_2, NULL);
 		uint32_t L_4;
 		L_4 = math_csum_m6A99E69A84442A729781A97F78B260223DD01D8F_inline(L_3, NULL);
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_4, ((int32_t)-1350340895)));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_4, ((int32_t)-1350340895)));
+		goto IL_0033;
+	}
+
+IL_0033:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3951>
+		uint32_t L_5 = V_0;
+		return L_5;
 	}
 }
-// Method Definition Index: 53376
+// Method Definition Index: 53820
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 math_float4x4_m7C95B2B93CDEE0AF483EB84446F9F06F7B1AD261 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_c0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_c1, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___2_c2, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___3_c3, const RuntimeMethod* method) 
 {
+	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:566>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_c0;
@@ -514,14 +559,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		float4x4__ctor_mF0B7C823E36025A539E8024123057CAC380E97EF_inline((&L_4), L_0, L_1, L_2, L_3, NULL);
-		return L_4;
+		V_0 = L_4;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:566>
+		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_5 = V_0;
+		return L_5;
 	}
 }
-// Method Definition Index: 53377
+// Method Definition Index: 53821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_transform_m8E47EBD0098A58A9BEB51032E1B6C25C9BD90178 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___0_a, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_b, const RuntimeMethod* method) 
 {
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
+	memset((&V_1), 0, sizeof(V_1));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:669>
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___0_a;
@@ -553,12 +608,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 		V_0 = L_19;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_20;
 		L_20 = float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06_inline((&V_0), NULL);
-		return L_20;
+		V_1 = L_20;
+		goto IL_0054;
+	}
+
+IL_0054:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:670>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_21 = V_1;
+		return L_21;
 	}
 }
-// Method Definition Index: 53378
+// Method Definition Index: 53822
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m20286BA0E4D2F6DC3C7013DA713AADCFFD87D444 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___0_v, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:801>
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:802>
@@ -604,12 +668,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m20286BA0E4D2F6DC3C7013DA7
 		L_22 = uint4_op_Addition_m391200EB43B6C4CDD219079A0D3CDFFA35B0B652_inline(L_16, L_21, NULL);
 		uint32_t L_23;
 		L_23 = math_csum_m6A99E69A84442A729781A97F78B260223DD01D8F_inline(L_22, NULL);
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_23, ((int32_t)1391928079)));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_23, ((int32_t)1391928079)));
+		goto IL_00c2;
+	}
+
+IL_00c2:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:805>
+		uint32_t L_24 = V_0;
+		return L_24;
 	}
 }
-// Method Definition Index: 53379
+// Method Definition Index: 53823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m6B6E0FC08FCC3BC0940397676690F22B03DB4F16 (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_v, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:949>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_0 = ___0_v;
@@ -621,14 +694,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m6B6E0FC08FCC3BC0940397676
 		L_3 = uint2_op_Multiply_m2A4BC394328643E664AD9C17DA4BF1B0AC58E857_inline(L_1, L_2, NULL);
 		uint32_t L_4;
 		L_4 = math_csum_m0B6655875FE24428E18B97FC3F5C745E374530A3_inline(L_3, NULL);
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_4, ((int32_t)-1445389889)));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_4, ((int32_t)-1445389889)));
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:950>
+		uint32_t L_5 = V_0;
+		return L_5;
 	}
 }
-// Method Definition Index: 53380
+// Method Definition Index: 53824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t math_asint_mBDED7FE966CA65F6A8ACEAEF8FD779B1B8998288 (float ___0_x, const RuntimeMethod* method) 
 {
 	IntFloatUnion_t549256A9DD754252DD18383D9CE7EA55EBBD6D96 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:182>
 		(&V_0)->___intValue = 0;
@@ -638,12 +720,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t math_asint_mBDED7FE966CA65F6A8ACEAEF8
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:184>
 		IntFloatUnion_t549256A9DD754252DD18383D9CE7EA55EBBD6D96 L_1 = V_0;
 		int32_t L_2 = L_1.___intValue;
-		return L_2;
+		V_1 = L_2;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:185>
+		int32_t L_3 = V_1;
+		return L_3;
 	}
 }
-// Method Definition Index: 53381
+// Method Definition Index: 53825
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F math_asuint_m64DA623C5CFEB8445663480384F2B1C202150EE5 (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_x, const RuntimeMethod* method) 
 {
+	uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:216>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_0 = ___0_x;
@@ -652,23 +744,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C0
 		int32_t L_3 = L_2.___y;
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_4;
 		L_4 = math_uint2_m861F5F74EBBBD3DA19E84A1155320B89FF7341C3_inline(L_1, L_3, NULL);
-		return L_4;
+		V_0 = L_4;
+		goto IL_0015;
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:216>
+		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_5 = V_0;
+		return L_5;
 	}
 }
-// Method Definition Index: 53382
+// Method Definition Index: 53826
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139 (float ___0_x, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:235>
 		float L_0 = ___0_x;
 		int32_t L_1;
 		L_1 = math_asint_mBDED7FE966CA65F6A8ACEAEF8FD779B1B8998288_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:235>
+		uint32_t L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 53383
+// Method Definition Index: 53827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B math_asuint_m4AEE8C17FEDA05D4C77C427818D1C9EF5E31521E (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, const RuntimeMethod* method) 
 {
+	uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:247>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
@@ -685,12 +796,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F
 		L_8 = math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline(L_7, NULL);
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_9;
 		L_9 = math_uint3_mC94DDA8B357EA045D5A36B81CECD0C5C223B71B0_inline(L_2, L_5, L_8, NULL);
-		return L_9;
+		V_0 = L_9;
+		goto IL_002a;
+	}
+
+IL_002a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:247>
+		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_10 = V_0;
+		return L_10;
 	}
 }
-// Method Definition Index: 53384
+// Method Definition Index: 53828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 math_asuint_mDF3C61EF6F9D9D10A1D3EB9D0075149707B461B9 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_x, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:253>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_x;
@@ -711,58 +832,100 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5
 		L_11 = math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline(L_10, NULL);
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_12;
 		L_12 = math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline(L_2, L_5, L_8, L_11, NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:253>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53385
+// Method Definition Index: 53829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t math_min_m02D43DF516544C279AF660EA4731449C82991849 (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:672>
 		int32_t L_0 = ___0_x;
 		int32_t L_1 = ___1_y;
 		if ((((int32_t)L_0) < ((int32_t)L_1)))
 		{
-			goto IL_0006;
+			goto IL_0008;
 		}
 	}
 	{
 		int32_t L_2 = ___1_y;
-		return L_2;
+		G_B3_0 = L_2;
+		goto IL_0009;
 	}
 
-IL_0006:
+IL_0008:
 	{
 		int32_t L_3 = ___0_x;
-		return L_3;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:672>
+		int32_t L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53386
+// Method Definition Index: 53830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t math_min_mA22BCFB62A81B533821704D26BE23D8D6402C8EB (int64_t ___0_x, int64_t ___1_y, const RuntimeMethod* method) 
 {
+	int64_t V_0 = 0;
+	int64_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:730>
 		int64_t L_0 = ___0_x;
 		int64_t L_1 = ___1_y;
 		if ((((int64_t)L_0) < ((int64_t)L_1)))
 		{
-			goto IL_0006;
+			goto IL_0008;
 		}
 	}
 	{
 		int64_t L_2 = ___1_y;
-		return L_2;
+		G_B3_0 = L_2;
+		goto IL_0009;
 	}
 
-IL_0006:
+IL_0008:
 	{
 		int64_t L_3 = ___0_x;
-		return L_3;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:730>
+		int64_t L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53387
+// Method Definition Index: 53831
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
+	float V_0 = 0.0f;
+	float G_B4_0 = 0.0f;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:746>
 		float L_0 = ___1_y;
@@ -770,7 +933,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float math_min_m54FD010BEF505D2BA1F79FC793BEB
 		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
 		if (L_1)
 		{
-			goto IL_000e;
+			goto IL_0010;
 		}
 	}
 	{
@@ -778,23 +941,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float math_min_m54FD010BEF505D2BA1F79FC793BEB
 		float L_3 = ___1_y;
 		if ((((float)L_2) < ((float)L_3)))
 		{
-			goto IL_000e;
+			goto IL_0010;
 		}
 	}
 	{
 		float L_4 = ___1_y;
-		return L_4;
+		G_B4_0 = L_4;
+		goto IL_0011;
 	}
 
-IL_000e:
+IL_0010:
 	{
 		float L_5 = ___0_x;
-		return L_5;
+		G_B4_0 = L_5;
+	}
+
+IL_0011:
+	{
+		V_0 = G_B4_0;
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:746>
+		float L_6 = V_0;
+		return L_6;
 	}
 }
-// Method Definition Index: 53388
+// Method Definition Index: 53832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_min_m13CC8D5B7844D954C3125DD72831C693AB8A7FF5 (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_y, const RuntimeMethod* method) 
 {
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:760>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
@@ -818,12 +997,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_15;
 		memset((&L_15), 0, sizeof(L_15));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_15), L_4, L_9, L_14, NULL);
-		return L_15;
+		V_0 = L_15;
+		goto IL_003c;
+	}
+
+IL_003c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:760>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_16 = V_0;
+		return L_16;
 	}
 }
-// Method Definition Index: 53389
+// Method Definition Index: 53833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E math_min_m74710FF54B13ED27A7481D9524971E171F730360 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_x, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_y, const RuntimeMethod* method) 
 {
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:767>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_x;
@@ -853,58 +1042,100 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_20;
 		memset((&L_20), 0, sizeof(L_20));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_20), L_4, L_9, L_14, L_19, NULL);
-		return L_20;
+		V_0 = L_20;
+		goto IL_004d;
+	}
+
+IL_004d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:767>
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_21 = V_0;
+		return L_21;
 	}
 }
-// Method Definition Index: 53390
+// Method Definition Index: 53834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:804>
 		int32_t L_0 = ___0_x;
 		int32_t L_1 = ___1_y;
 		if ((((int32_t)L_0) > ((int32_t)L_1)))
 		{
-			goto IL_0006;
+			goto IL_0008;
 		}
 	}
 	{
 		int32_t L_2 = ___1_y;
-		return L_2;
+		G_B3_0 = L_2;
+		goto IL_0009;
 	}
 
-IL_0006:
+IL_0008:
 	{
 		int32_t L_3 = ___0_x;
-		return L_3;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:804>
+		int32_t L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53391
+// Method Definition Index: 53835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t math_max_mEBAE1BF7FA6B43BD0F4AE2E47FB6190041F8CE43 (int64_t ___0_x, int64_t ___1_y, const RuntimeMethod* method) 
 {
+	int64_t V_0 = 0;
+	int64_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:862>
 		int64_t L_0 = ___0_x;
 		int64_t L_1 = ___1_y;
 		if ((((int64_t)L_0) > ((int64_t)L_1)))
 		{
-			goto IL_0006;
+			goto IL_0008;
 		}
 	}
 	{
 		int64_t L_2 = ___1_y;
-		return L_2;
+		G_B3_0 = L_2;
+		goto IL_0009;
 	}
 
-IL_0006:
+IL_0008:
 	{
 		int64_t L_3 = ___0_x;
-		return L_3;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:862>
+		int64_t L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53392
+// Method Definition Index: 53836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496 (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
+	float V_0 = 0.0f;
+	float G_B4_0 = 0.0f;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:878>
 		float L_0 = ___1_y;
@@ -912,7 +1143,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float math_max_m4B454A91AE8827997609E74C4C240
 		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
 		if (L_1)
 		{
-			goto IL_000e;
+			goto IL_0010;
 		}
 	}
 	{
@@ -920,23 +1151,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float math_max_m4B454A91AE8827997609E74C4C240
 		float L_3 = ___1_y;
 		if ((((float)L_2) > ((float)L_3)))
 		{
-			goto IL_000e;
+			goto IL_0010;
 		}
 	}
 	{
 		float L_4 = ___1_y;
-		return L_4;
+		G_B4_0 = L_4;
+		goto IL_0011;
 	}
 
-IL_000e:
+IL_0010:
 	{
 		float L_5 = ___0_x;
-		return L_5;
+		G_B4_0 = L_5;
+	}
+
+IL_0011:
+	{
+		V_0 = G_B4_0;
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:878>
+		float L_6 = V_0;
+		return L_6;
 	}
 }
-// Method Definition Index: 53393
+// Method Definition Index: 53837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_max_m247D41258606F80861E72309300DF6A3F8B50AE4 (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_y, const RuntimeMethod* method) 
 {
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:892>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
@@ -960,12 +1207,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_15;
 		memset((&L_15), 0, sizeof(L_15));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_15), L_4, L_9, L_14, NULL);
-		return L_15;
+		V_0 = L_15;
+		goto IL_003c;
+	}
+
+IL_003c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:892>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_16 = V_0;
+		return L_16;
 	}
 }
-// Method Definition Index: 53394
+// Method Definition Index: 53838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E math_max_m03D4AA9B67EC6003C76DB09B28B9F45D1AFBBB66 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_x, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_y, const RuntimeMethod* method) 
 {
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:899>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_x;
@@ -995,12 +1252,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_20;
 		memset((&L_20), 0, sizeof(L_20));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_20), L_4, L_9, L_14, L_19, NULL);
-		return L_20;
+		V_0 = L_20;
+		goto IL_004d;
+	}
+
+IL_004d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:899>
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_21 = V_0;
+		return L_21;
 	}
 }
-// Method Definition Index: 53395
+// Method Definition Index: 53839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_y, const RuntimeMethod* method) 
 {
+	float V_0 = 0.0f;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:1784>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
@@ -1015,10 +1281,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float math_dot_mE193D8880350D74CC8D63A0D53CDC
 		float L_9 = L_8.___z;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = ___1_y;
 		float L_11 = L_10.___z;
-		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))));
+		V_0 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))));
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:1784>
+		float L_12 = V_0;
+		return L_12;
 	}
 }
-// Method Definition Index: 53396
+// Method Definition Index: 53840
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A (float ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1027,29 +1301,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009683C5D7B0C58
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	float V_0 = 0.0f;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:3175>
 		float L_0 = ___0_x;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
 		L_1 = sqrt(((double)((float)L_0)));
-		return ((float)L_1);
+		V_0 = ((float)L_1);
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:3175>
+		float L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 53397
+// Method Definition Index: 53841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float math_rsqrt_mC67B3430EAADA7C5347E87B23859C569BC010E72 (float ___0_x, const RuntimeMethod* method) 
 {
+	float V_0 = 0.0f;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:3225>
 		float L_0 = ___0_x;
 		float L_1;
 		L_1 = math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_inline(L_0, NULL);
-		return ((float)((1.0f)/L_1));
+		V_0 = ((float)((1.0f)/L_1));
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:3225>
+		float L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 53398
+// Method Definition Index: 53842
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_normalize_mF02431EFC9E3212E0245EFF5C13BC9DC34512399 (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, const RuntimeMethod* method) 
 {
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:3281>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
@@ -1061,122 +1355,184 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___0_x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5;
 		L_5 = float3_op_Multiply_m38F52B61F8E5636955A1A6DF3A75BD0724148350_inline(L_3, L_4, NULL);
-		return L_5;
+		V_0 = L_5;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:3281>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6 = V_0;
+		return L_6;
 	}
 }
-// Method Definition Index: 53399
+// Method Definition Index: 53843
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t math_lzcnt_mA6B7E71DB1B5D4CE8B67C66FF1AC4339FA368D07 (int32_t ___0_x, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4820>
 		int32_t L_0 = ___0_x;
 		int32_t L_1;
 		L_1 = math_lzcnt_m121BDDDEE89F5A401E2E5F0AD900D22E47C8741C_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4820>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 53400
+// Method Definition Index: 53844
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t math_lzcnt_m121BDDDEE89F5A401E2E5F0AD900D22E47C8741C (uint32_t ___0_x, const RuntimeMethod* method) 
 {
 	LongDoubleUnion_tD71C400B6C4CD1A7F13CE8125AC6BBC7A22791CA V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	int32_t V_2 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4847>
 		uint32_t L_0 = ___0_x;
-		if (L_0)
+		V_1 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
 		{
-			goto IL_0006;
+			goto IL_000e;
 		}
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4848>
-		return ((int32_t)32);
+		V_2 = ((int32_t)32);
+		goto IL_0058;
 	}
 
-IL_0006:
+IL_000e:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4850>
 		(&V_0)->___doubleValue = (0.0);
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4851>
-		uint32_t L_1 = ___0_x;
-		(&V_0)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)L_1)));
+		uint32_t L_2 = ___0_x;
+		(&V_0)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)L_2)));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4852>
-		double* L_2 = (double*)(&(&V_0)->___doubleValue);
-		double* L_3 = L_2;
-		double L_4 = *((double*)L_3);
-		*((double*)L_3) = (double)((double)il2cpp_codegen_subtract(L_4, (4503599627370496.0)));
+		double* L_3 = (double*)(&(&V_0)->___doubleValue);
+		double* L_4 = L_3;
+		double L_5 = *((double*)L_4);
+		*((double*)L_4) = (double)((double)il2cpp_codegen_subtract(L_5, (4503599627370496.0)));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4853>
-		LongDoubleUnion_tD71C400B6C4CD1A7F13CE8125AC6BBC7A22791CA L_5 = V_0;
-		int64_t L_6 = L_5.___longValue;
-		return ((int32_t)il2cpp_codegen_subtract(((int32_t)1054), ((int32_t)((int64_t)(L_6>>((int32_t)52))))));
+		LongDoubleUnion_tD71C400B6C4CD1A7F13CE8125AC6BBC7A22791CA L_6 = V_0;
+		int64_t L_7 = L_6.___longValue;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(((int32_t)1054), ((int32_t)((int64_t)(L_7>>((int32_t)52))))));
+		goto IL_0058;
+	}
+
+IL_0058:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4854>
+		int32_t L_8 = V_2;
+		return L_8;
 	}
 }
-// Method Definition Index: 53401
+// Method Definition Index: 53845
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t math_tzcnt_m85FEAD596A8E327F7B6820310B7FBD9822BA735C (int32_t ___0_x, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4913>
 		int32_t L_0 = ___0_x;
 		int32_t L_1;
 		L_1 = math_tzcnt_m07FD7550AAB5D94312E99571B112D652E8230360_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4913>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 53402
+// Method Definition Index: 53846
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t math_tzcnt_m07FD7550AAB5D94312E99571B112D652E8230360 (uint32_t ___0_x, const RuntimeMethod* method) 
 {
 	LongDoubleUnion_tD71C400B6C4CD1A7F13CE8125AC6BBC7A22791CA V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	int32_t V_2 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4968>
 		uint32_t L_0 = ___0_x;
-		if (L_0)
+		V_1 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
 		{
-			goto IL_0006;
+			goto IL_000e;
 		}
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4969>
-		return ((int32_t)32);
+		V_2 = ((int32_t)32);
+		goto IL_0060;
 	}
 
-IL_0006:
+IL_000e:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4971>
-		uint32_t L_1 = ___0_x;
 		uint32_t L_2 = ___0_x;
-		___0_x = ((int32_t)((int32_t)L_1&((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_2))))));
+		uint32_t L_3 = ___0_x;
+		___0_x = ((int32_t)((int32_t)L_2&((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_3))))));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4973>
 		(&V_0)->___doubleValue = (0.0);
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4974>
-		uint32_t L_3 = ___0_x;
-		(&V_0)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)L_3)));
+		uint32_t L_4 = ___0_x;
+		(&V_0)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)L_4)));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4975>
-		double* L_4 = (double*)(&(&V_0)->___doubleValue);
-		double* L_5 = L_4;
-		double L_6 = *((double*)L_5);
-		*((double*)L_5) = (double)((double)il2cpp_codegen_subtract(L_6, (4503599627370496.0)));
+		double* L_5 = (double*)(&(&V_0)->___doubleValue);
+		double* L_6 = L_5;
+		double L_7 = *((double*)L_6);
+		*((double*)L_6) = (double)((double)il2cpp_codegen_subtract(L_7, (4503599627370496.0)));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4976>
-		LongDoubleUnion_tD71C400B6C4CD1A7F13CE8125AC6BBC7A22791CA L_7 = V_0;
-		int64_t L_8 = L_7.___longValue;
-		return ((int32_t)il2cpp_codegen_subtract(((int32_t)((int64_t)(L_8>>((int32_t)52)))), ((int32_t)1023)));
+		LongDoubleUnion_tD71C400B6C4CD1A7F13CE8125AC6BBC7A22791CA L_8 = V_0;
+		int64_t L_9 = L_8.___longValue;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(((int32_t)((int64_t)(L_9>>((int32_t)52)))), ((int32_t)1023)));
+		goto IL_0060;
+	}
+
+IL_0060:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4977>
+		int32_t L_10 = V_2;
+		return L_10;
 	}
 }
-// Method Definition Index: 53403
+// Method Definition Index: 53847
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_rol_m70DA2C8F44A27EE0D749AEEDEF8B0CD82D90B93F (uint32_t ___0_x, int32_t ___1_n, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5195>
 		uint32_t L_0 = ___0_x;
 		int32_t L_1 = ___1_n;
 		uint32_t L_2 = ___0_x;
 		int32_t L_3 = ___1_n;
-		return ((int32_t)(((int32_t)((int32_t)L_0<<((int32_t)(L_1&((int32_t)31)))))|((int32_t)((uint32_t)L_2>>((int32_t)(((int32_t)il2cpp_codegen_subtract(((int32_t)32), L_3))&((int32_t)31)))))));
+		V_0 = ((int32_t)(((int32_t)((int32_t)L_0<<((int32_t)(L_1&((int32_t)31)))))|((int32_t)((uint32_t)L_2>>((int32_t)(((int32_t)il2cpp_codegen_subtract(((int32_t)32), L_3))&((int32_t)31)))))));
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5195>
+		uint32_t L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53404
+// Method Definition Index: 53848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t math_ceilpow2_mA00505409975D36AB3D7658687AC3BD5A26F3769 (int32_t ___0_x, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5315>
 		int32_t L_0 = ___0_x;
@@ -1203,12 +1559,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t math_ceilpow2_mA00505409975D36AB3D765
 		___0_x = ((int32_t)(L_9|((int32_t)(L_10>>((int32_t)16)))));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5321>
 		int32_t L_11 = ___0_x;
-		return ((int32_t)il2cpp_codegen_add(L_11, 1));
+		V_0 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5322>
+		int32_t L_12 = V_0;
+		return L_12;
 	}
 }
-// Method Definition Index: 53405
+// Method Definition Index: 53849
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t math_ceilpow2_m7941384EAF6F776691CD2601130055362B0C967C (int64_t ___0_x, const RuntimeMethod* method) 
 {
+	int64_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5437>
 		int64_t L_0 = ___0_x;
@@ -1239,24 +1604,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t math_ceilpow2_m7941384EAF6F776691CD26
 		___0_x = ((int64_t)(L_11|((int64_t)(L_12>>((int32_t)32)))));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5444>
 		int64_t L_13 = ___0_x;
-		return ((int64_t)il2cpp_codegen_add(L_13, ((int64_t)1)));
+		V_0 = ((int64_t)il2cpp_codegen_add(L_13, ((int64_t)1)));
+		goto IL_003a;
+	}
+
+IL_003a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5445>
+		int64_t L_14 = V_0;
+		return L_14;
 	}
 }
-// Method Definition Index: 53406
+// Method Definition Index: 53850
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_csum_m0B6655875FE24428E18B97FC3F5C745E374530A3 (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___0_x, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5947>
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_0 = ___0_x;
 		uint32_t L_1 = L_0.___x;
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_2 = ___0_x;
 		uint32_t L_3 = L_2.___y;
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_3));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_3));
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5947>
+		uint32_t L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53407
+// Method Definition Index: 53851
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_csum_m9C15CCCED13E8ADB45EFC388D141E55091A61C1C (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___0_x, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5953>
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_0 = ___0_x;
@@ -1265,12 +1648,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_csum_m9C15CCCED13E8ADB45EFC388D
 		uint32_t L_3 = L_2.___y;
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_4 = ___0_x;
 		uint32_t L_5 = L_4.___z;
-		return ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_3)), (int32_t)L_5));
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_3)), (int32_t)L_5));
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5953>
+		uint32_t L_6 = V_0;
+		return L_6;
 	}
 }
-// Method Definition Index: 53408
+// Method Definition Index: 53852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_csum_m6A99E69A84442A729781A97F78B260223DD01D8F (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_x, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5959>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_x;
@@ -1281,22 +1673,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_csum_m6A99E69A84442A729781A97F7
 		uint32_t L_5 = L_4.___z;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_6 = ___0_x;
 		uint32_t L_7 = L_6.___w;
-		return ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_3)), (int32_t)L_5)), (int32_t)L_7));
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_3)), (int32_t)L_5)), (int32_t)L_7));
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5959>
+		uint32_t L_8 = V_0;
+		return L_8;
 	}
 }
-// Method Definition Index: 53409
+// Method Definition Index: 53853
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m8DC7F61C691A4C0D78CCFCF54A4943DAD9BE153F (void* ___0_pBuffer, int32_t ___1_numBytes, uint32_t ___2_seed, const RuntimeMethod* method) 
 {
 	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* V_0 = NULL;
 	uint32_t V_1 = 0;
 	uint32_t* V_2 = NULL;
 	uint8_t* V_3 = NULL;
-	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_4;
-	memset((&V_4), 0, sizeof(V_4));
-	int32_t V_5 = 0;
+	bool V_4 = false;
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_5;
+	memset((&V_5), 0, sizeof(V_5));
 	int32_t V_6 = 0;
 	int32_t V_7 = 0;
-	int32_t V_8 = 0;
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* V_8 = NULL;
+	bool V_9 = false;
+	int32_t V_10 = 0;
+	bool V_11 = false;
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	uint32_t V_14 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6212>
 		void* L_0 = ___0_pBuffer;
@@ -1306,201 +1712,221 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m8DC7F61C691A4C0D78CCFCF54
 		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_1, ((int32_t)374761393)));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6214>
 		int32_t L_2 = ___1_numBytes;
-		if ((((int32_t)L_2) < ((int32_t)((int32_t)16))))
+		V_4 = (bool)((((int32_t)((((int32_t)L_2) < ((int32_t)((int32_t)16)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_3 = V_4;
+		if (!L_3)
 		{
-			goto IL_00c8;
+			goto IL_00e2;
 		}
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6216>
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_3;
-		memset((&L_3), 0, sizeof(L_3));
-		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_3), ((int32_t)606290984), ((int32_t)-2048144777), 0, ((int32_t)1640531535), NULL);
-		uint32_t L_4 = ___2_seed;
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_5;
-		L_5 = uint4_op_Addition_m3968FBC6698B10C2DC1D0222C72BB0F67CA1E6D6_inline(L_3, L_4, NULL);
-		V_4 = L_5;
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_4), ((int32_t)606290984), ((int32_t)-2048144777), 0, ((int32_t)1640531535), NULL);
+		uint32_t L_5 = ___2_seed;
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_6;
+		L_6 = uint4_op_Addition_m3968FBC6698B10C2DC1D0222C72BB0F67CA1E6D6_inline(L_4, L_5, NULL);
+		V_5 = L_6;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6218>
-		int32_t L_6 = ___1_numBytes;
-		V_5 = ((int32_t)(L_6>>4));
+		int32_t L_7 = ___1_numBytes;
+		V_6 = ((int32_t)(L_7>>4));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6219>
-		V_6 = 0;
-		goto IL_0088;
+		V_7 = 0;
+		goto IL_009b;
 	}
 
-IL_0039:
+IL_0045:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6221>
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_7 = V_4;
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* L_8 = V_0;
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* L_9 = L_8;
-		uint32_t L_10 = sizeof(uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9);
-		V_0 = ((uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9*)il2cpp_codegen_add((intptr_t)L_9, (int32_t)L_10));
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_11 = (*(uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9*)L_9);
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_12;
-		L_12 = uint4_op_Multiply_m40354E397B1D99D73B5333378C8698C087A1A2D6_inline(L_11, ((int32_t)-2048144777), NULL);
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_13;
-		L_13 = uint4_op_Addition_m391200EB43B6C4CDD219079A0D3CDFFA35B0B652_inline(L_7, L_12, NULL);
-		V_4 = L_13;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6222>
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_14 = V_4;
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_8 = V_5;
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* L_9 = V_0;
+		V_8 = L_9;
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* L_10 = V_8;
+		uint32_t L_11 = sizeof(uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9);
+		V_0 = ((uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9*)il2cpp_codegen_add((intptr_t)L_10, (int32_t)L_11));
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* L_12 = V_8;
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_13 = (*(uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9*)L_12);
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_14;
+		L_14 = uint4_op_Multiply_m40354E397B1D99D73B5333378C8698C087A1A2D6_inline(L_13, ((int32_t)-2048144777), NULL);
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_15;
-		L_15 = uint4_op_LeftShift_m5E109F47429DAA6E55073B8BBD9988FF9B18E4A2_inline(L_14, ((int32_t)13), NULL);
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_16 = V_4;
+		L_15 = uint4_op_Addition_m391200EB43B6C4CDD219079A0D3CDFFA35B0B652_inline(L_8, L_14, NULL);
+		V_5 = L_15;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6222>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_16 = V_5;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_17;
-		L_17 = uint4_op_RightShift_m277ED9AFF0C41C957E79413C0B4A19EB28503EED_inline(L_16, ((int32_t)19), NULL);
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_18;
-		L_18 = uint4_op_BitwiseOr_mDA88C9E25D0910D512ABABDC200D6E3A2E68B573_inline(L_15, L_17, NULL);
-		V_4 = L_18;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6223>
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_19 = V_4;
+		L_17 = uint4_op_LeftShift_m5E109F47429DAA6E55073B8BBD9988FF9B18E4A2_inline(L_16, ((int32_t)13), NULL);
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_18 = V_5;
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_19;
+		L_19 = uint4_op_RightShift_m277ED9AFF0C41C957E79413C0B4A19EB28503EED_inline(L_18, ((int32_t)19), NULL);
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_20;
-		L_20 = uint4_op_Multiply_m40354E397B1D99D73B5333378C8698C087A1A2D6_inline(L_19, ((int32_t)-1640531535), NULL);
-		V_4 = L_20;
+		L_20 = uint4_op_BitwiseOr_mDA88C9E25D0910D512ABABDC200D6E3A2E68B573_inline(L_17, L_19, NULL);
+		V_5 = L_20;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6223>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_21 = V_5;
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_22;
+		L_22 = uint4_op_Multiply_m40354E397B1D99D73B5333378C8698C087A1A2D6_inline(L_21, ((int32_t)-1640531535), NULL);
+		V_5 = L_22;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6219>
-		int32_t L_21 = V_6;
-		V_6 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+		int32_t L_23 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_23, 1));
 	}
 
-IL_0088:
+IL_009b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6219>
-		int32_t L_22 = V_6;
-		int32_t L_23 = V_5;
-		if ((((int32_t)L_22) < ((int32_t)L_23)))
+		int32_t L_24 = V_7;
+		int32_t L_25 = V_6;
+		V_9 = (bool)((((int32_t)L_24) < ((int32_t)L_25))? 1 : 0);
+		bool L_26 = V_9;
+		if (L_26)
 		{
-			goto IL_0039;
+			goto IL_0045;
 		}
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6226>
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_24 = V_4;
-		uint32_t L_25 = L_24.___x;
-		uint32_t L_26;
-		L_26 = math_rol_m70DA2C8F44A27EE0D749AEEDEF8B0CD82D90B93F_inline(L_25, 1, NULL);
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_27 = V_4;
-		uint32_t L_28 = L_27.___y;
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_27 = V_5;
+		uint32_t L_28 = L_27.___x;
 		uint32_t L_29;
-		L_29 = math_rol_m70DA2C8F44A27EE0D749AEEDEF8B0CD82D90B93F_inline(L_28, 7, NULL);
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_30 = V_4;
-		uint32_t L_31 = L_30.___z;
+		L_29 = math_rol_m70DA2C8F44A27EE0D749AEEDEF8B0CD82D90B93F_inline(L_28, 1, NULL);
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_30 = V_5;
+		uint32_t L_31 = L_30.___y;
 		uint32_t L_32;
-		L_32 = math_rol_m70DA2C8F44A27EE0D749AEEDEF8B0CD82D90B93F_inline(L_31, ((int32_t)12), NULL);
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_33 = V_4;
-		uint32_t L_34 = L_33.___w;
+		L_32 = math_rol_m70DA2C8F44A27EE0D749AEEDEF8B0CD82D90B93F_inline(L_31, 7, NULL);
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_33 = V_5;
+		uint32_t L_34 = L_33.___z;
 		uint32_t L_35;
-		L_35 = math_rol_m70DA2C8F44A27EE0D749AEEDEF8B0CD82D90B93F_inline(L_34, ((int32_t)18), NULL);
-		V_1 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add((int32_t)L_26, (int32_t)L_29)), (int32_t)L_32)), (int32_t)L_35));
+		L_35 = math_rol_m70DA2C8F44A27EE0D749AEEDEF8B0CD82D90B93F_inline(L_34, ((int32_t)12), NULL);
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_36 = V_5;
+		uint32_t L_37 = L_36.___w;
+		uint32_t L_38;
+		L_38 = math_rol_m70DA2C8F44A27EE0D749AEEDEF8B0CD82D90B93F_inline(L_37, ((int32_t)18), NULL);
+		V_1 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add((int32_t)L_29, (int32_t)L_32)), (int32_t)L_35)), (int32_t)L_38));
 	}
 
-IL_00c8:
+IL_00e2:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6229>
-		uint32_t L_36 = V_1;
-		int32_t L_37 = ___1_numBytes;
-		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_36, L_37));
+		uint32_t L_39 = V_1;
+		int32_t L_40 = ___1_numBytes;
+		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_39, L_40));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6231>
-		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* L_38 = V_0;
-		V_2 = (uint32_t*)L_38;
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* L_41 = V_0;
+		V_2 = (uint32_t*)L_41;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6232>
-		V_7 = 0;
-		goto IL_00f7;
+		V_10 = 0;
+		goto IL_0113;
 	}
 
-IL_00d3:
+IL_00ed:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6234>
-		uint32_t L_39 = V_1;
-		uint32_t* L_40 = V_2;
-		uint32_t* L_41 = L_40;
-		V_2 = ((uint32_t*)il2cpp_codegen_add((intptr_t)L_41, 4));
-		int32_t L_42 = (*(L_41));
-		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_39, ((int32_t)il2cpp_codegen_multiply(L_42, ((int32_t)-1028477379)))));
+		uint32_t L_42 = V_1;
+		uint32_t* L_43 = V_2;
+		uint32_t* L_44 = L_43;
+		V_2 = ((uint32_t*)il2cpp_codegen_add((intptr_t)L_44, 4));
+		int32_t L_45 = (*(L_44));
+		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_42, ((int32_t)il2cpp_codegen_multiply(L_45, ((int32_t)-1028477379)))));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6235>
-		uint32_t L_43 = V_1;
-		uint32_t L_44;
-		L_44 = math_rol_m70DA2C8F44A27EE0D749AEEDEF8B0CD82D90B93F_inline(L_43, ((int32_t)17), NULL);
-		V_1 = ((int32_t)il2cpp_codegen_multiply((int32_t)L_44, ((int32_t)668265263)));
+		uint32_t L_46 = V_1;
+		uint32_t L_47;
+		L_47 = math_rol_m70DA2C8F44A27EE0D749AEEDEF8B0CD82D90B93F_inline(L_46, ((int32_t)17), NULL);
+		V_1 = ((int32_t)il2cpp_codegen_multiply((int32_t)L_47, ((int32_t)668265263)));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6232>
-		int32_t L_45 = V_7;
-		V_7 = ((int32_t)il2cpp_codegen_add(L_45, 1));
+		int32_t L_48 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_48, 1));
 	}
 
-IL_00f7:
+IL_0113:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6232>
-		int32_t L_46 = V_7;
-		int32_t L_47 = ___1_numBytes;
-		if ((((int32_t)L_46) < ((int32_t)((int32_t)(((int32_t)(L_47>>2))&3)))))
+		int32_t L_49 = V_10;
+		int32_t L_50 = ___1_numBytes;
+		V_11 = (bool)((((int32_t)L_49) < ((int32_t)((int32_t)(((int32_t)(L_50>>2))&3))))? 1 : 0);
+		bool L_51 = V_11;
+		if (L_51)
 		{
-			goto IL_00d3;
+			goto IL_00ed;
 		}
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6238>
-		uint32_t* L_48 = V_2;
-		V_3 = (uint8_t*)L_48;
+		uint32_t* L_52 = V_2;
+		V_3 = (uint8_t*)L_52;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6239>
-		V_8 = 0;
-		goto IL_012b;
+		V_12 = 0;
+		goto IL_014f;
 	}
 
-IL_0107:
+IL_0129:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6241>
-		uint32_t L_49 = V_1;
-		uint8_t* L_50 = V_3;
-		uint8_t* L_51 = L_50;
-		V_3 = ((uint8_t*)il2cpp_codegen_add((intptr_t)L_51, 1));
-		int32_t L_52 = (*(L_51));
-		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_49, ((int32_t)il2cpp_codegen_multiply(L_52, ((int32_t)374761393)))));
-		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6242>
 		uint32_t L_53 = V_1;
-		uint32_t L_54;
-		L_54 = math_rol_m70DA2C8F44A27EE0D749AEEDEF8B0CD82D90B93F_inline(L_53, ((int32_t)11), NULL);
-		V_1 = ((int32_t)il2cpp_codegen_multiply((int32_t)L_54, ((int32_t)-1640531535)));
+		uint8_t* L_54 = V_3;
+		uint8_t* L_55 = L_54;
+		V_3 = ((uint8_t*)il2cpp_codegen_add((intptr_t)L_55, 1));
+		int32_t L_56 = (*(L_55));
+		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_53, ((int32_t)il2cpp_codegen_multiply(L_56, ((int32_t)374761393)))));
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6242>
+		uint32_t L_57 = V_1;
+		uint32_t L_58;
+		L_58 = math_rol_m70DA2C8F44A27EE0D749AEEDEF8B0CD82D90B93F_inline(L_57, ((int32_t)11), NULL);
+		V_1 = ((int32_t)il2cpp_codegen_multiply((int32_t)L_58, ((int32_t)-1640531535)));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6239>
-		int32_t L_55 = V_8;
-		V_8 = ((int32_t)il2cpp_codegen_add(L_55, 1));
+		int32_t L_59 = V_12;
+		V_12 = ((int32_t)il2cpp_codegen_add(L_59, 1));
 	}
 
-IL_012b:
+IL_014f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6239>
-		int32_t L_56 = V_8;
-		int32_t L_57 = ___1_numBytes;
-		if ((((int32_t)L_56) < ((int32_t)((int32_t)(L_57&3)))))
+		int32_t L_60 = V_12;
+		int32_t L_61 = ___1_numBytes;
+		V_13 = (bool)((((int32_t)L_60) < ((int32_t)((int32_t)(L_61&3))))? 1 : 0);
+		bool L_62 = V_13;
+		if (L_62)
 		{
-			goto IL_0107;
+			goto IL_0129;
 		}
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6245>
-		uint32_t L_58 = V_1;
-		uint32_t L_59 = V_1;
-		V_1 = ((int32_t)((int32_t)L_58^((int32_t)((uint32_t)L_59>>((int32_t)15)))));
-		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6246>
-		uint32_t L_60 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_multiply((int32_t)L_60, ((int32_t)-2048144777)));
-		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6247>
-		uint32_t L_61 = V_1;
-		uint32_t L_62 = V_1;
-		V_1 = ((int32_t)((int32_t)L_61^((int32_t)((uint32_t)L_62>>((int32_t)13)))));
-		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6248>
 		uint32_t L_63 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_multiply((int32_t)L_63, ((int32_t)-1028477379)));
-		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6249>
 		uint32_t L_64 = V_1;
+		V_1 = ((int32_t)((int32_t)L_63^((int32_t)((uint32_t)L_64>>((int32_t)15)))));
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6246>
 		uint32_t L_65 = V_1;
-		V_1 = ((int32_t)((int32_t)L_64^((int32_t)((uint32_t)L_65>>((int32_t)16)))));
-		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6251>
+		V_1 = ((int32_t)il2cpp_codegen_multiply((int32_t)L_65, ((int32_t)-2048144777)));
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6247>
 		uint32_t L_66 = V_1;
-		return L_66;
+		uint32_t L_67 = V_1;
+		V_1 = ((int32_t)((int32_t)L_66^((int32_t)((uint32_t)L_67>>((int32_t)13)))));
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6248>
+		uint32_t L_68 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_multiply((int32_t)L_68, ((int32_t)-1028477379)));
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6249>
+		uint32_t L_69 = V_1;
+		uint32_t L_70 = V_1;
+		V_1 = ((int32_t)((int32_t)L_69^((int32_t)((uint32_t)L_70>>((int32_t)16)))));
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6251>
+		uint32_t L_71 = V_1;
+		V_14 = L_71;
+		goto IL_0186;
+	}
+
+IL_0186:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:6253>
+		uint32_t L_72 = V_14;
+		return L_72;
 	}
 }
-// Method Definition Index: 53410
+// Method Definition Index: 53854
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E math_mul_m080515A2DCB7CCE0F4635A8E87B1635C02D72A4E (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___0_a, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_b, const RuntimeMethod* method) 
 {
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/matrix.gen.cs:572>
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = ___0_a;
@@ -1533,12 +1959,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 		L_21 = float4_op_Multiply_m712573F441DA8AF0843DE2167927FB76E642B1EB_inline(L_18, L_20, NULL);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_22;
 		L_22 = float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44_inline(L_16, L_21, NULL);
-		return L_22;
+		V_0 = L_22;
+		goto IL_0057;
+	}
+
+IL_0057:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/matrix.gen.cs:573>
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_23 = V_0;
+		return L_23;
 	}
 }
-// Method Definition Index: 53411
+// Method Definition Index: 53855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 math_mul_mF9EE8CEC6C3D6A57A74F806EA436DA9465FCB01E (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___0_a, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___1_b, const RuntimeMethod* method) 
 {
+	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/matrix.gen.cs:607>
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/matrix.gen.cs:608>
@@ -1683,12 +2119,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 		L_107 = float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44_inline(L_100, L_106, NULL);
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_108;
 		L_108 = math_float4x4_m7C95B2B93CDEE0AF483EB84446F9F06F7B1AD261_inline(L_26, L_53, L_80, L_107, NULL);
-		return L_108;
+		V_0 = L_108;
+		goto IL_01a5;
+	}
+
+IL_01a5:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/matrix.gen.cs:612>
+		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_109 = V_0;
+		return L_109;
 	}
 }
-// Method Definition Index: 53412
+// Method Definition Index: 53856
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F math_uint2_m861F5F74EBBBD3DA19E84A1155320B89FF7341C3 (uint32_t ___0_x, uint32_t ___1_y, const RuntimeMethod* method) 
 {
+	uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:881>
 		uint32_t L_0 = ___0_x;
@@ -1696,12 +2142,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C0
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F_inline((&L_2), L_0, L_1, NULL);
-		return L_2;
+		V_0 = L_2;
+		goto IL_000b;
+	}
+
+IL_000b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:881>
+		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_3 = V_0;
+		return L_3;
 	}
 }
-// Method Definition Index: 53413
+// Method Definition Index: 53857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m5D21276708BFB4DEEF3498774D296FE6B14FC5B0 (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___0_v, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:949>
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_0 = ___0_v;
@@ -1711,12 +2166,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m5D21276708BFB4DEEF3498774
 		L_2 = uint2_op_Multiply_m2A4BC394328643E664AD9C17DA4BF1B0AC58E857_inline(L_0, L_1, NULL);
 		uint32_t L_3;
 		L_3 = math_csum_m0B6655875FE24428E18B97FC3F5C745E374530A3_inline(L_2, NULL);
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_3, ((int32_t)1750611407)));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_3, ((int32_t)1750611407)));
+		goto IL_0024;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:950>
+		uint32_t L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53414
+// Method Definition Index: 53858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B math_uint3_mC94DDA8B357EA045D5A36B81CECD0C5C223B71B0 (uint32_t ___0_x, uint32_t ___1_y, uint32_t ___2_z, const RuntimeMethod* method) 
 {
+	uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1741>
 		uint32_t L_0 = ___0_x;
@@ -1725,12 +2190,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF_inline((&L_3), L_0, L_1, L_2, NULL);
-		return L_3;
+		V_0 = L_3;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1741>
+		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53415
+// Method Definition Index: 53859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m31E070E721A961188B5629FCAC3C9559145F1A76 (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___0_v, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1823>
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_0 = ___0_v;
@@ -1740,12 +2214,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m31E070E721A961188B5629FCA
 		L_2 = uint3_op_Multiply_m756859015AC9BE9CB34BACE67DF92F64EA76C9AD_inline(L_0, L_1, NULL);
 		uint32_t L_3;
 		L_3 = math_csum_m9C15CCCED13E8ADB45EFC388D141E55091A61C1C_inline(L_2, NULL);
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_3, ((int32_t)-2042742999)));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_3, ((int32_t)-2042742999)));
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1824>
+		uint32_t L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53416
+// Method Definition Index: 53860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336 (uint32_t ___0_x, uint32_t ___1_y, uint32_t ___2_z, uint32_t ___3_w, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3878>
 		uint32_t L_0 = ___0_x;
@@ -1755,12 +2239,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_4), L_0, L_1, L_2, L_3, NULL);
-		return L_4;
+		V_0 = L_4;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3878>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_5 = V_0;
+		return L_5;
 	}
 }
-// Method Definition Index: 53417
+// Method Definition Index: 53861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m1A4778A79FFB5E05B04BD09B0F85EA9483D8A3CA (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_v, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3991>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_v;
@@ -1770,7 +2263,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m1A4778A79FFB5E05B04BD09B0
 		L_2 = uint4_op_Multiply_mDD93D0730642A1089848321B9B0E5E923EE575ED_inline(L_0, L_1, NULL);
 		uint32_t L_3;
 		L_3 = math_csum_m6A99E69A84442A729781A97F78B260223DD01D8F_inline(L_2, NULL);
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_3, ((int32_t)2057338067)));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_3, ((int32_t)2057338067)));
+		goto IL_002e;
+	}
+
+IL_002e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3992>
+		uint32_t L_4 = V_0;
+		return L_4;
 	}
 }
 #ifdef __clang__
@@ -1797,7 +2298,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t math_hash_m1A4778A79FFB5E05B04BD09B0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 53418
+// Method Definition Index: 53862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9 (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -1821,9 +2322,11 @@ IL2CPP_EXTERN_C  void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_Adj
 	_thisAdjusted = reinterpret_cast<float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*>(__this + _offset);
 	float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline(_thisAdjusted, ___0_x, ___1_y, ___2_z, method);
 }
-// Method Definition Index: 53419
+// Method Definition Index: 53863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81 (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
 {
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:268>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
@@ -1838,12 +2341,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), NULL);
-		return L_9;
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:268>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = V_0;
+		return L_10;
 	}
 }
-// Method Definition Index: 53420
+// Method Definition Index: 53864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m38F52B61F8E5636955A1A6DF3A75BD0724148350 (float ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) 
 {
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:275>
 		float L_0 = ___0_lhs;
@@ -1858,12 +2371,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_9), ((float)il2cpp_codegen_multiply(L_0, L_2)), ((float)il2cpp_codegen_multiply(L_3, L_5)), ((float)il2cpp_codegen_multiply(L_6, L_8)), NULL);
-		return L_9;
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:275>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = V_0;
+		return L_10;
 	}
 }
-// Method Definition Index: 53421
+// Method Definition Index: 53865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Addition_mFFCF4F7457594F5EFB0678C0DE90AAD3D3F6947B (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) 
 {
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:283>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
@@ -1881,12 +2404,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_12), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:283>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53422
+// Method Definition Index: 53866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2 (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) 
 {
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:305>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
@@ -1904,12 +2437,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_12), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:305>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53423
+// Method Definition Index: 53867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float3_Equals_m4A47BDC70977496712F3BE7DA359E840D99C020A (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_rhs, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
+	int32_t G_B4_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1631>
 		float L_0 = __this->___x;
@@ -1917,7 +2460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float3_Equals_m4A47BDC70977496712F3BE7DA
 		float L_2 = L_1.___x;
 		if ((!(((float)L_0) == ((float)L_2))))
 		{
-			goto IL_002b;
+			goto IL_002d;
 		}
 	}
 	{
@@ -1926,19 +2469,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float3_Equals_m4A47BDC70977496712F3BE7DA
 		float L_5 = L_4.___y;
 		if ((!(((float)L_3) == ((float)L_5))))
 		{
-			goto IL_002b;
+			goto IL_002d;
 		}
 	}
 	{
 		float L_6 = __this->___z;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7 = ___0_rhs;
 		float L_8 = L_7.___z;
-		return (bool)((((float)L_6) == ((float)L_8))? 1 : 0);
+		G_B4_0 = ((((float)L_6) == ((float)L_8))? 1 : 0);
+		goto IL_002e;
 	}
 
-IL_002b:
+IL_002d:
 	{
-		return (bool)0;
+		G_B4_0 = 0;
+	}
+
+IL_002e:
+	{
+		V_0 = (bool)G_B4_0;
+		goto IL_0031;
+	}
+
+IL_0031:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1631>
+		bool L_9 = V_0;
+		return L_9;
 	}
 }
 IL2CPP_EXTERN_C  bool float3_Equals_m4A47BDC70977496712F3BE7DA359E840D99C020A_AdjustorThunk (RuntimeObject* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_rhs, const RuntimeMethod* method)
@@ -1950,7 +2507,7 @@ IL2CPP_EXTERN_C  bool float3_Equals_m4A47BDC70977496712F3BE7DA359E840D99C020A_Ad
 	_returnValue = float3_Equals_m4A47BDC70977496712F3BE7DA359E840D99C020A_inline(_thisAdjusted, ___0_rhs, method);
 	return _returnValue;
 }
-// Method Definition Index: 53424
+// Method Definition Index: 53868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float3_Equals_mD988046122040559D8C9EFED2DA347495D722A2C (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, RuntimeObject* ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1961,12 +2518,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float3_Equals_mD988046122040559D8C9EFED2
 	}
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1636>
 		RuntimeObject* L_0 = ___0_o;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_il2cpp_TypeInfo_var)))
 		{
-			goto IL_0017;
+			goto IL_0019;
 		}
 	}
 	{
@@ -1975,12 +2534,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float3_Equals_mD988046122040559D8C9EFED2
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = V_0;
 		bool L_3;
 		L_3 = float3_Equals_m4A47BDC70977496712F3BE7DA359E840D99C020A_inline(__this, L_2, NULL);
-		return L_3;
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_001a;
 	}
 
-IL_0017:
+IL_0019:
 	{
-		return (bool)0;
+		G_B3_0 = 0;
+	}
+
+IL_001a:
+	{
+		V_1 = (bool)G_B3_0;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1636>
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 IL2CPP_EXTERN_C  bool float3_Equals_mD988046122040559D8C9EFED2DA347495D722A2C_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_o, const RuntimeMethod* method)
@@ -1992,15 +2565,24 @@ IL2CPP_EXTERN_C  bool float3_Equals_mD988046122040559D8C9EFED2DA347495D722A2C_Ad
 	_returnValue = float3_Equals_mD988046122040559D8C9EFED2DA347495D722A2C(_thisAdjusted, ___0_o, method);
 	return _returnValue;
 }
-// Method Definition Index: 53425
+// Method Definition Index: 53869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t float3_GetHashCode_m659801FA23576CC26412BE644FA19636BFF8A017 (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1642>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m8ECC7CFBA8D302A2A3E9468DE65D705E9C1298EB_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1642>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
 IL2CPP_EXTERN_C  int32_t float3_GetHashCode_m659801FA23576CC26412BE644FA19636BFF8A017_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -2012,7 +2594,7 @@ IL2CPP_EXTERN_C  int32_t float3_GetHashCode_m659801FA23576CC26412BE644FA19636BFF
 	_returnValue = float3_GetHashCode_m659801FA23576CC26412BE644FA19636BFF8A017_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 53426
+// Method Definition Index: 53870
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float3_ToString_m334A7FA7041C2C5D83B68231F1FDEB4037CF5DEA (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2022,6 +2604,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float3_ToString_m334A7FA7041C2C5D83
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1578CABA4FF62AC9986DD5D0BA4C26A5CCB44A6A);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1650>
 		float L_0 = __this->___x;
@@ -2035,7 +2618,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float3_ToString_m334A7FA7041C2C5D83
 		RuntimeObject* L_8 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_7);
 		String_t* L_9;
 		L_9 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral1578CABA4FF62AC9986DD5D0BA4C26A5CCB44A6A, L_2, L_5, L_8, NULL);
-		return L_9;
+		V_0 = L_9;
+		goto IL_002f;
+	}
+
+IL_002f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1651>
+		String_t* L_10 = V_0;
+		return L_10;
 	}
 }
 IL2CPP_EXTERN_C  String_t* float3_ToString_m334A7FA7041C2C5D83B68231F1FDEB4037CF5DEA_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -2047,7 +2638,7 @@ IL2CPP_EXTERN_C  String_t* float3_ToString_m334A7FA7041C2C5D83B68231F1FDEB4037CF
 	_returnValue = float3_ToString_m334A7FA7041C2C5D83B68231F1FDEB4037CF5DEA_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 53427
+// Method Definition Index: 53871
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float3_ToString_mE1BA3E91F84DDD745685C09F509410358A83D081 (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2056,6 +2647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float3_ToString_mE1BA3E91F84DDD7456
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1578CABA4FF62AC9986DD5D0BA4C26A5CCB44A6A);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1660>
 		float* L_0 = (float*)(&__this->___x);
@@ -2075,7 +2667,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float3_ToString_mE1BA3E91F84DDD7456
 		L_11 = Single_ToString_mF468A56B3A746EFD805E0604EE7A2873DA157ADE(L_8, L_9, L_10, NULL);
 		String_t* L_12;
 		L_12 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral1578CABA4FF62AC9986DD5D0BA4C26A5CCB44A6A, L_3, L_7, L_11, NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1661>
+		String_t* L_13 = V_0;
+		return L_13;
 	}
 }
 IL2CPP_EXTERN_C  String_t* float3_ToString_mE1BA3E91F84DDD745685C09F509410358A83D081_AdjustorThunk (RuntimeObject* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method)
@@ -2087,9 +2687,11 @@ IL2CPP_EXTERN_C  String_t* float3_ToString_mE1BA3E91F84DDD745685C09F509410358A83
 	_returnValue = float3_ToString_mE1BA3E91F84DDD745685C09F509410358A83D081_inline(_thisAdjusted, ___0_format, ___1_formatProvider, method);
 	return _returnValue;
 }
-// Method Definition Index: 53428
+// Method Definition Index: 53872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 float3_op_Implicit_m9CC301DFD67EEFAA15CA05E91913E862B22326F6 (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_v, const RuntimeMethod* method) 
 {
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math_unity_conversion.cs:32>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_v;
@@ -2101,12 +2703,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_6), L_1, L_3, L_5, NULL);
-		return L_6;
+		V_0 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math_unity_conversion.cs:32>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
+		return L_7;
 	}
 }
-// Method Definition Index: 53429
+// Method Definition Index: 53873
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Implicit_mE1831A3AC179B7EB3236F8202EC8DD5CE05376AB (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) 
 {
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math_unity_conversion.cs:39>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_v;
@@ -2118,7 +2730,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_6), L_1, L_3, L_5, NULL);
-		return L_6;
+		V_0 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math_unity_conversion.cs:39>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7 = V_0;
+		return L_7;
 	}
 }
 #ifdef __clang__
@@ -2129,6 +2749,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 53874
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerProxy__ctor_mF5A0AF04FF4FAC0E6998E136BB69C081676F98ED (DebuggerProxy_t7ADF52C52717A46ECA0C565057AE4DE54B2C69B8* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1668>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1670>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_v;
+		float L_1 = L_0.___x;
+		__this->___x = L_1;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1671>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___0_v;
+		float L_3 = L_2.___y;
+		__this->___y = L_3;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1672>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___0_v;
+		float L_5 = L_4.___z;
+		__this->___z = L_5;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1673>
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -2137,7 +2779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 53430
+// Method Definition Index: 53875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -2164,7 +2806,7 @@ IL2CPP_EXTERN_C  void float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_Adj
 	_thisAdjusted = reinterpret_cast<float4_t89D9A294E7A79BD81BFBDD18654508532958555E*>(__this + _offset);
 	float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline(_thisAdjusted, ___0_x, ___1_y, ___2_z, ___3_w, method);
 }
-// Method Definition Index: 53431
+// Method Definition Index: 53876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_xyz, float ___1_w, const RuntimeMethod* method) 
 {
 	{
@@ -2194,9 +2836,11 @@ IL2CPP_EXTERN_C  void float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_Adj
 	_thisAdjusted = reinterpret_cast<float4_t89D9A294E7A79BD81BFBDD18654508532958555E*>(__this + _offset);
 	float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_inline(_thisAdjusted, ___0_xyz, ___1_w, method);
 }
-// Method Definition Index: 53432
+// Method Definition Index: 53877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Multiply_m712573F441DA8AF0843DE2167927FB76E642B1EB (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
 {
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:337>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_lhs;
@@ -2214,12 +2858,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_12), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), ((float)il2cpp_codegen_multiply(L_10, L_11)), NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:337>
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53433
+// Method Definition Index: 53878
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) 
 {
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:352>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_lhs;
@@ -2241,12 +2895,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_16;
 		memset((&L_16), 0, sizeof(L_16));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_16), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), ((float)il2cpp_codegen_add(L_13, L_15)), NULL);
-		return L_16;
+		V_0 = L_16;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:352>
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_17 = V_0;
+		return L_17;
 	}
 }
-// Method Definition Index: 53434
+// Method Definition Index: 53879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Subtraction_mBC40F52B8A8EF499A1AA3CC987E5935BD188B4E3 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) 
 {
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:374>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_lhs;
@@ -2268,12 +2932,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_16;
 		memset((&L_16), 0, sizeof(L_16));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_16), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), ((float)il2cpp_codegen_subtract(L_13, L_15)), NULL);
-		return L_16;
+		V_0 = L_16;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:374>
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_17 = V_0;
+		return L_17;
 	}
 }
-// Method Definition Index: 53435
+// Method Definition Index: 53880
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3008>
 		float L_0 = __this->___x;
@@ -2282,7 +2956,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_3), L_0, L_1, L_2, NULL);
-		return L_3;
+		V_0 = L_3;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3008>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = V_0;
+		return L_4;
 	}
 }
 IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -2294,9 +2976,11 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyz
 	_returnValue = float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 53436
+// Method Definition Index: 53881
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_rhs, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
+	int32_t G_B5_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3767>
 		float L_0 = __this->___x;
@@ -2304,7 +2988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4_Equals_m5E14C29D104399C399A11F52E
 		float L_2 = L_1.___x;
 		if ((!(((float)L_0) == ((float)L_2))))
 		{
-			goto IL_0039;
+			goto IL_003b;
 		}
 	}
 	{
@@ -2313,7 +2997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4_Equals_m5E14C29D104399C399A11F52E
 		float L_5 = L_4.___y;
 		if ((!(((float)L_3) == ((float)L_5))))
 		{
-			goto IL_0039;
+			goto IL_003b;
 		}
 	}
 	{
@@ -2322,19 +3006,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4_Equals_m5E14C29D104399C399A11F52E
 		float L_8 = L_7.___z;
 		if ((!(((float)L_6) == ((float)L_8))))
 		{
-			goto IL_0039;
+			goto IL_003b;
 		}
 	}
 	{
 		float L_9 = __this->___w;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10 = ___0_rhs;
 		float L_11 = L_10.___w;
-		return (bool)((((float)L_9) == ((float)L_11))? 1 : 0);
+		G_B5_0 = ((((float)L_9) == ((float)L_11))? 1 : 0);
+		goto IL_003c;
 	}
 
-IL_0039:
+IL_003b:
 	{
-		return (bool)0;
+		G_B5_0 = 0;
+	}
+
+IL_003c:
+	{
+		V_0 = (bool)G_B5_0;
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3767>
+		bool L_12 = V_0;
+		return L_12;
 	}
 }
 IL2CPP_EXTERN_C  bool float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_AdjustorThunk (RuntimeObject* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_rhs, const RuntimeMethod* method)
@@ -2346,7 +3044,7 @@ IL2CPP_EXTERN_C  bool float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_Ad
 	_returnValue = float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_inline(_thisAdjusted, ___0_rhs, method);
 	return _returnValue;
 }
-// Method Definition Index: 53437
+// Method Definition Index: 53882
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4_Equals_m4D841ABA91D26FA16B07205DC9D51612265FFAB4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, RuntimeObject* ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2357,12 +3055,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4_Equals_m4D841ABA91D26FA16B07205DC
 	}
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3772>
 		RuntimeObject* L_0 = ___0_o;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E_il2cpp_TypeInfo_var)))
 		{
-			goto IL_0017;
+			goto IL_0019;
 		}
 	}
 	{
@@ -2371,12 +3071,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4_Equals_m4D841ABA91D26FA16B07205DC
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = V_0;
 		bool L_3;
 		L_3 = float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_inline(__this, L_2, NULL);
-		return L_3;
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_001a;
 	}
 
-IL_0017:
+IL_0019:
 	{
-		return (bool)0;
+		G_B3_0 = 0;
+	}
+
+IL_001a:
+	{
+		V_1 = (bool)G_B3_0;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3772>
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 IL2CPP_EXTERN_C  bool float4_Equals_m4D841ABA91D26FA16B07205DC9D51612265FFAB4_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_o, const RuntimeMethod* method)
@@ -2388,15 +3102,24 @@ IL2CPP_EXTERN_C  bool float4_Equals_m4D841ABA91D26FA16B07205DC9D51612265FFAB4_Ad
 	_returnValue = float4_Equals_m4D841ABA91D26FA16B07205DC9D51612265FFAB4(_thisAdjusted, ___0_o, method);
 	return _returnValue;
 }
-// Method Definition Index: 53438
+// Method Definition Index: 53883
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t float4_GetHashCode_m73A9ACC41256A6E98F883A72ED1EB0047947DA48 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3778>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = (*(float4_t89D9A294E7A79BD81BFBDD18654508532958555E*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m53E875B2DC4324BD20573419DBE27D0F651FA4D4_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3778>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
 IL2CPP_EXTERN_C  int32_t float4_GetHashCode_m73A9ACC41256A6E98F883A72ED1EB0047947DA48_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -2408,7 +3131,7 @@ IL2CPP_EXTERN_C  int32_t float4_GetHashCode_m73A9ACC41256A6E98F883A72ED1EB004794
 	_returnValue = float4_GetHashCode_m73A9ACC41256A6E98F883A72ED1EB0047947DA48_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 53439
+// Method Definition Index: 53884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4_ToString_m63852A53A6218EBA6CF7782E0E38DE0719AA6DAA (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2419,6 +3142,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4_ToString_m63852A53A6218EBA6C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral43DDB8ABCD260FFF159CAB7520989AEB22E45033);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3786>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
@@ -2452,7 +3176,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4_ToString_m63852A53A6218EBA6C
 		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_16);
 		String_t* L_17;
 		L_17 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral43DDB8ABCD260FFF159CAB7520989AEB22E45033, L_13, NULL);
-		return L_17;
+		V_0 = L_17;
+		goto IL_004c;
+	}
+
+IL_004c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3787>
+		String_t* L_18 = V_0;
+		return L_18;
 	}
 }
 IL2CPP_EXTERN_C  String_t* float4_ToString_m63852A53A6218EBA6CF7782E0E38DE0719AA6DAA_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -2464,7 +3196,7 @@ IL2CPP_EXTERN_C  String_t* float4_ToString_m63852A53A6218EBA6CF7782E0E38DE0719AA
 	_returnValue = float4_ToString_m63852A53A6218EBA6CF7782E0E38DE0719AA6DAA_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 53440
+// Method Definition Index: 53885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4_ToString_mF0B7870047A0CB59185C85DE13ECECFAC5783C2A (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2474,6 +3206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4_ToString_mF0B7870047A0CB5918
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral43DDB8ABCD260FFF159CAB7520989AEB22E45033);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3796>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
@@ -2515,7 +3248,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4_ToString_mF0B7870047A0CB5918
 		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_20);
 		String_t* L_21;
 		L_21 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral43DDB8ABCD260FFF159CAB7520989AEB22E45033, L_16, NULL);
-		return L_21;
+		V_0 = L_21;
+		goto IL_0054;
+	}
+
+IL_0054:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3797>
+		String_t* L_22 = V_0;
+		return L_22;
 	}
 }
 IL2CPP_EXTERN_C  String_t* float4_ToString_mF0B7870047A0CB59185C85DE13ECECFAC5783C2A_AdjustorThunk (RuntimeObject* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method)
@@ -2527,9 +3268,11 @@ IL2CPP_EXTERN_C  String_t* float4_ToString_mF0B7870047A0CB59185C85DE13ECECFAC578
 	_returnValue = float4_ToString_mF0B7870047A0CB59185C85DE13ECECFAC5783C2A_inline(_thisAdjusted, ___0_format, ___1_formatProvider, method);
 	return _returnValue;
 }
-// Method Definition Index: 53441
+// Method Definition Index: 53886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Implicit_m6D2091EB2CF6E0629A029A7BE9AD230F5F394CB2 (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_v, const RuntimeMethod* method) 
 {
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math_unity_conversion.cs:49>
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0 = ___0_v;
@@ -2543,7 +3286,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_8), L_1, L_3, L_5, L_7, NULL);
-		return L_8;
+		V_0 = L_8;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math_unity_conversion.cs:49>
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_9 = V_0;
+		return L_9;
 	}
 }
 #ifdef __clang__
@@ -2554,6 +3305,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 53887
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerProxy__ctor_m5868EDDBC438498A6A62CD1062B0CE7D8B58509F (DebuggerProxy_tD5F63FE661BF3F780BEFBE721E36E7A87B310121* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3805>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3807>
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_v;
+		float L_1 = L_0.___x;
+		__this->___x = L_1;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3808>
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___0_v;
+		float L_3 = L_2.___y;
+		__this->___y = L_3;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3809>
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___0_v;
+		float L_5 = L_4.___z;
+		__this->___z = L_5;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3810>
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___0_v;
+		float L_7 = L_6.___w;
+		__this->___w = L_7;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3811>
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -2562,7 +3339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 53442
+// Method Definition Index: 53888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_mF0B7C823E36025A539E8024123057CAC380E97EF (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_c0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_c1, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___2_c2, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___3_c3, const RuntimeMethod* method) 
 {
 	{
@@ -2589,7 +3366,7 @@ IL2CPP_EXTERN_C  void float4x4__ctor_mF0B7C823E36025A539E8024123057CAC380E97EF_A
 	_thisAdjusted = reinterpret_cast<float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2*>(__this + _offset);
 	float4x4__ctor_mF0B7C823E36025A539E8024123057CAC380E97EF_inline(_thisAdjusted, ___0_c0, ___1_c1, ___2_c2, ___3_c3, method);
 }
-// Method Definition Index: 53443
+// Method Definition Index: 53889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__ctor_m89D3EDF09863C02553147CDA696E48B8D2622AC5 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, float ___0_m00, float ___1_m01, float ___2_m02, float ___3_m03, float ___4_m10, float ___5_m11, float ___6_m12, float ___7_m13, float ___8_m20, float ___9_m21, float ___10_m22, float ___11_m23, float ___12_m30, float ___13_m31, float ___14_m32, float ___15_m33, const RuntimeMethod* method) 
 {
 	{
@@ -2640,9 +3417,11 @@ IL2CPP_EXTERN_C  void float4x4__ctor_m89D3EDF09863C02553147CDA696E48B8D2622AC5_A
 	_thisAdjusted = reinterpret_cast<float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2*>(__this + _offset);
 	float4x4__ctor_m89D3EDF09863C02553147CDA696E48B8D2622AC5_inline(_thisAdjusted, ___0_m00, ___1_m01, ___2_m02, ___3_m03, ___4_m10, ___5_m11, ___6_m12, ___7_m13, ___8_m20, ___9_m21, ___10_m22, ___11_m23, ___12_m30, ___13_m31, ___14_m32, ___15_m33, method);
 }
-// Method Definition Index: 53444
+// Method Definition Index: 53890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4x4_Equals_mB22F89A6EC760BECED603A00205294B0C185CCBB (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___0_rhs, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
+	int32_t G_B5_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:523>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = (float4_t89D9A294E7A79BD81BFBDD18654508532958555E*)(&__this->___c0);
@@ -2652,7 +3431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4x4_Equals_mB22F89A6EC760BECED603A0
 		L_3 = float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_inline(L_0, L_2, NULL);
 		if (!L_3)
 		{
-			goto IL_004b;
+			goto IL_004d;
 		}
 	}
 	{
@@ -2663,7 +3442,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4x4_Equals_mB22F89A6EC760BECED603A0
 		L_7 = float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_inline(L_4, L_6, NULL);
 		if (!L_7)
 		{
-			goto IL_004b;
+			goto IL_004d;
 		}
 	}
 	{
@@ -2674,7 +3453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4x4_Equals_mB22F89A6EC760BECED603A0
 		L_11 = float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_inline(L_8, L_10, NULL);
 		if (!L_11)
 		{
-			goto IL_004b;
+			goto IL_004d;
 		}
 	}
 	{
@@ -2683,12 +3462,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4x4_Equals_mB22F89A6EC760BECED603A0
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14 = L_13.___c3;
 		bool L_15;
 		L_15 = float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_inline(L_12, L_14, NULL);
-		return L_15;
+		G_B5_0 = ((int32_t)(L_15));
+		goto IL_004e;
 	}
 
-IL_004b:
+IL_004d:
 	{
-		return (bool)0;
+		G_B5_0 = 0;
+	}
+
+IL_004e:
+	{
+		V_0 = (bool)G_B5_0;
+		goto IL_0051;
+	}
+
+IL_0051:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:523>
+		bool L_16 = V_0;
+		return L_16;
 	}
 }
 IL2CPP_EXTERN_C  bool float4x4_Equals_mB22F89A6EC760BECED603A00205294B0C185CCBB_AdjustorThunk (RuntimeObject* __this, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___0_rhs, const RuntimeMethod* method)
@@ -2700,7 +3493,7 @@ IL2CPP_EXTERN_C  bool float4x4_Equals_mB22F89A6EC760BECED603A00205294B0C185CCBB_
 	_returnValue = float4x4_Equals_mB22F89A6EC760BECED603A00205294B0C185CCBB_inline(_thisAdjusted, ___0_rhs, method);
 	return _returnValue;
 }
-// Method Definition Index: 53445
+// Method Definition Index: 53891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4x4_Equals_mD77FF5880D1151E85DC213AFF8E24B12044DB6B8 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, RuntimeObject* ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2711,12 +3504,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4x4_Equals_mD77FF5880D1151E85DC213A
 	}
 	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:528>
 		RuntimeObject* L_0 = ___0_o;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2_il2cpp_TypeInfo_var)))
 		{
-			goto IL_0017;
+			goto IL_0019;
 		}
 	}
 	{
@@ -2725,12 +3520,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4x4_Equals_mD77FF5880D1151E85DC213A
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_2 = V_0;
 		bool L_3;
 		L_3 = float4x4_Equals_mB22F89A6EC760BECED603A00205294B0C185CCBB_inline(__this, L_2, NULL);
-		return L_3;
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_001a;
 	}
 
-IL_0017:
+IL_0019:
 	{
-		return (bool)0;
+		G_B3_0 = 0;
+	}
+
+IL_001a:
+	{
+		V_1 = (bool)G_B3_0;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:528>
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 IL2CPP_EXTERN_C  bool float4x4_Equals_mD77FF5880D1151E85DC213AFF8E24B12044DB6B8_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_o, const RuntimeMethod* method)
@@ -2742,15 +3551,24 @@ IL2CPP_EXTERN_C  bool float4x4_Equals_mD77FF5880D1151E85DC213AFF8E24B12044DB6B8_
 	_returnValue = float4x4_Equals_mD77FF5880D1151E85DC213AFF8E24B12044DB6B8(_thisAdjusted, ___0_o, method);
 	return _returnValue;
 }
-// Method Definition Index: 53446
+// Method Definition Index: 53892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t float4x4_GetHashCode_m260D00DFB6FDDAA4052A0893C7AEA6E5599DF9F7 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:534>
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = (*(float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m20286BA0E4D2F6DC3C7013DA713AADCFFD87D444_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:534>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
 IL2CPP_EXTERN_C  int32_t float4x4_GetHashCode_m260D00DFB6FDDAA4052A0893C7AEA6E5599DF9F7_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -2762,7 +3580,7 @@ IL2CPP_EXTERN_C  int32_t float4x4_GetHashCode_m260D00DFB6FDDAA4052A0893C7AEA6E55
 	_returnValue = float4x4_GetHashCode_m260D00DFB6FDDAA4052A0893C7AEA6E5599DF9F7_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 53447
+// Method Definition Index: 53893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB25DD7002ADF39A9117BEAF2A69EE880FB8E7584 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2773,6 +3591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB25DD7002ADF39A9
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF7E2930F09BF167DEB7CA0E99AC2A430763B191E);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:542>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16));
@@ -2906,7 +3725,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB25DD7002ADF39A9
 		(L_76)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (RuntimeObject*)L_80);
 		String_t* L_81;
 		L_81 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteralF7E2930F09BF167DEB7CA0E99AC2A430763B191E, L_76, NULL);
-		return L_81;
+		V_0 = L_81;
+		goto IL_014c;
+	}
+
+IL_014c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:543>
+		String_t* L_82 = V_0;
+		return L_82;
 	}
 }
 IL2CPP_EXTERN_C  String_t* float4x4_ToString_mB25DD7002ADF39A9117BEAF2A69EE880FB8E7584_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -2918,7 +3745,7 @@ IL2CPP_EXTERN_C  String_t* float4x4_ToString_mB25DD7002ADF39A9117BEAF2A69EE880FB
 	_returnValue = float4x4_ToString_mB25DD7002ADF39A9117BEAF2A69EE880FB8E7584_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 53448
+// Method Definition Index: 53894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB33825C3DB524BA41F1DF5356C61B0F8BA6A8B81 (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2928,6 +3755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB33825C3DB524BA4
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF7E2930F09BF167DEB7CA0E99AC2A430763B191E);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:552>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16));
@@ -3093,7 +3921,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB33825C3DB524BA4
 		(L_91)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (RuntimeObject*)L_96);
 		String_t* L_97;
 		L_97 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteralF7E2930F09BF167DEB7CA0E99AC2A430763B191E, L_91, NULL);
-		return L_97;
+		V_0 = L_97;
+		goto IL_016c;
+	}
+
+IL_016c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:553>
+		String_t* L_98 = V_0;
+		return L_98;
 	}
 }
 IL2CPP_EXTERN_C  String_t* float4x4_ToString_mB33825C3DB524BA41F1DF5356C61B0F8BA6A8B81_AdjustorThunk (RuntimeObject* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method)
@@ -3105,9 +3941,11 @@ IL2CPP_EXTERN_C  String_t* float4x4_ToString_mB33825C3DB524BA41F1DF5356C61B0F8BA
 	_returnValue = float4x4_ToString_mB33825C3DB524BA41F1DF5356C61B0F8BA6A8B81_inline(_thisAdjusted, ___0_format, ___1_formatProvider, method);
 	return _returnValue;
 }
-// Method Definition Index: 53449
+// Method Definition Index: 53895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 float4x4_op_Implicit_mCDD72C5454A8DAFB2A659484006D18D5979BE6AB (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_m, const RuntimeMethod* method) 
 {
+	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math_unity_conversion.cs:83>
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0;
@@ -3129,10 +3967,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB979
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		float4x4__ctor_mF0B7C823E36025A539E8024123057CAC380E97EF_inline((&L_8), L_1, L_3, L_5, L_7, NULL);
-		return L_8;
+		V_0 = L_8;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math_unity_conversion.cs:83>
+		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_9 = V_0;
+		return L_9;
 	}
 }
-// Method Definition Index: 53450
+// Method Definition Index: 53896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__cctor_m8AD96186FE409BAF9B9D69DF283AF3BBF336BE19 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3158,7 +4004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4x4__cctor_m8AD96186FE409BAF9B9D69D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 53451
+// Method Definition Index: 53897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4 (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* __this, int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -3179,9 +4025,11 @@ IL2CPP_EXTERN_C  void int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_Adjus
 	_thisAdjusted = reinterpret_cast<int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A*>(__this + _offset);
 	int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline(_thisAdjusted, ___0_x, ___1_y, method);
 }
-// Method Definition Index: 53452
+// Method Definition Index: 53898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool int2_Equals_m4DB2E24953677E4E2497F1D0C4B48794257A89B6 (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_rhs, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:829>
 		int32_t L_0 = __this->___x;
@@ -3189,19 +4037,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool int2_Equals_m4DB2E24953677E4E2497F1D0C4B
 		int32_t L_2 = L_1.___x;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_2))))
 		{
-			goto IL_001d;
+			goto IL_001f;
 		}
 	}
 	{
 		int32_t L_3 = __this->___y;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_4 = ___0_rhs;
 		int32_t L_5 = L_4.___y;
-		return (bool)((((int32_t)L_3) == ((int32_t)L_5))? 1 : 0);
+		G_B3_0 = ((((int32_t)L_3) == ((int32_t)L_5))? 1 : 0);
+		goto IL_0020;
 	}
 
-IL_001d:
+IL_001f:
 	{
-		return (bool)0;
+		G_B3_0 = 0;
+	}
+
+IL_0020:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_0023;
+	}
+
+IL_0023:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:829>
+		bool L_6 = V_0;
+		return L_6;
 	}
 }
 IL2CPP_EXTERN_C  bool int2_Equals_m4DB2E24953677E4E2497F1D0C4B48794257A89B6_AdjustorThunk (RuntimeObject* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_rhs, const RuntimeMethod* method)
@@ -3213,7 +4075,7 @@ IL2CPP_EXTERN_C  bool int2_Equals_m4DB2E24953677E4E2497F1D0C4B48794257A89B6_Adju
 	_returnValue = int2_Equals_m4DB2E24953677E4E2497F1D0C4B48794257A89B6_inline(_thisAdjusted, ___0_rhs, method);
 	return _returnValue;
 }
-// Method Definition Index: 53453
+// Method Definition Index: 53899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool int2_Equals_m6B885828097BED2665EAA565C07E9FE83627C481 (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* __this, RuntimeObject* ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3224,12 +4086,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool int2_Equals_m6B885828097BED2665EAA565C07
 	}
 	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:834>
 		RuntimeObject* L_0 = ___0_o;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_il2cpp_TypeInfo_var)))
 		{
-			goto IL_0017;
+			goto IL_0019;
 		}
 	}
 	{
@@ -3238,12 +4102,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool int2_Equals_m6B885828097BED2665EAA565C07
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_2 = V_0;
 		bool L_3;
 		L_3 = int2_Equals_m4DB2E24953677E4E2497F1D0C4B48794257A89B6_inline(__this, L_2, NULL);
-		return L_3;
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_001a;
 	}
 
-IL_0017:
+IL_0019:
 	{
-		return (bool)0;
+		G_B3_0 = 0;
+	}
+
+IL_001a:
+	{
+		V_1 = (bool)G_B3_0;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:834>
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 IL2CPP_EXTERN_C  bool int2_Equals_m6B885828097BED2665EAA565C07E9FE83627C481_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_o, const RuntimeMethod* method)
@@ -3255,15 +4133,24 @@ IL2CPP_EXTERN_C  bool int2_Equals_m6B885828097BED2665EAA565C07E9FE83627C481_Adju
 	_returnValue = int2_Equals_m6B885828097BED2665EAA565C07E9FE83627C481(_thisAdjusted, ___0_o, method);
 	return _returnValue;
 }
-// Method Definition Index: 53454
+// Method Definition Index: 53900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t int2_GetHashCode_mDC30EB8816F1ABC7195872B81F3EA9E8090866A6 (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* __this, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:840>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_0 = (*(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m6B6E0FC08FCC3BC0940397676690F22B03DB4F16_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:840>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
 IL2CPP_EXTERN_C  int32_t int2_GetHashCode_mDC30EB8816F1ABC7195872B81F3EA9E8090866A6_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -3275,7 +4162,7 @@ IL2CPP_EXTERN_C  int32_t int2_GetHashCode_mDC30EB8816F1ABC7195872B81F3EA9E809086
 	_returnValue = int2_GetHashCode_mDC30EB8816F1ABC7195872B81F3EA9E8090866A6_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 53455
+// Method Definition Index: 53901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* int2_ToString_mC1A7775631D1F6B67B370423AF94BF60249A2466 (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3285,6 +4172,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* int2_ToString_mC1A7775631D1F6B67B37
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral039B19E6A63E9AA22F1AF2817559D285768A7B4A);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:848>
 		int32_t L_0 = __this->___x;
@@ -3295,7 +4183,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* int2_ToString_mC1A7775631D1F6B67B37
 		RuntimeObject* L_5 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_4);
 		String_t* L_6;
 		L_6 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral039B19E6A63E9AA22F1AF2817559D285768A7B4A, L_2, L_5, NULL);
-		return L_6;
+		V_0 = L_6;
+		goto IL_0024;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:849>
+		String_t* L_7 = V_0;
+		return L_7;
 	}
 }
 IL2CPP_EXTERN_C  String_t* int2_ToString_mC1A7775631D1F6B67B370423AF94BF60249A2466_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -3307,7 +4203,7 @@ IL2CPP_EXTERN_C  String_t* int2_ToString_mC1A7775631D1F6B67B370423AF94BF60249A24
 	_returnValue = int2_ToString_mC1A7775631D1F6B67B370423AF94BF60249A2466_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 53456
+// Method Definition Index: 53902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* int2_ToString_mB5FA23BE92C8532E53BAAA3B743D89ED6C23EE47 (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3316,6 +4212,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* int2_ToString_mB5FA23BE92C8532E53BA
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral039B19E6A63E9AA22F1AF2817559D285768A7B4A);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:858>
 		int32_t* L_0 = (int32_t*)(&__this->___x);
@@ -3330,7 +4227,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* int2_ToString_mB5FA23BE92C8532E53BA
 		L_7 = Int32_ToString_mE871810BC163EE4EF88E7C7682A6AD39911173B8(L_4, L_5, L_6, NULL);
 		String_t* L_8;
 		L_8 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral039B19E6A63E9AA22F1AF2817559D285768A7B4A, L_3, L_7, NULL);
-		return L_8;
+		V_0 = L_8;
+		goto IL_0028;
+	}
+
+IL_0028:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:859>
+		String_t* L_9 = V_0;
+		return L_9;
 	}
 }
 IL2CPP_EXTERN_C  String_t* int2_ToString_mB5FA23BE92C8532E53BAAA3B743D89ED6C23EE47_AdjustorThunk (RuntimeObject* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method)
@@ -3350,6 +4255,24 @@ IL2CPP_EXTERN_C  String_t* int2_ToString_mB5FA23BE92C8532E53BAAA3B743D89ED6C23EE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 53903
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerProxy__ctor_mA86C1989EA15D7EA837569F4607BDAD18C0AA46C (DebuggerProxy_tE4ABD062E1F1465B4A2601D1A2B183D9A691F3E7* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:865>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:867>
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_0 = ___0_v;
+		int32_t L_1 = L_0.___x;
+		__this->___x = L_1;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:868>
+		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_2 = ___0_v;
+		int32_t L_3 = L_2.___y;
+		__this->___y = L_3;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:869>
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -3358,7 +4281,7 @@ IL2CPP_EXTERN_C  String_t* int2_ToString_mB5FA23BE92C8532E53BAAA3B743D89ED6C23EE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 53457
+// Method Definition Index: 53904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* __this, uint32_t ___0_x, uint32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -3379,9 +4302,11 @@ IL2CPP_EXTERN_C  void uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F_Adju
 	_thisAdjusted = reinterpret_cast<uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F*>(__this + _offset);
 	uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F_inline(_thisAdjusted, ___0_x, ___1_y, method);
 }
-// Method Definition Index: 53458
+// Method Definition Index: 53905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F uint2_op_Multiply_m2A4BC394328643E664AD9C17DA4BF1B0AC58E857 (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___0_lhs, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___1_rhs, const RuntimeMethod* method) 
 {
+	uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:193>
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_0 = ___0_lhs;
@@ -3395,12 +4320,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C0
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F_inline((&L_8), ((int32_t)il2cpp_codegen_multiply((int32_t)L_1, (int32_t)L_3)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_5, (int32_t)L_7)), NULL);
-		return L_8;
+		V_0 = L_8;
+		goto IL_0023;
+	}
+
+IL_0023:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:193>
+		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_9 = V_0;
+		return L_9;
 	}
 }
-// Method Definition Index: 53459
+// Method Definition Index: 53906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint2_Equals_m3F1C93E4B1C83F2142B53B222A9966479229614C (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* __this, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___0_rhs, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:829>
 		uint32_t L_0 = __this->___x;
@@ -3408,19 +4343,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint2_Equals_m3F1C93E4B1C83F2142B53B222A
 		uint32_t L_2 = L_1.___x;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_2))))
 		{
-			goto IL_001d;
+			goto IL_001f;
 		}
 	}
 	{
 		uint32_t L_3 = __this->___y;
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_4 = ___0_rhs;
 		uint32_t L_5 = L_4.___y;
-		return (bool)((((int32_t)L_3) == ((int32_t)L_5))? 1 : 0);
+		G_B3_0 = ((((int32_t)L_3) == ((int32_t)L_5))? 1 : 0);
+		goto IL_0020;
 	}
 
-IL_001d:
+IL_001f:
 	{
-		return (bool)0;
+		G_B3_0 = 0;
+	}
+
+IL_0020:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_0023;
+	}
+
+IL_0023:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:829>
+		bool L_6 = V_0;
+		return L_6;
 	}
 }
 IL2CPP_EXTERN_C  bool uint2_Equals_m3F1C93E4B1C83F2142B53B222A9966479229614C_AdjustorThunk (RuntimeObject* __this, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___0_rhs, const RuntimeMethod* method)
@@ -3432,7 +4381,7 @@ IL2CPP_EXTERN_C  bool uint2_Equals_m3F1C93E4B1C83F2142B53B222A9966479229614C_Adj
 	_returnValue = uint2_Equals_m3F1C93E4B1C83F2142B53B222A9966479229614C_inline(_thisAdjusted, ___0_rhs, method);
 	return _returnValue;
 }
-// Method Definition Index: 53460
+// Method Definition Index: 53907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint2_Equals_mDD29FD4B71CE0B814B38BA1CE90F3EF2C1782257 (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* __this, RuntimeObject* ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3443,12 +4392,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint2_Equals_mDD29FD4B71CE0B814B38BA1CE9
 	}
 	uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:834>
 		RuntimeObject* L_0 = ___0_o;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F_il2cpp_TypeInfo_var)))
 		{
-			goto IL_0017;
+			goto IL_0019;
 		}
 	}
 	{
@@ -3457,12 +4408,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint2_Equals_mDD29FD4B71CE0B814B38BA1CE9
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_2 = V_0;
 		bool L_3;
 		L_3 = uint2_Equals_m3F1C93E4B1C83F2142B53B222A9966479229614C_inline(__this, L_2, NULL);
-		return L_3;
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_001a;
 	}
 
-IL_0017:
+IL_0019:
 	{
-		return (bool)0;
+		G_B3_0 = 0;
+	}
+
+IL_001a:
+	{
+		V_1 = (bool)G_B3_0;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:834>
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 IL2CPP_EXTERN_C  bool uint2_Equals_mDD29FD4B71CE0B814B38BA1CE90F3EF2C1782257_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_o, const RuntimeMethod* method)
@@ -3474,15 +4439,24 @@ IL2CPP_EXTERN_C  bool uint2_Equals_mDD29FD4B71CE0B814B38BA1CE90F3EF2C1782257_Adj
 	_returnValue = uint2_Equals_mDD29FD4B71CE0B814B38BA1CE90F3EF2C1782257(_thisAdjusted, ___0_o, method);
 	return _returnValue;
 }
-// Method Definition Index: 53461
+// Method Definition Index: 53908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t uint2_GetHashCode_m0B3D1D91DF8C75E948C020CD260B4114D6A158B4 (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* __this, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:840>
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_0 = (*(uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m5D21276708BFB4DEEF3498774D296FE6B14FC5B0_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:840>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
 IL2CPP_EXTERN_C  int32_t uint2_GetHashCode_m0B3D1D91DF8C75E948C020CD260B4114D6A158B4_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -3494,7 +4468,7 @@ IL2CPP_EXTERN_C  int32_t uint2_GetHashCode_m0B3D1D91DF8C75E948C020CD260B4114D6A1
 	_returnValue = uint2_GetHashCode_m0B3D1D91DF8C75E948C020CD260B4114D6A158B4_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 53462
+// Method Definition Index: 53909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint2_ToString_mFD106FD9C2FC96096DE048AAD1B4B59F6B11EFD5 (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3504,6 +4478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint2_ToString_mFD106FD9C2FC96096DE
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE368123B559BBC0EC2335D3AF9EC37C25C8B5945);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:848>
 		uint32_t L_0 = __this->___x;
@@ -3514,7 +4489,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint2_ToString_mFD106FD9C2FC96096DE
 		RuntimeObject* L_5 = Box(UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var, &L_4);
 		String_t* L_6;
 		L_6 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralE368123B559BBC0EC2335D3AF9EC37C25C8B5945, L_2, L_5, NULL);
-		return L_6;
+		V_0 = L_6;
+		goto IL_0024;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:849>
+		String_t* L_7 = V_0;
+		return L_7;
 	}
 }
 IL2CPP_EXTERN_C  String_t* uint2_ToString_mFD106FD9C2FC96096DE048AAD1B4B59F6B11EFD5_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -3526,7 +4509,7 @@ IL2CPP_EXTERN_C  String_t* uint2_ToString_mFD106FD9C2FC96096DE048AAD1B4B59F6B11E
 	_returnValue = uint2_ToString_mFD106FD9C2FC96096DE048AAD1B4B59F6B11EFD5_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 53463
+// Method Definition Index: 53910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint2_ToString_m19B7C2EAB06A69C94317C4ADC679E3AC551277AD (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3535,6 +4518,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint2_ToString_m19B7C2EAB06A69C9431
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE368123B559BBC0EC2335D3AF9EC37C25C8B5945);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:858>
 		uint32_t* L_0 = (uint32_t*)(&__this->___x);
@@ -3549,7 +4533,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint2_ToString_m19B7C2EAB06A69C9431
 		L_7 = UInt32_ToString_m464396B0FE2115F3CEA38AEECDDB0FACC3AADADE(L_4, L_5, L_6, NULL);
 		String_t* L_8;
 		L_8 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralE368123B559BBC0EC2335D3AF9EC37C25C8B5945, L_3, L_7, NULL);
-		return L_8;
+		V_0 = L_8;
+		goto IL_0028;
+	}
+
+IL_0028:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:859>
+		String_t* L_9 = V_0;
+		return L_9;
 	}
 }
 IL2CPP_EXTERN_C  String_t* uint2_ToString_m19B7C2EAB06A69C94317C4ADC679E3AC551277AD_AdjustorThunk (RuntimeObject* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method)
@@ -3569,6 +4561,24 @@ IL2CPP_EXTERN_C  String_t* uint2_ToString_m19B7C2EAB06A69C94317C4ADC679E3AC55127
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 53911
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerProxy__ctor_m61D654567BFBC798E2EC37A0E2857EF0D2AAD6E3 (DebuggerProxy_t834C4C5984734C3563C7BCAA0995DB56453E04DB* __this, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___0_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:865>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:867>
+		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_0 = ___0_v;
+		uint32_t L_1 = L_0.___x;
+		__this->___x = L_1;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:868>
+		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_2 = ___0_v;
+		uint32_t L_3 = L_2.___y;
+		__this->___y = L_3;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:869>
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -3577,7 +4587,7 @@ IL2CPP_EXTERN_C  String_t* uint2_ToString_m19B7C2EAB06A69C94317C4ADC679E3AC55127
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 53464
+// Method Definition Index: 53912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B* __this, uint32_t ___0_x, uint32_t ___1_y, uint32_t ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -3601,9 +4611,11 @@ IL2CPP_EXTERN_C  void uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF_Adju
 	_thisAdjusted = reinterpret_cast<uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B*>(__this + _offset);
 	uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF_inline(_thisAdjusted, ___0_x, ___1_y, ___2_z, method);
 }
-// Method Definition Index: 53465
+// Method Definition Index: 53913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B uint3_op_Multiply_m756859015AC9BE9CB34BACE67DF92F64EA76C9AD (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___0_lhs, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___1_rhs, const RuntimeMethod* method) 
 {
+	uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:229>
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_0 = ___0_lhs;
@@ -3621,12 +4633,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF_inline((&L_12), ((int32_t)il2cpp_codegen_multiply((int32_t)L_1, (int32_t)L_3)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_5, (int32_t)L_7)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_9, (int32_t)L_11)), NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:229>
+		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53466
+// Method Definition Index: 53914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint3_Equals_m071EEFA66ACDE8A413C27DD0E8C989D317B52D81 (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B* __this, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___0_rhs, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
+	int32_t G_B4_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1686>
 		uint32_t L_0 = __this->___x;
@@ -3634,7 +4656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint3_Equals_m071EEFA66ACDE8A413C27DD0E8
 		uint32_t L_2 = L_1.___x;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_2))))
 		{
-			goto IL_002b;
+			goto IL_002d;
 		}
 	}
 	{
@@ -3643,19 +4665,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint3_Equals_m071EEFA66ACDE8A413C27DD0E8
 		uint32_t L_5 = L_4.___y;
 		if ((!(((uint32_t)L_3) == ((uint32_t)L_5))))
 		{
-			goto IL_002b;
+			goto IL_002d;
 		}
 	}
 	{
 		uint32_t L_6 = __this->___z;
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_7 = ___0_rhs;
 		uint32_t L_8 = L_7.___z;
-		return (bool)((((int32_t)L_6) == ((int32_t)L_8))? 1 : 0);
+		G_B4_0 = ((((int32_t)L_6) == ((int32_t)L_8))? 1 : 0);
+		goto IL_002e;
 	}
 
-IL_002b:
+IL_002d:
 	{
-		return (bool)0;
+		G_B4_0 = 0;
+	}
+
+IL_002e:
+	{
+		V_0 = (bool)G_B4_0;
+		goto IL_0031;
+	}
+
+IL_0031:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1686>
+		bool L_9 = V_0;
+		return L_9;
 	}
 }
 IL2CPP_EXTERN_C  bool uint3_Equals_m071EEFA66ACDE8A413C27DD0E8C989D317B52D81_AdjustorThunk (RuntimeObject* __this, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___0_rhs, const RuntimeMethod* method)
@@ -3667,7 +4703,7 @@ IL2CPP_EXTERN_C  bool uint3_Equals_m071EEFA66ACDE8A413C27DD0E8C989D317B52D81_Adj
 	_returnValue = uint3_Equals_m071EEFA66ACDE8A413C27DD0E8C989D317B52D81_inline(_thisAdjusted, ___0_rhs, method);
 	return _returnValue;
 }
-// Method Definition Index: 53467
+// Method Definition Index: 53915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint3_Equals_m02016E995E9557006CE71FEAD24C2B67E69A8A0D (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B* __this, RuntimeObject* ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3678,12 +4714,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint3_Equals_m02016E995E9557006CE71FEAD2
 	}
 	uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1691>
 		RuntimeObject* L_0 = ___0_o;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B_il2cpp_TypeInfo_var)))
 		{
-			goto IL_0017;
+			goto IL_0019;
 		}
 	}
 	{
@@ -3692,12 +4730,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint3_Equals_m02016E995E9557006CE71FEAD2
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_2 = V_0;
 		bool L_3;
 		L_3 = uint3_Equals_m071EEFA66ACDE8A413C27DD0E8C989D317B52D81_inline(__this, L_2, NULL);
-		return L_3;
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_001a;
 	}
 
-IL_0017:
+IL_0019:
 	{
-		return (bool)0;
+		G_B3_0 = 0;
+	}
+
+IL_001a:
+	{
+		V_1 = (bool)G_B3_0;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1691>
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 IL2CPP_EXTERN_C  bool uint3_Equals_m02016E995E9557006CE71FEAD24C2B67E69A8A0D_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_o, const RuntimeMethod* method)
@@ -3709,15 +4761,24 @@ IL2CPP_EXTERN_C  bool uint3_Equals_m02016E995E9557006CE71FEAD24C2B67E69A8A0D_Adj
 	_returnValue = uint3_Equals_m02016E995E9557006CE71FEAD24C2B67E69A8A0D(_thisAdjusted, ___0_o, method);
 	return _returnValue;
 }
-// Method Definition Index: 53468
+// Method Definition Index: 53916
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t uint3_GetHashCode_m0EFF5352F8DE8618A24717A32EFA8EB66719F56D (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B* __this, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1697>
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_0 = (*(uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m31E070E721A961188B5629FCAC3C9559145F1A76_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1697>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
 IL2CPP_EXTERN_C  int32_t uint3_GetHashCode_m0EFF5352F8DE8618A24717A32EFA8EB66719F56D_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -3729,7 +4790,7 @@ IL2CPP_EXTERN_C  int32_t uint3_GetHashCode_m0EFF5352F8DE8618A24717A32EFA8EB66719
 	_returnValue = uint3_GetHashCode_m0EFF5352F8DE8618A24717A32EFA8EB66719F56D_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 53469
+// Method Definition Index: 53917
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint3_ToString_mCD235901AC027194EDB244BB9BD80A73CB6F3633 (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3739,6 +4800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint3_ToString_mCD235901AC027194EDB
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFEC52A4F763D4C868968D018DEC2AF8064D4C8E2);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1705>
 		uint32_t L_0 = __this->___x;
@@ -3752,7 +4814,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint3_ToString_mCD235901AC027194EDB
 		RuntimeObject* L_8 = Box(UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var, &L_7);
 		String_t* L_9;
 		L_9 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralFEC52A4F763D4C868968D018DEC2AF8064D4C8E2, L_2, L_5, L_8, NULL);
-		return L_9;
+		V_0 = L_9;
+		goto IL_002f;
+	}
+
+IL_002f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1706>
+		String_t* L_10 = V_0;
+		return L_10;
 	}
 }
 IL2CPP_EXTERN_C  String_t* uint3_ToString_mCD235901AC027194EDB244BB9BD80A73CB6F3633_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -3764,7 +4834,7 @@ IL2CPP_EXTERN_C  String_t* uint3_ToString_mCD235901AC027194EDB244BB9BD80A73CB6F3
 	_returnValue = uint3_ToString_mCD235901AC027194EDB244BB9BD80A73CB6F3633_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 53470
+// Method Definition Index: 53918
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint3_ToString_m1EAAF8E74678E9D172485B76193CD1557FB8BFEE (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3773,6 +4843,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint3_ToString_m1EAAF8E74678E9D1724
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFEC52A4F763D4C868968D018DEC2AF8064D4C8E2);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1715>
 		uint32_t* L_0 = (uint32_t*)(&__this->___x);
@@ -3792,7 +4863,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint3_ToString_m1EAAF8E74678E9D1724
 		L_11 = UInt32_ToString_m464396B0FE2115F3CEA38AEECDDB0FACC3AADADE(L_8, L_9, L_10, NULL);
 		String_t* L_12;
 		L_12 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralFEC52A4F763D4C868968D018DEC2AF8064D4C8E2, L_3, L_7, L_11, NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1716>
+		String_t* L_13 = V_0;
+		return L_13;
 	}
 }
 IL2CPP_EXTERN_C  String_t* uint3_ToString_m1EAAF8E74678E9D172485B76193CD1557FB8BFEE_AdjustorThunk (RuntimeObject* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method)
@@ -3812,6 +4891,28 @@ IL2CPP_EXTERN_C  String_t* uint3_ToString_m1EAAF8E74678E9D172485B76193CD1557FB8B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 53919
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerProxy__ctor_mC8FD8175B5319BCFCA99A6FF5D589C38016ECEF3 (DebuggerProxy_tFD3C8C80DBBCC5A0DBFB6C74F3A6C2BDFD1F362A* __this, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___0_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1723>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1725>
+		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_0 = ___0_v;
+		uint32_t L_1 = L_0.___x;
+		__this->___x = L_1;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1726>
+		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_2 = ___0_v;
+		uint32_t L_3 = L_2.___y;
+		__this->___y = L_3;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1727>
+		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_4 = ___0_v;
+		uint32_t L_5 = L_4.___z;
+		__this->___z = L_5;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1728>
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -3820,7 +4921,7 @@ IL2CPP_EXTERN_C  String_t* uint3_ToString_m1EAAF8E74678E9D172485B76193CD1557FB8B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 53471
+// Method Definition Index: 53920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008 (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* __this, uint32_t ___0_x, uint32_t ___1_y, uint32_t ___2_z, uint32_t ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -3847,9 +4948,11 @@ IL2CPP_EXTERN_C  void uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_Adju
 	_thisAdjusted = reinterpret_cast<uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9*>(__this + _offset);
 	uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline(_thisAdjusted, ___0_x, ___1_y, ___2_z, ___3_w, method);
 }
-// Method Definition Index: 53472
+// Method Definition Index: 53921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_Multiply_mDD93D0730642A1089848321B9B0E5E923EE575ED (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_lhs, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___1_rhs, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:296>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_lhs;
@@ -3871,12 +4974,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_16;
 		memset((&L_16), 0, sizeof(L_16));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_16), ((int32_t)il2cpp_codegen_multiply((int32_t)L_1, (int32_t)L_3)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_5, (int32_t)L_7)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_9, (int32_t)L_11)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_13, (int32_t)L_15)), NULL);
-		return L_16;
+		V_0 = L_16;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:296>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_17 = V_0;
+		return L_17;
 	}
 }
-// Method Definition Index: 53473
+// Method Definition Index: 53922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_Multiply_m40354E397B1D99D73B5333378C8698C087A1A2D6 (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_lhs, uint32_t ___1_rhs, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:303>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_lhs;
@@ -3894,12 +5007,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_12), ((int32_t)il2cpp_codegen_multiply((int32_t)L_1, (int32_t)L_2)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_4, (int32_t)L_5)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_7, (int32_t)L_8)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_10, (int32_t)L_11)), NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:303>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53474
+// Method Definition Index: 53923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_Addition_m391200EB43B6C4CDD219079A0D3CDFFA35B0B652 (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_lhs, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___1_rhs, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:318>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_lhs;
@@ -3921,12 +5044,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_16;
 		memset((&L_16), 0, sizeof(L_16));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_16), ((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_3)), ((int32_t)il2cpp_codegen_add((int32_t)L_5, (int32_t)L_7)), ((int32_t)il2cpp_codegen_add((int32_t)L_9, (int32_t)L_11)), ((int32_t)il2cpp_codegen_add((int32_t)L_13, (int32_t)L_15)), NULL);
-		return L_16;
+		V_0 = L_16;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:318>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_17 = V_0;
+		return L_17;
 	}
 }
-// Method Definition Index: 53475
+// Method Definition Index: 53924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_Addition_m3968FBC6698B10C2DC1D0222C72BB0F67CA1E6D6 (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_lhs, uint32_t ___1_rhs, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:325>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_lhs;
@@ -3944,12 +5077,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_12), ((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_2)), ((int32_t)il2cpp_codegen_add((int32_t)L_4, (int32_t)L_5)), ((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)L_8)), ((int32_t)il2cpp_codegen_add((int32_t)L_10, (int32_t)L_11)), NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:325>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53476
+// Method Definition Index: 53925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_LeftShift_m5E109F47429DAA6E55073B8BBD9988FF9B18E4A2 (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_x, int32_t ___1_n, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:522>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_x;
@@ -3967,12 +5110,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_12), ((int32_t)((int32_t)L_1<<((int32_t)(L_2&((int32_t)31))))), ((int32_t)((int32_t)L_4<<((int32_t)(L_5&((int32_t)31))))), ((int32_t)((int32_t)L_7<<((int32_t)(L_8&((int32_t)31))))), ((int32_t)((int32_t)L_10<<((int32_t)(L_11&((int32_t)31))))), NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:522>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53477
+// Method Definition Index: 53926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_RightShift_m277ED9AFF0C41C957E79413C0B4A19EB28503EED (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_x, int32_t ___1_n, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:529>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_x;
@@ -3990,12 +5143,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_12), ((int32_t)((uint32_t)L_1>>((int32_t)(L_2&((int32_t)31))))), ((int32_t)((uint32_t)L_4>>((int32_t)(L_5&((int32_t)31))))), ((int32_t)((uint32_t)L_7>>((int32_t)(L_8&((int32_t)31))))), ((int32_t)((uint32_t)L_10>>((int32_t)(L_11&((int32_t)31))))), NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:529>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53478
+// Method Definition Index: 53927
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_BitwiseOr_mDA88C9E25D0910D512ABABDC200D6E3A2E68B573 (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_lhs, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___1_rhs, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:609>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_lhs;
@@ -4017,12 +5180,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_16;
 		memset((&L_16), 0, sizeof(L_16));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_16), ((int32_t)((int32_t)L_1|(int32_t)L_3)), ((int32_t)((int32_t)L_5|(int32_t)L_7)), ((int32_t)((int32_t)L_9|(int32_t)L_11)), ((int32_t)((int32_t)L_13|(int32_t)L_15)), NULL);
-		return L_16;
+		V_0 = L_16;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:609>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_17 = V_0;
+		return L_17;
 	}
 }
-// Method Definition Index: 53479
+// Method Definition Index: 53928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint4_Equals_mAA88D674B2411C0A7D6C25AA596320EF79B58DDB (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* __this, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_rhs, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
+	int32_t G_B5_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3820>
 		uint32_t L_0 = __this->___x;
@@ -4030,7 +5203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint4_Equals_mAA88D674B2411C0A7D6C25AA59
 		uint32_t L_2 = L_1.___x;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_2))))
 		{
-			goto IL_0039;
+			goto IL_003b;
 		}
 	}
 	{
@@ -4039,7 +5212,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint4_Equals_mAA88D674B2411C0A7D6C25AA59
 		uint32_t L_5 = L_4.___y;
 		if ((!(((uint32_t)L_3) == ((uint32_t)L_5))))
 		{
-			goto IL_0039;
+			goto IL_003b;
 		}
 	}
 	{
@@ -4048,19 +5221,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint4_Equals_mAA88D674B2411C0A7D6C25AA59
 		uint32_t L_8 = L_7.___z;
 		if ((!(((uint32_t)L_6) == ((uint32_t)L_8))))
 		{
-			goto IL_0039;
+			goto IL_003b;
 		}
 	}
 	{
 		uint32_t L_9 = __this->___w;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_10 = ___0_rhs;
 		uint32_t L_11 = L_10.___w;
-		return (bool)((((int32_t)L_9) == ((int32_t)L_11))? 1 : 0);
+		G_B5_0 = ((((int32_t)L_9) == ((int32_t)L_11))? 1 : 0);
+		goto IL_003c;
 	}
 
-IL_0039:
+IL_003b:
 	{
-		return (bool)0;
+		G_B5_0 = 0;
+	}
+
+IL_003c:
+	{
+		V_0 = (bool)G_B5_0;
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3820>
+		bool L_12 = V_0;
+		return L_12;
 	}
 }
 IL2CPP_EXTERN_C  bool uint4_Equals_mAA88D674B2411C0A7D6C25AA596320EF79B58DDB_AdjustorThunk (RuntimeObject* __this, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_rhs, const RuntimeMethod* method)
@@ -4072,7 +5259,7 @@ IL2CPP_EXTERN_C  bool uint4_Equals_mAA88D674B2411C0A7D6C25AA596320EF79B58DDB_Adj
 	_returnValue = uint4_Equals_mAA88D674B2411C0A7D6C25AA596320EF79B58DDB_inline(_thisAdjusted, ___0_rhs, method);
 	return _returnValue;
 }
-// Method Definition Index: 53480
+// Method Definition Index: 53929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint4_Equals_m689E5D21501C5846BF031E4864E8DBB46F467386 (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* __this, RuntimeObject* ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4083,12 +5270,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint4_Equals_m689E5D21501C5846BF031E4864
 	}
 	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3825>
 		RuntimeObject* L_0 = ___0_o;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9_il2cpp_TypeInfo_var)))
 		{
-			goto IL_0017;
+			goto IL_0019;
 		}
 	}
 	{
@@ -4097,12 +5286,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool uint4_Equals_m689E5D21501C5846BF031E4864
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_2 = V_0;
 		bool L_3;
 		L_3 = uint4_Equals_mAA88D674B2411C0A7D6C25AA596320EF79B58DDB_inline(__this, L_2, NULL);
-		return L_3;
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_001a;
 	}
 
-IL_0017:
+IL_0019:
 	{
-		return (bool)0;
+		G_B3_0 = 0;
+	}
+
+IL_001a:
+	{
+		V_1 = (bool)G_B3_0;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3825>
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 IL2CPP_EXTERN_C  bool uint4_Equals_m689E5D21501C5846BF031E4864E8DBB46F467386_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_o, const RuntimeMethod* method)
@@ -4114,15 +5317,24 @@ IL2CPP_EXTERN_C  bool uint4_Equals_m689E5D21501C5846BF031E4864E8DBB46F467386_Adj
 	_returnValue = uint4_Equals_m689E5D21501C5846BF031E4864E8DBB46F467386(_thisAdjusted, ___0_o, method);
 	return _returnValue;
 }
-// Method Definition Index: 53481
+// Method Definition Index: 53930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t uint4_GetHashCode_m195FED91BE8D7CCE0039A8DE6B6B0BB849FBCC5A (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* __this, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3831>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = (*(uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m1A4778A79FFB5E05B04BD09B0F85EA9483D8A3CA_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3831>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
 IL2CPP_EXTERN_C  int32_t uint4_GetHashCode_m195FED91BE8D7CCE0039A8DE6B6B0BB849FBCC5A_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -4134,7 +5346,7 @@ IL2CPP_EXTERN_C  int32_t uint4_GetHashCode_m195FED91BE8D7CCE0039A8DE6B6B0BB849FB
 	_returnValue = uint4_GetHashCode_m195FED91BE8D7CCE0039A8DE6B6B0BB849FBCC5A_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 53482
+// Method Definition Index: 53931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint4_ToString_mEF61205FE152AAB74331B24080C347AA829E435B (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4145,6 +5357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint4_ToString_mEF61205FE152AAB7433
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE134155080D59FDE2A83A55D0BB359039175A4EA);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3839>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
@@ -4178,7 +5391,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint4_ToString_mEF61205FE152AAB7433
 		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_16);
 		String_t* L_17;
 		L_17 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteralE134155080D59FDE2A83A55D0BB359039175A4EA, L_13, NULL);
-		return L_17;
+		V_0 = L_17;
+		goto IL_004c;
+	}
+
+IL_004c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3840>
+		String_t* L_18 = V_0;
+		return L_18;
 	}
 }
 IL2CPP_EXTERN_C  String_t* uint4_ToString_mEF61205FE152AAB74331B24080C347AA829E435B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -4190,7 +5411,7 @@ IL2CPP_EXTERN_C  String_t* uint4_ToString_mEF61205FE152AAB74331B24080C347AA829E4
 	_returnValue = uint4_ToString_mEF61205FE152AAB74331B24080C347AA829E435B_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 53483
+// Method Definition Index: 53932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint4_ToString_m3350471364AB1D6033E088C0DF789376954921E3 (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4200,6 +5421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint4_ToString_m3350471364AB1D6033E
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE134155080D59FDE2A83A55D0BB359039175A4EA);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3849>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
@@ -4241,7 +5463,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* uint4_ToString_m3350471364AB1D6033E
 		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_20);
 		String_t* L_21;
 		L_21 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteralE134155080D59FDE2A83A55D0BB359039175A4EA, L_16, NULL);
-		return L_21;
+		V_0 = L_21;
+		goto IL_0054;
+	}
+
+IL_0054:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3850>
+		String_t* L_22 = V_0;
+		return L_22;
 	}
 }
 IL2CPP_EXTERN_C  String_t* uint4_ToString_m3350471364AB1D6033E088C0DF789376954921E3_AdjustorThunk (RuntimeObject* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method)
@@ -4261,12 +5491,40 @@ IL2CPP_EXTERN_C  String_t* uint4_ToString_m3350471364AB1D6033E088C0DF78937695492
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 53933
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerProxy__ctor_m1F653087085C8A6C95D4284E9C55C18A67B0F532 (DebuggerProxy_t3A8A5A2398C653D7A869D7B07919E08EB23696E8* __this, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_v, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3858>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3860>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_v;
+		uint32_t L_1 = L_0.___x;
+		__this->___x = L_1;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3861>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_2 = ___0_v;
+		uint32_t L_3 = L_2.___y;
+		__this->___y = L_3;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3862>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_4 = ___0_v;
+		uint32_t L_5 = L_4.___z;
+		__this->___z = L_5;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3863>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_6 = ___0_v;
+		uint32_t L_7 = L_6.___w;
+		__this->___w = L_7;
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3864>
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 53383
+// Method Definition Index: 53827
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B math_asuint_m4AEE8C17FEDA05D4C77C427818D1C9EF5E31521E_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, const RuntimeMethod* method) 
 {
+	uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:247>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
@@ -4283,12 +5541,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C739071
 		L_8 = math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline(L_7, NULL);
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_9;
 		L_9 = math_uint3_mC94DDA8B357EA045D5A36B81CECD0C5C223B71B0_inline(L_2, L_5, L_8, NULL);
-		return L_9;
+		V_0 = L_9;
+		goto IL_002a;
+	}
+
+IL_002a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:247>
+		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_10 = V_0;
+		return L_10;
 	}
 }
-// Method Definition Index: 53414
+// Method Definition Index: 53858
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B math_uint3_mC94DDA8B357EA045D5A36B81CECD0C5C223B71B0_inline (uint32_t ___0_x, uint32_t ___1_y, uint32_t ___2_z, const RuntimeMethod* method) 
 {
+	uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1741>
 		uint32_t L_0 = ___0_x;
@@ -4297,12 +5565,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C739071
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF_inline((&L_3), L_0, L_1, L_2, NULL);
-		return L_3;
+		V_0 = L_3;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1741>
+		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53465
+// Method Definition Index: 53913
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B uint3_op_Multiply_m756859015AC9BE9CB34BACE67DF92F64EA76C9AD_inline (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___0_lhs, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___1_rhs, const RuntimeMethod* method) 
 {
+	uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:229>
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_0 = ___0_lhs;
@@ -4320,12 +5598,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C739071
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF_inline((&L_12), ((int32_t)il2cpp_codegen_multiply((int32_t)L_1, (int32_t)L_3)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_5, (int32_t)L_7)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_9, (int32_t)L_11)), NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:229>
+		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53407
+// Method Definition Index: 53851
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_csum_m9C15CCCED13E8ADB45EFC388D141E55091A61C1C_inline (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___0_x, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5953>
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_0 = ___0_x;
@@ -4334,12 +5621,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_csum_m9C15CCCED13E8
 		uint32_t L_3 = L_2.___y;
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_4 = ___0_x;
 		uint32_t L_5 = L_4.___z;
-		return ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_3)), (int32_t)L_5));
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_3)), (int32_t)L_5));
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5953>
+		uint32_t L_6 = V_0;
+		return L_6;
 	}
 }
-// Method Definition Index: 53384
+// Method Definition Index: 53828
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 math_asuint_mDF3C61EF6F9D9D10A1D3EB9D0075149707B461B9_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_x, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:253>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_x;
@@ -4360,12 +5657,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 		L_11 = math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline(L_10, NULL);
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_12;
 		L_12 = math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline(L_2, L_5, L_8, L_11, NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:253>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53416
+// Method Definition Index: 53860
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline (uint32_t ___0_x, uint32_t ___1_y, uint32_t ___2_z, uint32_t ___3_w, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3878>
 		uint32_t L_0 = ___0_x;
@@ -4375,12 +5682,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_4), L_0, L_1, L_2, L_3, NULL);
-		return L_4;
+		V_0 = L_4;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3878>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_5 = V_0;
+		return L_5;
 	}
 }
-// Method Definition Index: 53472
+// Method Definition Index: 53921
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_Multiply_mDD93D0730642A1089848321B9B0E5E923EE575ED_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_lhs, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___1_rhs, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:296>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_lhs;
@@ -4402,12 +5719,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_16;
 		memset((&L_16), 0, sizeof(L_16));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_16), ((int32_t)il2cpp_codegen_multiply((int32_t)L_1, (int32_t)L_3)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_5, (int32_t)L_7)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_9, (int32_t)L_11)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_13, (int32_t)L_15)), NULL);
-		return L_16;
+		V_0 = L_16;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:296>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_17 = V_0;
+		return L_17;
 	}
 }
-// Method Definition Index: 53408
+// Method Definition Index: 53852
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_csum_m6A99E69A84442A729781A97F78B260223DD01D8F_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_x, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5959>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_x;
@@ -4418,10 +5744,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_csum_m6A99E69A84442
 		uint32_t L_5 = L_4.___z;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_6 = ___0_x;
 		uint32_t L_7 = L_6.___w;
-		return ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_3)), (int32_t)L_5)), (int32_t)L_7));
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_3)), (int32_t)L_5)), (int32_t)L_7));
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5959>
+		uint32_t L_8 = V_0;
+		return L_8;
 	}
 }
-// Method Definition Index: 53442
+// Method Definition Index: 53888
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_mF0B7C823E36025A539E8024123057CAC380E97EF_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_c0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_c1, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___2_c2, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___3_c3, const RuntimeMethod* method) 
 {
 	{
@@ -4441,9 +5775,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_mF0B7C823E360
 		return;
 	}
 }
-// Method Definition Index: 53432
+// Method Definition Index: 53877
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Multiply_m712573F441DA8AF0843DE2167927FB76E642B1EB_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
 {
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:337>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_lhs;
@@ -4461,12 +5797,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_12), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), ((float)il2cpp_codegen_multiply(L_10, L_11)), NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:337>
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53433
+// Method Definition Index: 53878
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) 
 {
+	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:352>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_lhs;
@@ -4488,12 +5834,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_16;
 		memset((&L_16), 0, sizeof(L_16));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_16), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), ((float)il2cpp_codegen_add(L_13, L_15)), NULL);
-		return L_16;
+		V_0 = L_16;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:352>
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_17 = V_0;
+		return L_17;
 	}
 }
-// Method Definition Index: 53435
+// Method Definition Index: 53880
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3008>
 		float L_0 = __this->___x;
@@ -4502,12 +5858,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_3), L_0, L_1, L_2, NULL);
-		return L_3;
+		V_0 = L_3;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3008>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53474
+// Method Definition Index: 53923
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_Addition_m391200EB43B6C4CDD219079A0D3CDFFA35B0B652_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_lhs, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___1_rhs, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:318>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_lhs;
@@ -4529,12 +5895,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_16;
 		memset((&L_16), 0, sizeof(L_16));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_16), ((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_3)), ((int32_t)il2cpp_codegen_add((int32_t)L_5, (int32_t)L_7)), ((int32_t)il2cpp_codegen_add((int32_t)L_9, (int32_t)L_11)), ((int32_t)il2cpp_codegen_add((int32_t)L_13, (int32_t)L_15)), NULL);
-		return L_16;
+		V_0 = L_16;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:318>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_17 = V_0;
+		return L_17;
 	}
 }
-// Method Definition Index: 53381
+// Method Definition Index: 53825
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F math_asuint_m64DA623C5CFEB8445663480384F2B1C202150EE5_inline (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_x, const RuntimeMethod* method) 
 {
+	uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:216>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_0 = ___0_x;
@@ -4543,12 +5919,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AF
 		int32_t L_3 = L_2.___y;
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_4;
 		L_4 = math_uint2_m861F5F74EBBBD3DA19E84A1155320B89FF7341C3_inline(L_1, L_3, NULL);
-		return L_4;
+		V_0 = L_4;
+		goto IL_0015;
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:216>
+		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_5 = V_0;
+		return L_5;
 	}
 }
-// Method Definition Index: 53412
+// Method Definition Index: 53856
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F math_uint2_m861F5F74EBBBD3DA19E84A1155320B89FF7341C3_inline (uint32_t ___0_x, uint32_t ___1_y, const RuntimeMethod* method) 
 {
+	uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:881>
 		uint32_t L_0 = ___0_x;
@@ -4556,12 +5942,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AF
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F_inline((&L_2), L_0, L_1, NULL);
-		return L_2;
+		V_0 = L_2;
+		goto IL_000b;
+	}
+
+IL_000b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:881>
+		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_3 = V_0;
+		return L_3;
 	}
 }
-// Method Definition Index: 53458
+// Method Definition Index: 53905
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F uint2_op_Multiply_m2A4BC394328643E664AD9C17DA4BF1B0AC58E857_inline (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___0_lhs, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___1_rhs, const RuntimeMethod* method) 
 {
+	uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:193>
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_0 = ___0_lhs;
@@ -4575,26 +5971,44 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AF
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F_inline((&L_8), ((int32_t)il2cpp_codegen_multiply((int32_t)L_1, (int32_t)L_3)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_5, (int32_t)L_7)), NULL);
-		return L_8;
+		V_0 = L_8;
+		goto IL_0023;
+	}
+
+IL_0023:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:193>
+		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_9 = V_0;
+		return L_9;
 	}
 }
-// Method Definition Index: 53406
+// Method Definition Index: 53850
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_csum_m0B6655875FE24428E18B97FC3F5C745E374530A3_inline (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___0_x, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5947>
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_0 = ___0_x;
 		uint32_t L_1 = L_0.___x;
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_2 = ___0_x;
 		uint32_t L_3 = L_2.___y;
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_3));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_3));
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5947>
+		uint32_t L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53380
+// Method Definition Index: 53824
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_asint_mBDED7FE966CA65F6A8ACEAEF8FD779B1B8998288_inline (float ___0_x, const RuntimeMethod* method) 
 {
 	IntFloatUnion_t549256A9DD754252DD18383D9CE7EA55EBBD6D96 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:182>
 		(&V_0)->___intValue = 0;
@@ -4604,21 +6018,38 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_asint_mBDED7FE966CA6
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:184>
 		IntFloatUnion_t549256A9DD754252DD18383D9CE7EA55EBBD6D96 L_1 = V_0;
 		int32_t L_2 = L_1.___intValue;
-		return L_2;
+		V_1 = L_2;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:185>
+		int32_t L_3 = V_1;
+		return L_3;
 	}
 }
-// Method Definition Index: 53382
+// Method Definition Index: 53826
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline (float ___0_x, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:235>
 		float L_0 = ___0_x;
 		int32_t L_1;
 		L_1 = math_asint_mBDED7FE966CA65F6A8ACEAEF8FD779B1B8998288_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:235>
+		uint32_t L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 2344
+// Method Definition Index: 2372
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	{
@@ -4628,9 +6059,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F76
 		return (bool)((((int32_t)((int32_t)(L_1&((int32_t)2147483647LL)))) > ((int32_t)((int32_t)2139095040)))? 1 : 0);
 	}
 }
-// Method Definition Index: 53387
+// Method Definition Index: 53831
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
+	float V_0 = 0.0f;
+	float G_B4_0 = 0.0f;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:746>
 		float L_0 = ___1_y;
@@ -4638,7 +6071,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_min_m54FD010BEF505D2BA
 		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
 		if (L_1)
 		{
-			goto IL_000e;
+			goto IL_0010;
 		}
 	}
 	{
@@ -4646,21 +6079,35 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_min_m54FD010BEF505D2BA
 		float L_3 = ___1_y;
 		if ((((float)L_2) < ((float)L_3)))
 		{
-			goto IL_000e;
+			goto IL_0010;
 		}
 	}
 	{
 		float L_4 = ___1_y;
-		return L_4;
+		G_B4_0 = L_4;
+		goto IL_0011;
 	}
 
-IL_000e:
+IL_0010:
 	{
 		float L_5 = ___0_x;
-		return L_5;
+		G_B4_0 = L_5;
+	}
+
+IL_0011:
+	{
+		V_0 = G_B4_0;
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:746>
+		float L_6 = V_0;
+		return L_6;
 	}
 }
-// Method Definition Index: 53418
+// Method Definition Index: 53862
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -4677,7 +6124,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D
 		return;
 	}
 }
-// Method Definition Index: 53430
+// Method Definition Index: 53875
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -4697,9 +6144,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_mB2F7F2D8BCE815
 		return;
 	}
 }
-// Method Definition Index: 53392
+// Method Definition Index: 53836
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
+	float V_0 = 0.0f;
+	float G_B4_0 = 0.0f;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:878>
 		float L_0 = ___1_y;
@@ -4707,7 +6156,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_max_m4B454A91AE8827997
 		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
 		if (L_1)
 		{
-			goto IL_000e;
+			goto IL_0010;
 		}
 	}
 	{
@@ -4715,21 +6164,35 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_max_m4B454A91AE8827997
 		float L_3 = ___1_y;
 		if ((((float)L_2) > ((float)L_3)))
 		{
-			goto IL_000e;
+			goto IL_0010;
 		}
 	}
 	{
 		float L_4 = ___1_y;
-		return L_4;
+		G_B4_0 = L_4;
+		goto IL_0011;
 	}
 
-IL_000e:
+IL_0010:
 	{
 		float L_5 = ___0_x;
-		return L_5;
+		G_B4_0 = L_5;
+	}
+
+IL_0011:
+	{
+		V_0 = G_B4_0;
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:878>
+		float L_6 = V_0;
+		return L_6;
 	}
 }
-// Method Definition Index: 53396
+// Method Definition Index: 53840
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_inline (float ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4738,18 +6201,28 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	float V_0 = 0.0f;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:3175>
 		float L_0 = ___0_x;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
 		L_1 = sqrt(((double)((float)L_0)));
-		return ((float)L_1);
+		V_0 = ((float)L_1);
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:3175>
+		float L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 53395
+// Method Definition Index: 53839
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_y, const RuntimeMethod* method) 
 {
+	float V_0 = 0.0f;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:1784>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
@@ -4764,23 +6237,42 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_mE193D8880350D74CC
 		float L_9 = L_8.___z;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = ___1_y;
 		float L_11 = L_10.___z;
-		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))));
+		V_0 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))));
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:1784>
+		float L_12 = V_0;
+		return L_12;
 	}
 }
-// Method Definition Index: 53397
+// Method Definition Index: 53841
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_rsqrt_mC67B3430EAADA7C5347E87B23859C569BC010E72_inline (float ___0_x, const RuntimeMethod* method) 
 {
+	float V_0 = 0.0f;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:3225>
 		float L_0 = ___0_x;
 		float L_1;
 		L_1 = math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_inline(L_0, NULL);
-		return ((float)((1.0f)/L_1));
+		V_0 = ((float)((1.0f)/L_1));
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:3225>
+		float L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 53420
+// Method Definition Index: 53864
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m38F52B61F8E5636955A1A6DF3A75BD0724148350_inline (float ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) 
 {
+	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:275>
 		float L_0 = ___0_lhs;
@@ -4795,86 +6287,120 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_9), ((float)il2cpp_codegen_multiply(L_0, L_2)), ((float)il2cpp_codegen_multiply(L_3, L_5)), ((float)il2cpp_codegen_multiply(L_6, L_8)), NULL);
-		return L_9;
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:275>
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = V_0;
+		return L_10;
 	}
 }
-// Method Definition Index: 53400
+// Method Definition Index: 53844
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_lzcnt_m121BDDDEE89F5A401E2E5F0AD900D22E47C8741C_inline (uint32_t ___0_x, const RuntimeMethod* method) 
 {
 	LongDoubleUnion_tD71C400B6C4CD1A7F13CE8125AC6BBC7A22791CA V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	int32_t V_2 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4847>
 		uint32_t L_0 = ___0_x;
-		if (L_0)
+		V_1 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
 		{
-			goto IL_0006;
+			goto IL_000e;
 		}
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4848>
-		return ((int32_t)32);
+		V_2 = ((int32_t)32);
+		goto IL_0058;
 	}
 
-IL_0006:
+IL_000e:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4850>
 		(&V_0)->___doubleValue = (0.0);
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4851>
-		uint32_t L_1 = ___0_x;
-		(&V_0)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)L_1)));
+		uint32_t L_2 = ___0_x;
+		(&V_0)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)L_2)));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4852>
-		double* L_2 = (double*)(&(&V_0)->___doubleValue);
-		double* L_3 = L_2;
-		double L_4 = *((double*)L_3);
-		*((double*)L_3) = (double)((double)il2cpp_codegen_subtract(L_4, (4503599627370496.0)));
+		double* L_3 = (double*)(&(&V_0)->___doubleValue);
+		double* L_4 = L_3;
+		double L_5 = *((double*)L_4);
+		*((double*)L_4) = (double)((double)il2cpp_codegen_subtract(L_5, (4503599627370496.0)));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4853>
-		LongDoubleUnion_tD71C400B6C4CD1A7F13CE8125AC6BBC7A22791CA L_5 = V_0;
-		int64_t L_6 = L_5.___longValue;
-		return ((int32_t)il2cpp_codegen_subtract(((int32_t)1054), ((int32_t)((int64_t)(L_6>>((int32_t)52))))));
+		LongDoubleUnion_tD71C400B6C4CD1A7F13CE8125AC6BBC7A22791CA L_6 = V_0;
+		int64_t L_7 = L_6.___longValue;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(((int32_t)1054), ((int32_t)((int64_t)(L_7>>((int32_t)52))))));
+		goto IL_0058;
+	}
+
+IL_0058:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4854>
+		int32_t L_8 = V_2;
+		return L_8;
 	}
 }
-// Method Definition Index: 53402
+// Method Definition Index: 53846
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_tzcnt_m07FD7550AAB5D94312E99571B112D652E8230360_inline (uint32_t ___0_x, const RuntimeMethod* method) 
 {
 	LongDoubleUnion_tD71C400B6C4CD1A7F13CE8125AC6BBC7A22791CA V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	int32_t V_2 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4968>
 		uint32_t L_0 = ___0_x;
-		if (L_0)
+		V_1 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
 		{
-			goto IL_0006;
+			goto IL_000e;
 		}
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4969>
-		return ((int32_t)32);
+		V_2 = ((int32_t)32);
+		goto IL_0060;
 	}
 
-IL_0006:
+IL_000e:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4971>
-		uint32_t L_1 = ___0_x;
 		uint32_t L_2 = ___0_x;
-		___0_x = ((int32_t)((int32_t)L_1&((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_2))))));
+		uint32_t L_3 = ___0_x;
+		___0_x = ((int32_t)((int32_t)L_2&((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_3))))));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4973>
 		(&V_0)->___doubleValue = (0.0);
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4974>
-		uint32_t L_3 = ___0_x;
-		(&V_0)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)L_3)));
+		uint32_t L_4 = ___0_x;
+		(&V_0)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)L_4)));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4975>
-		double* L_4 = (double*)(&(&V_0)->___doubleValue);
-		double* L_5 = L_4;
-		double L_6 = *((double*)L_5);
-		*((double*)L_5) = (double)((double)il2cpp_codegen_subtract(L_6, (4503599627370496.0)));
+		double* L_5 = (double*)(&(&V_0)->___doubleValue);
+		double* L_6 = L_5;
+		double L_7 = *((double*)L_6);
+		*((double*)L_6) = (double)((double)il2cpp_codegen_subtract(L_7, (4503599627370496.0)));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4976>
-		LongDoubleUnion_tD71C400B6C4CD1A7F13CE8125AC6BBC7A22791CA L_7 = V_0;
-		int64_t L_8 = L_7.___longValue;
-		return ((int32_t)il2cpp_codegen_subtract(((int32_t)((int64_t)(L_8>>((int32_t)52)))), ((int32_t)1023)));
+		LongDoubleUnion_tD71C400B6C4CD1A7F13CE8125AC6BBC7A22791CA L_8 = V_0;
+		int64_t L_9 = L_8.___longValue;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(((int32_t)((int64_t)(L_9>>((int32_t)52)))), ((int32_t)1023)));
+		goto IL_0060;
+	}
+
+IL_0060:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:4977>
+		int32_t L_10 = V_2;
+		return L_10;
 	}
 }
-// Method Definition Index: 53471
+// Method Definition Index: 53920
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* __this, uint32_t ___0_x, uint32_t ___1_y, uint32_t ___2_z, uint32_t ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -4894,9 +6420,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void uint4__ctor_m59B6A219A0285C6
 		return;
 	}
 }
-// Method Definition Index: 53475
+// Method Definition Index: 53924
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_Addition_m3968FBC6698B10C2DC1D0222C72BB0F67CA1E6D6_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_lhs, uint32_t ___1_rhs, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:325>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_lhs;
@@ -4914,12 +6442,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_12), ((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_2)), ((int32_t)il2cpp_codegen_add((int32_t)L_4, (int32_t)L_5)), ((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)L_8)), ((int32_t)il2cpp_codegen_add((int32_t)L_10, (int32_t)L_11)), NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:325>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53473
+// Method Definition Index: 53922
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_Multiply_m40354E397B1D99D73B5333378C8698C087A1A2D6_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_lhs, uint32_t ___1_rhs, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:303>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_lhs;
@@ -4937,12 +6475,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_12), ((int32_t)il2cpp_codegen_multiply((int32_t)L_1, (int32_t)L_2)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_4, (int32_t)L_5)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_7, (int32_t)L_8)), ((int32_t)il2cpp_codegen_multiply((int32_t)L_10, (int32_t)L_11)), NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:303>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53476
+// Method Definition Index: 53925
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_LeftShift_m5E109F47429DAA6E55073B8BBD9988FF9B18E4A2_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_x, int32_t ___1_n, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:522>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_x;
@@ -4960,12 +6508,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_12), ((int32_t)((int32_t)L_1<<((int32_t)(L_2&((int32_t)31))))), ((int32_t)((int32_t)L_4<<((int32_t)(L_5&((int32_t)31))))), ((int32_t)((int32_t)L_7<<((int32_t)(L_8&((int32_t)31))))), ((int32_t)((int32_t)L_10<<((int32_t)(L_11&((int32_t)31))))), NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:522>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53477
+// Method Definition Index: 53926
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_RightShift_m277ED9AFF0C41C957E79413C0B4A19EB28503EED_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_x, int32_t ___1_n, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:529>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_x;
@@ -4983,12 +6541,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_12), ((int32_t)((uint32_t)L_1>>((int32_t)(L_2&((int32_t)31))))), ((int32_t)((uint32_t)L_4>>((int32_t)(L_5&((int32_t)31))))), ((int32_t)((uint32_t)L_7>>((int32_t)(L_8&((int32_t)31))))), ((int32_t)((uint32_t)L_10>>((int32_t)(L_11&((int32_t)31))))), NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:529>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53478
+// Method Definition Index: 53927
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 uint4_op_BitwiseOr_mDA88C9E25D0910D512ABABDC200D6E3A2E68B573_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_lhs, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___1_rhs, const RuntimeMethod* method) 
 {
+	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:609>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_lhs;
@@ -5010,24 +6578,43 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_16;
 		memset((&L_16), 0, sizeof(L_16));
 		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_16), ((int32_t)((int32_t)L_1|(int32_t)L_3)), ((int32_t)((int32_t)L_5|(int32_t)L_7)), ((int32_t)((int32_t)L_9|(int32_t)L_11)), ((int32_t)((int32_t)L_13|(int32_t)L_15)), NULL);
-		return L_16;
+		V_0 = L_16;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:609>
+		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_17 = V_0;
+		return L_17;
 	}
 }
-// Method Definition Index: 53403
+// Method Definition Index: 53847
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_rol_m70DA2C8F44A27EE0D749AEEDEF8B0CD82D90B93F_inline (uint32_t ___0_x, int32_t ___1_n, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5195>
 		uint32_t L_0 = ___0_x;
 		int32_t L_1 = ___1_n;
 		uint32_t L_2 = ___0_x;
 		int32_t L_3 = ___1_n;
-		return ((int32_t)(((int32_t)((int32_t)L_0<<((int32_t)(L_1&((int32_t)31)))))|((int32_t)((uint32_t)L_2>>((int32_t)(((int32_t)il2cpp_codegen_subtract(((int32_t)32), L_3))&((int32_t)31)))))));
+		V_0 = ((int32_t)(((int32_t)((int32_t)L_0<<((int32_t)(L_1&((int32_t)31)))))|((int32_t)((uint32_t)L_2>>((int32_t)(((int32_t)il2cpp_codegen_subtract(((int32_t)32), L_3))&((int32_t)31)))))));
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs:5195>
+		uint32_t L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53376
+// Method Definition Index: 53820
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 math_float4x4_m7C95B2B93CDEE0AF483EB84446F9F06F7B1AD261_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_c0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_c1, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___2_c2, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___3_c3, const RuntimeMethod* method) 
 {
+	float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:566>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_c0;
@@ -5037,10 +6624,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float4x4_t7EDD16F7F57DC7F61A63025
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		float4x4__ctor_mF0B7C823E36025A539E8024123057CAC380E97EF_inline((&L_4), L_0, L_1, L_2, L_3, NULL);
-		return L_4;
+		V_0 = L_4;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:566>
+		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_5 = V_0;
+		return L_5;
 	}
 }
-// Method Definition Index: 53457
+// Method Definition Index: 53904
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F_inline (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* __this, uint32_t ___0_x, uint32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -5054,7 +6649,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void uint2__ctor_mDE945EFF54FDA16
 		return;
 	}
 }
-// Method Definition Index: 53464
+// Method Definition Index: 53912
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF_inline (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B* __this, uint32_t ___0_x, uint32_t ___1_y, uint32_t ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -5071,9 +6666,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void uint3__ctor_mEFEA14BBA36F531
 		return;
 	}
 }
-// Method Definition Index: 53423
+// Method Definition Index: 53867
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float3_Equals_m4A47BDC70977496712F3BE7DA359E840D99C020A_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_rhs, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
+	int32_t G_B4_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1631>
 		float L_0 = __this->___x;
@@ -5081,7 +6678,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float3_Equals_m4A47BDC709774
 		float L_2 = L_1.___x;
 		if ((!(((float)L_0) == ((float)L_2))))
 		{
-			goto IL_002b;
+			goto IL_002d;
 		}
 	}
 	{
@@ -5090,24 +6687,39 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float3_Equals_m4A47BDC709774
 		float L_5 = L_4.___y;
 		if ((!(((float)L_3) == ((float)L_5))))
 		{
-			goto IL_002b;
+			goto IL_002d;
 		}
 	}
 	{
 		float L_6 = __this->___z;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7 = ___0_rhs;
 		float L_8 = L_7.___z;
-		return (bool)((((float)L_6) == ((float)L_8))? 1 : 0);
+		G_B4_0 = ((((float)L_6) == ((float)L_8))? 1 : 0);
+		goto IL_002e;
 	}
 
-IL_002b:
+IL_002d:
 	{
-		return (bool)0;
+		G_B4_0 = 0;
+	}
+
+IL_002e:
+	{
+		V_0 = (bool)G_B4_0;
+		goto IL_0031;
+	}
+
+IL_0031:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1631>
+		bool L_9 = V_0;
+		return L_9;
 	}
 }
-// Method Definition Index: 53374
+// Method Definition Index: 53818
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m8ECC7CFBA8D302A2A3E9468DE65D705E9C1298EB_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_v, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1780>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_v;
@@ -5119,21 +6731,38 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m8ECC7CFBA8D30
 		L_3 = uint3_op_Multiply_m756859015AC9BE9CB34BACE67DF92F64EA76C9AD_inline(L_1, L_2, NULL);
 		uint32_t L_4;
 		L_4 = math_csum_m9C15CCCED13E8ADB45EFC388D141E55091A61C1C_inline(L_3, NULL);
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_4, ((int32_t)-682290183)));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_4, ((int32_t)-682290183)));
+		goto IL_002e;
+	}
+
+IL_002e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1781>
+		uint32_t L_5 = V_0;
+		return L_5;
 	}
 }
-// Method Definition Index: 53425
+// Method Definition Index: 53869
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t float3_GetHashCode_m659801FA23576CC26412BE644FA19636BFF8A017_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1642>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = (*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m8ECC7CFBA8D302A2A3E9468DE65D705E9C1298EB_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1642>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 53426
+// Method Definition Index: 53870
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float3_ToString_m334A7FA7041C2C5D83B68231F1FDEB4037CF5DEA_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5143,6 +6772,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float3_ToString_m334A7F
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1578CABA4FF62AC9986DD5D0BA4C26A5CCB44A6A);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1650>
 		float L_0 = __this->___x;
@@ -5156,10 +6786,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float3_ToString_m334A7F
 		RuntimeObject* L_8 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_7);
 		String_t* L_9;
 		L_9 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral1578CABA4FF62AC9986DD5D0BA4C26A5CCB44A6A, L_2, L_5, L_8, NULL);
-		return L_9;
+		V_0 = L_9;
+		goto IL_002f;
+	}
+
+IL_002f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1651>
+		String_t* L_10 = V_0;
+		return L_10;
 	}
 }
-// Method Definition Index: 53427
+// Method Definition Index: 53871
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float3_ToString_mE1BA3E91F84DDD745685C09F509410358A83D081_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5168,6 +6806,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float3_ToString_mE1BA3E
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1578CABA4FF62AC9986DD5D0BA4C26A5CCB44A6A);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1660>
 		float* L_0 = (float*)(&__this->___x);
@@ -5187,10 +6826,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float3_ToString_mE1BA3E
 		L_11 = Single_ToString_mF468A56B3A746EFD805E0604EE7A2873DA157ADE(L_8, L_9, L_10, NULL);
 		String_t* L_12;
 		L_12 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral1578CABA4FF62AC9986DD5D0BA4C26A5CCB44A6A, L_3, L_7, L_11, NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float3.gen.cs:1661>
+		String_t* L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 35730
+// Method Definition Index: 35882
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -5203,7 +6850,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 53431
+// Method Definition Index: 53876
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_xyz, float ___1_w, const RuntimeMethod* method) 
 {
 	{
@@ -5226,9 +6873,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m2A21052EF06884
 		return;
 	}
 }
-// Method Definition Index: 53436
+// Method Definition Index: 53881
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_rhs, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
+	int32_t G_B5_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3767>
 		float L_0 = __this->___x;
@@ -5236,7 +6885,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float4_Equals_m5E14C29D10439
 		float L_2 = L_1.___x;
 		if ((!(((float)L_0) == ((float)L_2))))
 		{
-			goto IL_0039;
+			goto IL_003b;
 		}
 	}
 	{
@@ -5245,7 +6894,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float4_Equals_m5E14C29D10439
 		float L_5 = L_4.___y;
 		if ((!(((float)L_3) == ((float)L_5))))
 		{
-			goto IL_0039;
+			goto IL_003b;
 		}
 	}
 	{
@@ -5254,24 +6903,39 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float4_Equals_m5E14C29D10439
 		float L_8 = L_7.___z;
 		if ((!(((float)L_6) == ((float)L_8))))
 		{
-			goto IL_0039;
+			goto IL_003b;
 		}
 	}
 	{
 		float L_9 = __this->___w;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10 = ___0_rhs;
 		float L_11 = L_10.___w;
-		return (bool)((((float)L_9) == ((float)L_11))? 1 : 0);
+		G_B5_0 = ((((float)L_9) == ((float)L_11))? 1 : 0);
+		goto IL_003c;
 	}
 
-IL_0039:
+IL_003b:
 	{
-		return (bool)0;
+		G_B5_0 = 0;
+	}
+
+IL_003c:
+	{
+		V_0 = (bool)G_B5_0;
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3767>
+		bool L_12 = V_0;
+		return L_12;
 	}
 }
-// Method Definition Index: 53375
+// Method Definition Index: 53819
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m53E875B2DC4324BD20573419DBE27D0F651FA4D4_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_v, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3950>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_v;
@@ -5283,21 +6947,38 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m53E875B2DC432
 		L_3 = uint4_op_Multiply_mDD93D0730642A1089848321B9B0E5E923EE575ED_inline(L_1, L_2, NULL);
 		uint32_t L_4;
 		L_4 = math_csum_m6A99E69A84442A729781A97F78B260223DD01D8F_inline(L_3, NULL);
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_4, ((int32_t)-1350340895)));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_4, ((int32_t)-1350340895)));
+		goto IL_0033;
+	}
+
+IL_0033:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3951>
+		uint32_t L_5 = V_0;
+		return L_5;
 	}
 }
-// Method Definition Index: 53438
+// Method Definition Index: 53883
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t float4_GetHashCode_m73A9ACC41256A6E98F883A72ED1EB0047947DA48_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3778>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = (*(float4_t89D9A294E7A79BD81BFBDD18654508532958555E*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m53E875B2DC4324BD20573419DBE27D0F651FA4D4_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3778>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 53439
+// Method Definition Index: 53884
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4_ToString_m63852A53A6218EBA6CF7782E0E38DE0719AA6DAA_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5308,6 +6989,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4_ToString_m63852A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral43DDB8ABCD260FFF159CAB7520989AEB22E45033);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3786>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
@@ -5341,10 +7023,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4_ToString_m63852A
 		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_16);
 		String_t* L_17;
 		L_17 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral43DDB8ABCD260FFF159CAB7520989AEB22E45033, L_13, NULL);
-		return L_17;
+		V_0 = L_17;
+		goto IL_004c;
+	}
+
+IL_004c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3787>
+		String_t* L_18 = V_0;
+		return L_18;
 	}
 }
-// Method Definition Index: 53440
+// Method Definition Index: 53885
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4_ToString_mF0B7870047A0CB59185C85DE13ECECFAC5783C2A_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5354,6 +7044,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4_ToString_mF0B787
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral43DDB8ABCD260FFF159CAB7520989AEB22E45033);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3796>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
@@ -5395,10 +7086,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4_ToString_mF0B787
 		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_20);
 		String_t* L_21;
 		L_21 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral43DDB8ABCD260FFF159CAB7520989AEB22E45033, L_16, NULL);
-		return L_21;
+		V_0 = L_21;
+		goto IL_0054;
+	}
+
+IL_0054:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4.gen.cs:3797>
+		String_t* L_22 = V_0;
+		return L_22;
 	}
 }
-// Method Definition Index: 53443
+// Method Definition Index: 53889
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m89D3EDF09863C02553147CDA696E48B8D2622AC5_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, float ___0_m00, float ___1_m01, float ___2_m02, float ___3_m03, float ___4_m10, float ___5_m11, float ___6_m12, float ___7_m13, float ___8_m20, float ___9_m21, float ___10_m22, float ___11_m23, float ___12_m30, float ___13_m31, float ___14_m32, float ___15_m33, const RuntimeMethod* method) 
 {
 	{
@@ -5442,9 +7141,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4x4__ctor_m89D3EDF09863
 		return;
 	}
 }
-// Method Definition Index: 53444
+// Method Definition Index: 53890
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float4x4_Equals_mB22F89A6EC760BECED603A00205294B0C185CCBB_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___0_rhs, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
+	int32_t G_B5_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:523>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_0 = (float4_t89D9A294E7A79BD81BFBDD18654508532958555E*)(&__this->___c0);
@@ -5454,7 +7155,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float4x4_Equals_mB22F89A6EC7
 		L_3 = float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_inline(L_0, L_2, NULL);
 		if (!L_3)
 		{
-			goto IL_004b;
+			goto IL_004d;
 		}
 	}
 	{
@@ -5465,7 +7166,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float4x4_Equals_mB22F89A6EC7
 		L_7 = float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_inline(L_4, L_6, NULL);
 		if (!L_7)
 		{
-			goto IL_004b;
+			goto IL_004d;
 		}
 	}
 	{
@@ -5476,7 +7177,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float4x4_Equals_mB22F89A6EC7
 		L_11 = float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_inline(L_8, L_10, NULL);
 		if (!L_11)
 		{
-			goto IL_004b;
+			goto IL_004d;
 		}
 	}
 	{
@@ -5485,17 +7186,32 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float4x4_Equals_mB22F89A6EC7
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14 = L_13.___c3;
 		bool L_15;
 		L_15 = float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_inline(L_12, L_14, NULL);
-		return L_15;
+		G_B5_0 = ((int32_t)(L_15));
+		goto IL_004e;
 	}
 
-IL_004b:
+IL_004d:
 	{
-		return (bool)0;
+		G_B5_0 = 0;
+	}
+
+IL_004e:
+	{
+		V_0 = (bool)G_B5_0;
+		goto IL_0051;
+	}
+
+IL_0051:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:523>
+		bool L_16 = V_0;
+		return L_16;
 	}
 }
-// Method Definition Index: 53378
+// Method Definition Index: 53822
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m20286BA0E4D2F6DC3C7013DA713AADCFFD87D444_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 ___0_v, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:801>
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:802>
@@ -5541,21 +7257,38 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m20286BA0E4D2F
 		L_22 = uint4_op_Addition_m391200EB43B6C4CDD219079A0D3CDFFA35B0B652_inline(L_16, L_21, NULL);
 		uint32_t L_23;
 		L_23 = math_csum_m6A99E69A84442A729781A97F78B260223DD01D8F_inline(L_22, NULL);
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_23, ((int32_t)1391928079)));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_23, ((int32_t)1391928079)));
+		goto IL_00c2;
+	}
+
+IL_00c2:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:805>
+		uint32_t L_24 = V_0;
+		return L_24;
 	}
 }
-// Method Definition Index: 53446
+// Method Definition Index: 53892
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t float4x4_GetHashCode_m260D00DFB6FDDAA4052A0893C7AEA6E5599DF9F7_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:534>
 		float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2 L_0 = (*(float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m20286BA0E4D2F6DC3C7013DA713AADCFFD87D444_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:534>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 53447
+// Method Definition Index: 53893
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB25DD7002ADF39A9117BEAF2A69EE880FB8E7584_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5566,6 +7299,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB25D
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF7E2930F09BF167DEB7CA0E99AC2A430763B191E);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:542>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16));
@@ -5699,10 +7433,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB25D
 		(L_76)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (RuntimeObject*)L_80);
 		String_t* L_81;
 		L_81 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteralF7E2930F09BF167DEB7CA0E99AC2A430763B191E, L_76, NULL);
-		return L_81;
+		V_0 = L_81;
+		goto IL_014c;
+	}
+
+IL_014c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:543>
+		String_t* L_82 = V_0;
+		return L_82;
 	}
 }
-// Method Definition Index: 53448
+// Method Definition Index: 53894
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB33825C3DB524BA41F1DF5356C61B0F8BA6A8B81_inline (float4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5712,6 +7454,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB338
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF7E2930F09BF167DEB7CA0E99AC2A430763B191E);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:552>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16));
@@ -5877,10 +7620,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float4x4_ToString_mB338
 		(L_91)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (RuntimeObject*)L_96);
 		String_t* L_97;
 		L_97 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteralF7E2930F09BF167DEB7CA0E99AC2A430763B191E, L_91, NULL);
-		return L_97;
+		V_0 = L_97;
+		goto IL_016c;
+	}
+
+IL_016c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x4.gen.cs:553>
+		String_t* L_98 = V_0;
+		return L_98;
 	}
 }
-// Method Definition Index: 53451
+// Method Definition Index: 53897
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* __this, int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -5894,9 +7645,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void int2__ctor_m452D21510717D096
 		return;
 	}
 }
-// Method Definition Index: 53452
+// Method Definition Index: 53898
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool int2_Equals_m4DB2E24953677E4E2497F1D0C4B48794257A89B6_inline (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_rhs, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:829>
 		int32_t L_0 = __this->___x;
@@ -5904,24 +7657,39 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool int2_Equals_m4DB2E24953677E4
 		int32_t L_2 = L_1.___x;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_2))))
 		{
-			goto IL_001d;
+			goto IL_001f;
 		}
 	}
 	{
 		int32_t L_3 = __this->___y;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_4 = ___0_rhs;
 		int32_t L_5 = L_4.___y;
-		return (bool)((((int32_t)L_3) == ((int32_t)L_5))? 1 : 0);
+		G_B3_0 = ((((int32_t)L_3) == ((int32_t)L_5))? 1 : 0);
+		goto IL_0020;
 	}
 
-IL_001d:
+IL_001f:
 	{
-		return (bool)0;
+		G_B3_0 = 0;
+	}
+
+IL_0020:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_0023;
+	}
+
+IL_0023:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:829>
+		bool L_6 = V_0;
+		return L_6;
 	}
 }
-// Method Definition Index: 53379
+// Method Definition Index: 53823
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m6B6E0FC08FCC3BC0940397676690F22B03DB4F16_inline (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_v, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:949>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_0 = ___0_v;
@@ -5933,21 +7701,38 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m6B6E0FC08FCC3
 		L_3 = uint2_op_Multiply_m2A4BC394328643E664AD9C17DA4BF1B0AC58E857_inline(L_1, L_2, NULL);
 		uint32_t L_4;
 		L_4 = math_csum_m0B6655875FE24428E18B97FC3F5C745E374530A3_inline(L_3, NULL);
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_4, ((int32_t)-1445389889)));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_4, ((int32_t)-1445389889)));
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:950>
+		uint32_t L_5 = V_0;
+		return L_5;
 	}
 }
-// Method Definition Index: 53454
+// Method Definition Index: 53900
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t int2_GetHashCode_mDC30EB8816F1ABC7195872B81F3EA9E8090866A6_inline (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* __this, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:840>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_0 = (*(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m6B6E0FC08FCC3BC0940397676690F22B03DB4F16_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:840>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 53455
+// Method Definition Index: 53901
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* int2_ToString_mC1A7775631D1F6B67B370423AF94BF60249A2466_inline (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5957,6 +7742,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* int2_ToString_mC1A77756
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral039B19E6A63E9AA22F1AF2817559D285768A7B4A);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:848>
 		int32_t L_0 = __this->___x;
@@ -5967,10 +7753,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* int2_ToString_mC1A77756
 		RuntimeObject* L_5 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_4);
 		String_t* L_6;
 		L_6 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral039B19E6A63E9AA22F1AF2817559D285768A7B4A, L_2, L_5, NULL);
-		return L_6;
+		V_0 = L_6;
+		goto IL_0024;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:849>
+		String_t* L_7 = V_0;
+		return L_7;
 	}
 }
-// Method Definition Index: 53456
+// Method Definition Index: 53902
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* int2_ToString_mB5FA23BE92C8532E53BAAA3B743D89ED6C23EE47_inline (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5979,6 +7773,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* int2_ToString_mB5FA23BE
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral039B19E6A63E9AA22F1AF2817559D285768A7B4A);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:858>
 		int32_t* L_0 = (int32_t*)(&__this->___x);
@@ -5993,12 +7788,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* int2_ToString_mB5FA23BE
 		L_7 = Int32_ToString_mE871810BC163EE4EF88E7C7682A6AD39911173B8(L_4, L_5, L_6, NULL);
 		String_t* L_8;
 		L_8 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral039B19E6A63E9AA22F1AF2817559D285768A7B4A, L_3, L_7, NULL);
-		return L_8;
+		V_0 = L_8;
+		goto IL_0028;
+	}
+
+IL_0028:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/int2.gen.cs:859>
+		String_t* L_9 = V_0;
+		return L_9;
 	}
 }
-// Method Definition Index: 53459
+// Method Definition Index: 53906
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool uint2_Equals_m3F1C93E4B1C83F2142B53B222A9966479229614C_inline (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* __this, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___0_rhs, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:829>
 		uint32_t L_0 = __this->___x;
@@ -6006,24 +7811,39 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool uint2_Equals_m3F1C93E4B1C83F
 		uint32_t L_2 = L_1.___x;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_2))))
 		{
-			goto IL_001d;
+			goto IL_001f;
 		}
 	}
 	{
 		uint32_t L_3 = __this->___y;
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_4 = ___0_rhs;
 		uint32_t L_5 = L_4.___y;
-		return (bool)((((int32_t)L_3) == ((int32_t)L_5))? 1 : 0);
+		G_B3_0 = ((((int32_t)L_3) == ((int32_t)L_5))? 1 : 0);
+		goto IL_0020;
 	}
 
-IL_001d:
+IL_001f:
 	{
-		return (bool)0;
+		G_B3_0 = 0;
+	}
+
+IL_0020:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_0023;
+	}
+
+IL_0023:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:829>
+		bool L_6 = V_0;
+		return L_6;
 	}
 }
-// Method Definition Index: 53413
+// Method Definition Index: 53857
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m5D21276708BFB4DEEF3498774D296FE6B14FC5B0_inline (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___0_v, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:949>
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_0 = ___0_v;
@@ -6033,21 +7853,38 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m5D21276708BFB
 		L_2 = uint2_op_Multiply_m2A4BC394328643E664AD9C17DA4BF1B0AC58E857_inline(L_0, L_1, NULL);
 		uint32_t L_3;
 		L_3 = math_csum_m0B6655875FE24428E18B97FC3F5C745E374530A3_inline(L_2, NULL);
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_3, ((int32_t)1750611407)));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_3, ((int32_t)1750611407)));
+		goto IL_0024;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:950>
+		uint32_t L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53461
+// Method Definition Index: 53908
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t uint2_GetHashCode_m0B3D1D91DF8C75E948C020CD260B4114D6A158B4_inline (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* __this, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:840>
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_0 = (*(uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m5D21276708BFB4DEEF3498774D296FE6B14FC5B0_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:840>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 53462
+// Method Definition Index: 53909
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint2_ToString_mFD106FD9C2FC96096DE048AAD1B4B59F6B11EFD5_inline (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6057,6 +7894,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint2_ToString_mFD106FD
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE368123B559BBC0EC2335D3AF9EC37C25C8B5945);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:848>
 		uint32_t L_0 = __this->___x;
@@ -6067,10 +7905,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint2_ToString_mFD106FD
 		RuntimeObject* L_5 = Box(UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var, &L_4);
 		String_t* L_6;
 		L_6 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralE368123B559BBC0EC2335D3AF9EC37C25C8B5945, L_2, L_5, NULL);
-		return L_6;
+		V_0 = L_6;
+		goto IL_0024;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:849>
+		String_t* L_7 = V_0;
+		return L_7;
 	}
 }
-// Method Definition Index: 53463
+// Method Definition Index: 53910
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint2_ToString_m19B7C2EAB06A69C94317C4ADC679E3AC551277AD_inline (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6079,6 +7925,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint2_ToString_m19B7C2E
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE368123B559BBC0EC2335D3AF9EC37C25C8B5945);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:858>
 		uint32_t* L_0 = (uint32_t*)(&__this->___x);
@@ -6093,12 +7940,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint2_ToString_m19B7C2E
 		L_7 = UInt32_ToString_m464396B0FE2115F3CEA38AEECDDB0FACC3AADADE(L_4, L_5, L_6, NULL);
 		String_t* L_8;
 		L_8 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralE368123B559BBC0EC2335D3AF9EC37C25C8B5945, L_3, L_7, NULL);
-		return L_8;
+		V_0 = L_8;
+		goto IL_0028;
+	}
+
+IL_0028:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint2.gen.cs:859>
+		String_t* L_9 = V_0;
+		return L_9;
 	}
 }
-// Method Definition Index: 53466
+// Method Definition Index: 53914
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool uint3_Equals_m071EEFA66ACDE8A413C27DD0E8C989D317B52D81_inline (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B* __this, uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___0_rhs, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
+	int32_t G_B4_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1686>
 		uint32_t L_0 = __this->___x;
@@ -6106,7 +7963,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool uint3_Equals_m071EEFA66ACDE8
 		uint32_t L_2 = L_1.___x;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_2))))
 		{
-			goto IL_002b;
+			goto IL_002d;
 		}
 	}
 	{
@@ -6115,24 +7972,39 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool uint3_Equals_m071EEFA66ACDE8
 		uint32_t L_5 = L_4.___y;
 		if ((!(((uint32_t)L_3) == ((uint32_t)L_5))))
 		{
-			goto IL_002b;
+			goto IL_002d;
 		}
 	}
 	{
 		uint32_t L_6 = __this->___z;
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_7 = ___0_rhs;
 		uint32_t L_8 = L_7.___z;
-		return (bool)((((int32_t)L_6) == ((int32_t)L_8))? 1 : 0);
+		G_B4_0 = ((((int32_t)L_6) == ((int32_t)L_8))? 1 : 0);
+		goto IL_002e;
 	}
 
-IL_002b:
+IL_002d:
 	{
-		return (bool)0;
+		G_B4_0 = 0;
+	}
+
+IL_002e:
+	{
+		V_0 = (bool)G_B4_0;
+		goto IL_0031;
+	}
+
+IL_0031:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1686>
+		bool L_9 = V_0;
+		return L_9;
 	}
 }
-// Method Definition Index: 53415
+// Method Definition Index: 53859
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m31E070E721A961188B5629FCAC3C9559145F1A76_inline (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B ___0_v, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1823>
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_0 = ___0_v;
@@ -6142,21 +8014,38 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m31E070E721A96
 		L_2 = uint3_op_Multiply_m756859015AC9BE9CB34BACE67DF92F64EA76C9AD_inline(L_0, L_1, NULL);
 		uint32_t L_3;
 		L_3 = math_csum_m9C15CCCED13E8ADB45EFC388D141E55091A61C1C_inline(L_2, NULL);
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_3, ((int32_t)-2042742999)));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_3, ((int32_t)-2042742999)));
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1824>
+		uint32_t L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53468
+// Method Definition Index: 53916
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t uint3_GetHashCode_m0EFF5352F8DE8618A24717A32EFA8EB66719F56D_inline (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B* __this, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1697>
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_0 = (*(uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m31E070E721A961188B5629FCAC3C9559145F1A76_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1697>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 53469
+// Method Definition Index: 53917
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint3_ToString_mCD235901AC027194EDB244BB9BD80A73CB6F3633_inline (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6166,6 +8055,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint3_ToString_mCD23590
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFEC52A4F763D4C868968D018DEC2AF8064D4C8E2);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1705>
 		uint32_t L_0 = __this->___x;
@@ -6179,10 +8069,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint3_ToString_mCD23590
 		RuntimeObject* L_8 = Box(UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var, &L_7);
 		String_t* L_9;
 		L_9 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralFEC52A4F763D4C868968D018DEC2AF8064D4C8E2, L_2, L_5, L_8, NULL);
-		return L_9;
+		V_0 = L_9;
+		goto IL_002f;
+	}
+
+IL_002f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1706>
+		String_t* L_10 = V_0;
+		return L_10;
 	}
 }
-// Method Definition Index: 53470
+// Method Definition Index: 53918
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint3_ToString_m1EAAF8E74678E9D172485B76193CD1557FB8BFEE_inline (uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6191,6 +8089,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint3_ToString_m1EAAF8E
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFEC52A4F763D4C868968D018DEC2AF8064D4C8E2);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1715>
 		uint32_t* L_0 = (uint32_t*)(&__this->___x);
@@ -6210,12 +8109,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint3_ToString_m1EAAF8E
 		L_11 = UInt32_ToString_m464396B0FE2115F3CEA38AEECDDB0FACC3AADADE(L_8, L_9, L_10, NULL);
 		String_t* L_12;
 		L_12 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralFEC52A4F763D4C868968D018DEC2AF8064D4C8E2, L_3, L_7, L_11, NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint3.gen.cs:1716>
+		String_t* L_13 = V_0;
+		return L_13;
 	}
 }
-// Method Definition Index: 53479
+// Method Definition Index: 53928
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool uint4_Equals_mAA88D674B2411C0A7D6C25AA596320EF79B58DDB_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* __this, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_rhs, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
+	int32_t G_B5_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3820>
 		uint32_t L_0 = __this->___x;
@@ -6223,7 +8132,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool uint4_Equals_mAA88D674B2411C
 		uint32_t L_2 = L_1.___x;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_2))))
 		{
-			goto IL_0039;
+			goto IL_003b;
 		}
 	}
 	{
@@ -6232,7 +8141,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool uint4_Equals_mAA88D674B2411C
 		uint32_t L_5 = L_4.___y;
 		if ((!(((uint32_t)L_3) == ((uint32_t)L_5))))
 		{
-			goto IL_0039;
+			goto IL_003b;
 		}
 	}
 	{
@@ -6241,24 +8150,39 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool uint4_Equals_mAA88D674B2411C
 		uint32_t L_8 = L_7.___z;
 		if ((!(((uint32_t)L_6) == ((uint32_t)L_8))))
 		{
-			goto IL_0039;
+			goto IL_003b;
 		}
 	}
 	{
 		uint32_t L_9 = __this->___w;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_10 = ___0_rhs;
 		uint32_t L_11 = L_10.___w;
-		return (bool)((((int32_t)L_9) == ((int32_t)L_11))? 1 : 0);
+		G_B5_0 = ((((int32_t)L_9) == ((int32_t)L_11))? 1 : 0);
+		goto IL_003c;
 	}
 
-IL_0039:
+IL_003b:
 	{
-		return (bool)0;
+		G_B5_0 = 0;
+	}
+
+IL_003c:
+	{
+		V_0 = (bool)G_B5_0;
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3820>
+		bool L_12 = V_0;
+		return L_12;
 	}
 }
-// Method Definition Index: 53417
+// Method Definition Index: 53861
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m1A4778A79FFB5E05B04BD09B0F85EA9483D8A3CA_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___0_v, const RuntimeMethod* method) 
 {
+	uint32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3991>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = ___0_v;
@@ -6268,21 +8192,38 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_hash_m1A4778A79FFB5
 		L_2 = uint4_op_Multiply_mDD93D0730642A1089848321B9B0E5E923EE575ED_inline(L_0, L_1, NULL);
 		uint32_t L_3;
 		L_3 = math_csum_m6A99E69A84442A729781A97F78B260223DD01D8F_inline(L_2, NULL);
-		return ((int32_t)il2cpp_codegen_add((int32_t)L_3, ((int32_t)2057338067)));
+		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_3, ((int32_t)2057338067)));
+		goto IL_002e;
+	}
+
+IL_002e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3992>
+		uint32_t L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 53481
+// Method Definition Index: 53930
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t uint4_GetHashCode_m195FED91BE8D7CCE0039A8DE6B6B0BB849FBCC5A_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* __this, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3831>
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_0 = (*(uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9*)__this);
 		uint32_t L_1;
 		L_1 = math_hash_m1A4778A79FFB5E05B04BD09B0F85EA9483D8A3CA_inline(L_0, NULL);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3831>
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 53482
+// Method Definition Index: 53931
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint4_ToString_mEF61205FE152AAB74331B24080C347AA829E435B_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6293,6 +8234,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint4_ToString_mEF61205
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE134155080D59FDE2A83A55D0BB359039175A4EA);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3839>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
@@ -6326,10 +8268,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint4_ToString_mEF61205
 		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_16);
 		String_t* L_17;
 		L_17 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteralE134155080D59FDE2A83A55D0BB359039175A4EA, L_13, NULL);
-		return L_17;
+		V_0 = L_17;
+		goto IL_004c;
+	}
+
+IL_004c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3840>
+		String_t* L_18 = V_0;
+		return L_18;
 	}
 }
-// Method Definition Index: 53483
+// Method Definition Index: 53932
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint4_ToString_m3350471364AB1D6033E088C0DF789376954921E3_inline (uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6339,6 +8289,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint4_ToString_m3350471
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE134155080D59FDE2A83A55D0BB359039175A4EA);
 		s_Il2CppMethodInitialized = true;
 	}
+	String_t* V_0 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3849>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
@@ -6380,10 +8331,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* uint4_ToString_m3350471
 		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_20);
 		String_t* L_21;
 		L_21 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteralE134155080D59FDE2A83A55D0BB359039175A4EA, L_16, NULL);
-		return L_21;
+		V_0 = L_21;
+		goto IL_0054;
+	}
+
+IL_0054:
+	{
+		//<source_info:./Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/uint4.gen.cs:3850>
+		String_t* L_22 = V_0;
+		return L_22;
 	}
 }
-// Method Definition Index: 1019
+// Method Definition Index: 1020
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	{

@@ -1,0 +1,19 @@
+{
+    "name": "Unity.Services.CloudCode.Editor",
+    "rootNamespace": "Unity.Services.CloudCode",
+    "references": [
+        "GUID:1c66728ad60364b82bf095d383b87458",
+        "GUID:fe25561d224ed4743af4c60938a59d0b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -2682,7 +2682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C0949661CC11D643
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 33863
+// Method Definition Index: 34004
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBinaryStorage__ctor_mA95718CA8D3B6F1AA3BF1E107AF6B6DD9690B9F8 (SqlBinaryStorage_t19158585475C535899BA1612DD9E69784D5920C2* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2712,7 +2712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBinaryStorage__ctor_mA95718CA8D3B6F1A
 		return;
 	}
 }
-// Method Definition Index: 33864
+// Method Definition Index: 34005
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBinaryStorage_Aggregate_m529AF5503A266873BF3F25C942B35B0051EA2CEE (SqlBinaryStorage_t19158585475C535899BA1612DD9E69784D5920C2* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2869,7 +2869,7 @@ IL_0071:
 		return L_30;
 	}
 }
-// Method Definition Index: 33865
+// Method Definition Index: 34006
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlBinaryStorage_Compare_m463B19D1D689F92BA31DD18C8395599EE28C2902 (SqlBinaryStorage_t19158585475C535899BA1612DD9E69784D5920C2* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2893,7 +2893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlBinaryStorage_Compare_m463B19D1D68
 		return L_6;
 	}
 }
-// Method Definition Index: 33866
+// Method Definition Index: 34007
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlBinaryStorage_CompareValueTo_m1FC16CBC002127BB57DF6302DC7AAFEEB6BE9EDD (SqlBinaryStorage_t19158585475C535899BA1612DD9E69784D5920C2* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2913,7 +2913,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlBinaryStorage_CompareValueTo_m1FC1
 		return L_3;
 	}
 }
-// Method Definition Index: 33867
+// Method Definition Index: 34008
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBinaryStorage_ConvertValue_m489F6786F49D8C5E8E7EA6DB8BCF5C090C5484E5 (SqlBinaryStorage_t19158585475C535899BA1612DD9E69784D5920C2* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2944,7 +2944,7 @@ IL_000f:
 		return L_5;
 	}
 }
-// Method Definition Index: 33868
+// Method Definition Index: 34009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBinaryStorage_Copy_m38AA41F96F5BA97FC19AAEC1713B44044090118E (SqlBinaryStorage_t19158585475C535899BA1612DD9E69784D5920C2* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -2960,7 +2960,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBinaryStorage_Copy_m38AA41F96F5BA97FC
 		return;
 	}
 }
-// Method Definition Index: 33869
+// Method Definition Index: 34010
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBinaryStorage_Get_mABDF9B9333F47FC7B7E3FDEB9FF050D4DE59CBFD (SqlBinaryStorage_t19158585475C535899BA1612DD9E69784D5920C2* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2980,7 +2980,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBinaryStorage_Get_mABDF9B93
 		return L_5;
 	}
 }
-// Method Definition Index: 33870
+// Method Definition Index: 34011
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlBinaryStorage_IsNull_mF0119472E032D78E431660CD3ACE17B4BB8693D9 (SqlBinaryStorage_t19158585475C535899BA1612DD9E69784D5920C2* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2999,7 +2999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlBinaryStorage_IsNull_mF0119472E032D78
 		return L_2;
 	}
 }
-// Method Definition Index: 33871
+// Method Definition Index: 34012
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBinaryStorage_Set_m3CB3D136404AC8BDBB01DA87FE9ABB984FF69151 (SqlBinaryStorage_t19158585475C535899BA1612DD9E69784D5920C2* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -3013,7 +3013,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBinaryStorage_Set_m3CB3D136404AC8BDBB
 		return;
 	}
 }
-// Method Definition Index: 33872
+// Method Definition Index: 34013
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBinaryStorage_SetCapacity_m2826A73935E808C77AB34ACC34E75E02FFAF64F9 (SqlBinaryStorage_t19158585475C535899BA1612DD9E69784D5920C2* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3054,7 +3054,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 33873
+// Method Definition Index: 34014
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBinaryStorage_ConvertXmlToObject_m1A5CC3C11D3AC2E2F1F8FC5AA7DF42B6C15A9BDB (SqlBinaryStorage_t19158585475C535899BA1612DD9E69784D5920C2* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3135,7 +3135,7 @@ IL_003d:
 		return L_13;
 	}
 }
-// Method Definition Index: 33874
+// Method Definition Index: 34015
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlBinaryStorage_ConvertObjectToXml_mBAEE3B624C8499A2A33F10134F43EDC062C6D2E8 (SqlBinaryStorage_t19158585475C535899BA1612DD9E69784D5920C2* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3208,7 +3208,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 33875
+// Method Definition Index: 34016
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBinaryStorage_GetEmptyStorage_mE010499790951FE2E0D56CBC760EEDFE5B1EE452 (SqlBinaryStorage_t19158585475C535899BA1612DD9E69784D5920C2* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3223,7 +3223,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBinaryStorage_GetEmptyStora
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 33876
+// Method Definition Index: 34017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBinaryStorage_CopyValue_m4C858668AE02CC7C907909FC92F78054C82F1D2E (SqlBinaryStorage_t19158585475C535899BA1612DD9E69784D5920C2* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3252,7 +3252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBinaryStorage_CopyValue_m4C858668AE02
 		return;
 	}
 }
-// Method Definition Index: 33877
+// Method Definition Index: 34018
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBinaryStorage_SetStorage_m8519F59B53AFED514FF3A5B170211FAA6A09CD70 (SqlBinaryStorage_t19158585475C535899BA1612DD9E69784D5920C2* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3276,7 +3276,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBinaryStorage_SetStorage_m8519F59B53A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 33878
+// Method Definition Index: 34019
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlByteStorage__ctor_mFA0BC00E0A5A4F5BFB826C869D21B625CBD3AA96 (SqlByteStorage_t4355B707BEF895413D851CB53C2DCA232AD15C22* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3306,7 +3306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlByteStorage__ctor_mFA0BC00E0A5A4F5BFB
 		return;
 	}
 }
-// Method Definition Index: 33879
+// Method Definition Index: 34020
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlByteStorage_Aggregate_mEE80CDC7765D846DC9A6718144A987428A88D576 (SqlByteStorage_t4355B707BEF895413D851CB53C2DCA232AD15C22* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4113,7 +4113,7 @@ IL_0411:
 		return L_200;
 	}
 }
-// Method Definition Index: 33880
+// Method Definition Index: 34021
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlByteStorage_Compare_m5128501B4001C40374E6120EE213E62F12FB3BE4 (SqlByteStorage_t4355B707BEF895413D851CB53C2DCA232AD15C22* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4137,7 +4137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlByteStorage_Compare_m5128501B4001C
 		return L_6;
 	}
 }
-// Method Definition Index: 33881
+// Method Definition Index: 34022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlByteStorage_CompareValueTo_m29CC88C4E1E5107C2EC963B5CC85AB8BF9742A85 (SqlByteStorage_t4355B707BEF895413D851CB53C2DCA232AD15C22* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4157,7 +4157,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlByteStorage_CompareValueTo_m29CC88
 		return L_3;
 	}
 }
-// Method Definition Index: 33882
+// Method Definition Index: 34023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlByteStorage_ConvertValue_mD81544684DA66030B50CE8F2436147098F37FCCE (SqlByteStorage_t4355B707BEF895413D851CB53C2DCA232AD15C22* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4188,7 +4188,7 @@ IL_000f:
 		return L_5;
 	}
 }
-// Method Definition Index: 33883
+// Method Definition Index: 34024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlByteStorage_Copy_m6B6E3991918669B222C085A40F27E34FEF29B139 (SqlByteStorage_t4355B707BEF895413D851CB53C2DCA232AD15C22* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -4204,7 +4204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlByteStorage_Copy_m6B6E3991918669B222C
 		return;
 	}
 }
-// Method Definition Index: 33884
+// Method Definition Index: 34025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlByteStorage_Get_m138A0349E16F0A2B938D458D62689FF9F6ADC3F6 (SqlByteStorage_t4355B707BEF895413D851CB53C2DCA232AD15C22* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4224,7 +4224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlByteStorage_Get_m138A0349E1
 		return L_5;
 	}
 }
-// Method Definition Index: 33885
+// Method Definition Index: 34026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlByteStorage_IsNull_m8D3E79F988FF0819EB41217A71725E885EB47E47 (SqlByteStorage_t4355B707BEF895413D851CB53C2DCA232AD15C22* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4243,7 +4243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlByteStorage_IsNull_m8D3E79F988FF0819E
 		return L_2;
 	}
 }
-// Method Definition Index: 33886
+// Method Definition Index: 34027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlByteStorage_Set_m7FFEB52C4818E2FD1C1900A333BA50BD894C18C2 (SqlByteStorage_t4355B707BEF895413D851CB53C2DCA232AD15C22* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -4257,7 +4257,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlByteStorage_Set_m7FFEB52C4818E2FD1C19
 		return;
 	}
 }
-// Method Definition Index: 33887
+// Method Definition Index: 34028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlByteStorage_SetCapacity_m529FF30304584FB39729C672086BC2E888B92284 (SqlByteStorage_t4355B707BEF895413D851CB53C2DCA232AD15C22* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4298,7 +4298,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 33888
+// Method Definition Index: 34029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlByteStorage_ConvertXmlToObject_m7D1EBC6D06A4F79240DF89F8535CA069910C5805 (SqlByteStorage_t4355B707BEF895413D851CB53C2DCA232AD15C22* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4379,7 +4379,7 @@ IL_003d:
 		return L_13;
 	}
 }
-// Method Definition Index: 33889
+// Method Definition Index: 34030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlByteStorage_ConvertObjectToXml_m87B94132AA5DF3A4DEED2B0D1EB259AF50E90D5C (SqlByteStorage_t4355B707BEF895413D851CB53C2DCA232AD15C22* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4452,7 +4452,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 33890
+// Method Definition Index: 34031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlByteStorage_GetEmptyStorage_mD1B49F2D6399F37DC3F9046BA5C5DB3AF2AA8B94 (SqlByteStorage_t4355B707BEF895413D851CB53C2DCA232AD15C22* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4467,7 +4467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlByteStorage_GetEmptyStorage
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 33891
+// Method Definition Index: 34032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlByteStorage_CopyValue_mDB8E595B719EFCADFC27F83A4BF5E4D8E98ADF54 (SqlByteStorage_t4355B707BEF895413D851CB53C2DCA232AD15C22* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4496,7 +4496,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlByteStorage_CopyValue_mDB8E595B719EFC
 		return;
 	}
 }
-// Method Definition Index: 33892
+// Method Definition Index: 34033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlByteStorage_SetStorage_mE0BCC5AF8E62797E9010A8BBA351EFCEDF6ECB63 (SqlByteStorage_t4355B707BEF895413D851CB53C2DCA232AD15C22* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4520,7 +4520,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlByteStorage_SetStorage_mE0BCC5AF8E627
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 33893
+// Method Definition Index: 34034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBytesStorage__ctor_mD5D916AD696BAA5D94D78CFCC7D9575637B5CA74 (SqlBytesStorage_t7EEDFB376E68067D2AFF8D6C905F45F3CCD402D1* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4546,7 +4546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBytesStorage__ctor_mD5D916AD696BAA5D9
 		return;
 	}
 }
-// Method Definition Index: 33894
+// Method Definition Index: 34035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBytesStorage_Aggregate_m38F8BB288BF9F1B4C3EAF7FD597C43649D6B6901 (SqlBytesStorage_t7EEDFB376E68067D2AFF8D6C905F45F3CCD402D1* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4700,21 +4700,21 @@ IL_0068:
 		return L_28;
 	}
 }
-// Method Definition Index: 33895
+// Method Definition Index: 34036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlBytesStorage_Compare_mA982C810B38A1AF8C3D56205EA8916EDD9CA5890 (SqlBytesStorage_t7EEDFB376E68067D2AFF8D6C905F45F3CCD402D1* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
 		return 0;
 	}
 }
-// Method Definition Index: 33896
+// Method Definition Index: 34037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlBytesStorage_CompareValueTo_mB1127DBC5D2BC42790655DFD363FD8264490EE11 (SqlBytesStorage_t7EEDFB376E68067D2AFF8D6C905F45F3CCD402D1* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
 		return 0;
 	}
 }
-// Method Definition Index: 33897
+// Method Definition Index: 34038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBytesStorage_Copy_m3AD4671C7E4A8061F82FCF46F4D54FA63771F9AC (SqlBytesStorage_t7EEDFB376E68067D2AFF8D6C905F45F3CCD402D1* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -4730,7 +4730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBytesStorage_Copy_m3AD4671C7E4A8061F8
 		return;
 	}
 }
-// Method Definition Index: 33898
+// Method Definition Index: 34039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBytesStorage_Get_m07E3023D35755BB950779235DA3A9ADCDBFA79A8 (SqlBytesStorage_t7EEDFB376E68067D2AFF8D6C905F45F3CCD402D1* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	{
@@ -4742,7 +4742,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBytesStorage_Get_m07E3023D3
 		return L_3;
 	}
 }
-// Method Definition Index: 33899
+// Method Definition Index: 34040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlBytesStorage_IsNull_m972443B6BED6F388623669EAA379980EB82AE28B (SqlBytesStorage_t7EEDFB376E68067D2AFF8D6C905F45F3CCD402D1* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	{
@@ -4757,7 +4757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlBytesStorage_IsNull_m972443B6BED6F388
 		return L_4;
 	}
 }
-// Method Definition Index: 33900
+// Method Definition Index: 34041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBytesStorage_Set_mECC37E4EE8B6C27F593B65F1EBAD04B672B8F638 (SqlBytesStorage_t7EEDFB376E68067D2AFF8D6C905F45F3CCD402D1* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4805,7 +4805,7 @@ IL_0019:
 		return;
 	}
 }
-// Method Definition Index: 33901
+// Method Definition Index: 34042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBytesStorage_SetCapacity_m82D093BAA4CBF1E7992CE0A025587932D043235B (SqlBytesStorage_t7EEDFB376E68067D2AFF8D6C905F45F3CCD402D1* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4846,7 +4846,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 33902
+// Method Definition Index: 34043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBytesStorage_ConvertXmlToObject_mECC80262D645ACD04B5355BBD174B0B15F388B41 (SqlBytesStorage_t7EEDFB376E68067D2AFF8D6C905F45F3CCD402D1* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4928,7 +4928,7 @@ IL_003d:
 		return L_12;
 	}
 }
-// Method Definition Index: 33903
+// Method Definition Index: 34044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlBytesStorage_ConvertObjectToXml_m3E5FD9CA87AD238AB42DF449306B8597E68CA0DD (SqlBytesStorage_t7EEDFB376E68067D2AFF8D6C905F45F3CCD402D1* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5001,7 +5001,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 33904
+// Method Definition Index: 34045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBytesStorage_GetEmptyStorage_m23DAE00A73091CA0B0053E64D783A71DE4E8AA52 (SqlBytesStorage_t7EEDFB376E68067D2AFF8D6C905F45F3CCD402D1* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5016,7 +5016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBytesStorage_GetEmptyStorag
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 33905
+// Method Definition Index: 34046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBytesStorage_CopyValue_m47530D3BE1924CD847C16E3B97D151545EEE2A00 (SqlBytesStorage_t7EEDFB376E68067D2AFF8D6C905F45F3CCD402D1* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5045,7 +5045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBytesStorage_CopyValue_m47530D3BE1924
 		return;
 	}
 }
-// Method Definition Index: 33906
+// Method Definition Index: 34047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBytesStorage_SetStorage_m1288DCFD79C770979BC2ECB41FCF0708E889AD69 (SqlBytesStorage_t7EEDFB376E68067D2AFF8D6C905F45F3CCD402D1* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5069,7 +5069,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBytesStorage_SetStorage_m1288DCFD79C7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 33907
+// Method Definition Index: 34048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCharsStorage__ctor_m8EFCA9DD57D4CDCA3E0BC60786C5C6667484CF60 (SqlCharsStorage_tABB186AD86A32C603909AE52FA669C533D975675* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5095,7 +5095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCharsStorage__ctor_m8EFCA9DD57D4CDCA3
 		return;
 	}
 }
-// Method Definition Index: 33908
+// Method Definition Index: 34049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlCharsStorage_Aggregate_mDCF95F8199EE06B1F3740CA6D26D41534DDD9B07 (SqlCharsStorage_tABB186AD86A32C603909AE52FA669C533D975675* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5249,21 +5249,21 @@ IL_0068:
 		return L_28;
 	}
 }
-// Method Definition Index: 33909
+// Method Definition Index: 34050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlCharsStorage_Compare_m580F770DDA3CDBE3FBAC2906E733F7DFF23FCB41 (SqlCharsStorage_tABB186AD86A32C603909AE52FA669C533D975675* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
 		return 0;
 	}
 }
-// Method Definition Index: 33910
+// Method Definition Index: 34051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlCharsStorage_CompareValueTo_m588E3D9E1E3D019041232D8B9697B2CF0106F9E9 (SqlCharsStorage_tABB186AD86A32C603909AE52FA669C533D975675* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
 		return 0;
 	}
 }
-// Method Definition Index: 33911
+// Method Definition Index: 34052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCharsStorage_Copy_mF2FE4049B951CED46AE92EF71722B350DD9E37E8 (SqlCharsStorage_tABB186AD86A32C603909AE52FA669C533D975675* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -5279,7 +5279,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCharsStorage_Copy_mF2FE4049B951CED46A
 		return;
 	}
 }
-// Method Definition Index: 33912
+// Method Definition Index: 34053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlCharsStorage_Get_mC8A28CDDF78C21FBF3488EE4BF54CFB537C3F1AB (SqlCharsStorage_tABB186AD86A32C603909AE52FA669C533D975675* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	{
@@ -5291,7 +5291,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlCharsStorage_Get_mC8A28CDDF
 		return L_3;
 	}
 }
-// Method Definition Index: 33913
+// Method Definition Index: 34054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlCharsStorage_IsNull_m7DDC9986DE6D144FD5AFF727421DAB766BDA5DA5 (SqlCharsStorage_tABB186AD86A32C603909AE52FA669C533D975675* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	{
@@ -5306,7 +5306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlCharsStorage_IsNull_m7DDC9986DE6D144F
 		return L_4;
 	}
 }
-// Method Definition Index: 33914
+// Method Definition Index: 34055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCharsStorage_Set_m8424FE5E57375A8FE405DB795625A3A916018D6F (SqlCharsStorage_tABB186AD86A32C603909AE52FA669C533D975675* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5354,7 +5354,7 @@ IL_0019:
 		return;
 	}
 }
-// Method Definition Index: 33915
+// Method Definition Index: 34056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCharsStorage_SetCapacity_m297BAAFBB4EDA11A63812FDF369520309A3253CB (SqlCharsStorage_tABB186AD86A32C603909AE52FA669C533D975675* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5395,7 +5395,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 33916
+// Method Definition Index: 34057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlCharsStorage_ConvertXmlToObject_mE978BC3861543DC18F742D1EB6189608BA0CC024 (SqlCharsStorage_tABB186AD86A32C603909AE52FA669C533D975675* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5477,7 +5477,7 @@ IL_003d:
 		return L_12;
 	}
 }
-// Method Definition Index: 33917
+// Method Definition Index: 34058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlCharsStorage_ConvertObjectToXml_m6BD4CE151FABEEB4CD60A704865D117989AD51CD (SqlCharsStorage_tABB186AD86A32C603909AE52FA669C533D975675* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5550,7 +5550,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 33918
+// Method Definition Index: 34059
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlCharsStorage_GetEmptyStorage_m56B7A71196E45EA48FB46FF9E017F99D4B97FD30 (SqlCharsStorage_tABB186AD86A32C603909AE52FA669C533D975675* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5565,7 +5565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlCharsStorage_GetEmptyStorag
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 33919
+// Method Definition Index: 34060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCharsStorage_CopyValue_mDC81630BA7FD3624D4387F9EFCF9B8D470A9D18E (SqlCharsStorage_tABB186AD86A32C603909AE52FA669C533D975675* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5594,7 +5594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCharsStorage_CopyValue_mDC81630BA7FD3
 		return;
 	}
 }
-// Method Definition Index: 33920
+// Method Definition Index: 34061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCharsStorage_SetStorage_m9154F86038218C2622D3AAA12C19503DC5B7D123 (SqlCharsStorage_tABB186AD86A32C603909AE52FA669C533D975675* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5618,7 +5618,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCharsStorage_SetStorage_m9154F8603821
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 33921
+// Method Definition Index: 34062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDateTimeStorage__ctor_mDC3C3BD61F3DCC5895E065B117DFA210E6CCBD75 (SqlDateTimeStorage_t61FEBC82DEF1D37E0CC05A1DED1961AC5BA06E23* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5648,7 +5648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDateTimeStorage__ctor_mDC3C3BD61F3DCC
 		return;
 	}
 }
-// Method Definition Index: 33922
+// Method Definition Index: 34063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDateTimeStorage_Aggregate_m7538E86B3188314BE7B7571C50496E198369F776 (SqlDateTimeStorage_t61FEBC82DEF1D37E0CC05A1DED1961AC5BA06E23* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6020,7 +6020,7 @@ IL_016d:
 		return L_81;
 	}
 }
-// Method Definition Index: 33923
+// Method Definition Index: 34064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlDateTimeStorage_Compare_m9DAC8BD10492DBF49CE1E723D17B7C6C04225ECD (SqlDateTimeStorage_t61FEBC82DEF1D37E0CC05A1DED1961AC5BA06E23* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6044,7 +6044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlDateTimeStorage_Compare_m9DAC8BD10
 		return L_6;
 	}
 }
-// Method Definition Index: 33924
+// Method Definition Index: 34065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlDateTimeStorage_CompareValueTo_mC428B8FBC17556E9FCE55680D97E059A32D961E3 (SqlDateTimeStorage_t61FEBC82DEF1D37E0CC05A1DED1961AC5BA06E23* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6064,7 +6064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlDateTimeStorage_CompareValueTo_mC4
 		return L_3;
 	}
 }
-// Method Definition Index: 33925
+// Method Definition Index: 34066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDateTimeStorage_ConvertValue_m452E0080C64B3E7C9040093610784DDED2A0A2BC (SqlDateTimeStorage_t61FEBC82DEF1D37E0CC05A1DED1961AC5BA06E23* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6095,7 +6095,7 @@ IL_000f:
 		return L_5;
 	}
 }
-// Method Definition Index: 33926
+// Method Definition Index: 34067
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDateTimeStorage_Copy_m1324099BAC7A2E810308F475563BB115D2AE8E4E (SqlDateTimeStorage_t61FEBC82DEF1D37E0CC05A1DED1961AC5BA06E23* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -6111,7 +6111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDateTimeStorage_Copy_m1324099BAC7A2E8
 		return;
 	}
 }
-// Method Definition Index: 33927
+// Method Definition Index: 34068
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDateTimeStorage_Get_m3AA9A76BC12AA6278DD0D61D4136E63DEFAA30A8 (SqlDateTimeStorage_t61FEBC82DEF1D37E0CC05A1DED1961AC5BA06E23* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6131,7 +6131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDateTimeStorage_Get_m3AA9A7
 		return L_5;
 	}
 }
-// Method Definition Index: 33928
+// Method Definition Index: 34069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlDateTimeStorage_IsNull_m3A3A02C55D82E51E56CBB12747FADDE1F576AABD (SqlDateTimeStorage_t61FEBC82DEF1D37E0CC05A1DED1961AC5BA06E23* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6150,7 +6150,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlDateTimeStorage_IsNull_m3A3A02C55D82E
 		return L_2;
 	}
 }
-// Method Definition Index: 33929
+// Method Definition Index: 34070
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDateTimeStorage_Set_mAAA48C8B147D093DC0CC2D5EF788ED5F73203482 (SqlDateTimeStorage_t61FEBC82DEF1D37E0CC05A1DED1961AC5BA06E23* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -6164,7 +6164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDateTimeStorage_Set_mAAA48C8B147D093D
 		return;
 	}
 }
-// Method Definition Index: 33930
+// Method Definition Index: 34071
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDateTimeStorage_SetCapacity_m1D224BE562A861DF2211A532AE90EFD21E141F17 (SqlDateTimeStorage_t61FEBC82DEF1D37E0CC05A1DED1961AC5BA06E23* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6205,7 +6205,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 33931
+// Method Definition Index: 34072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDateTimeStorage_ConvertXmlToObject_m81D009CB4A01C05CD0CBCD2142CBFBC07142E6B4 (SqlDateTimeStorage_t61FEBC82DEF1D37E0CC05A1DED1961AC5BA06E23* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6286,7 +6286,7 @@ IL_003d:
 		return L_13;
 	}
 }
-// Method Definition Index: 33932
+// Method Definition Index: 34073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlDateTimeStorage_ConvertObjectToXml_mAC51E7F401AE31CE5F5F78BE7D9A25965CF4DFD5 (SqlDateTimeStorage_t61FEBC82DEF1D37E0CC05A1DED1961AC5BA06E23* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6359,7 +6359,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 33933
+// Method Definition Index: 34074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDateTimeStorage_GetEmptyStorage_mA05D33E5B68261B3CC9A8A96DCF40747A8FDA6C4 (SqlDateTimeStorage_t61FEBC82DEF1D37E0CC05A1DED1961AC5BA06E23* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6374,7 +6374,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDateTimeStorage_GetEmptySto
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 33934
+// Method Definition Index: 34075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDateTimeStorage_CopyValue_mBF4B74E254DDA225757177403098C80CB324CF88 (SqlDateTimeStorage_t61FEBC82DEF1D37E0CC05A1DED1961AC5BA06E23* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6403,7 +6403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDateTimeStorage_CopyValue_mBF4B74E254
 		return;
 	}
 }
-// Method Definition Index: 33935
+// Method Definition Index: 34076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDateTimeStorage_SetStorage_mB817A5DBE511DBF0079B910644E6C659BBF54247 (SqlDateTimeStorage_t61FEBC82DEF1D37E0CC05A1DED1961AC5BA06E23* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6427,7 +6427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDateTimeStorage_SetStorage_mB817A5DBE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 33936
+// Method Definition Index: 34077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDecimalStorage__ctor_m05F27AB1A177D5D7635E9838D6DBFBA41B291330 (SqlDecimalStorage_t441A81FB2EBA2ECD471F6DF8FF650B7F81110E17* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6457,7 +6457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDecimalStorage__ctor_m05F27AB1A177D5D
 		return;
 	}
 }
-// Method Definition Index: 33937
+// Method Definition Index: 34078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDecimalStorage_Aggregate_mCF3B8B498DBE9A04A814D7979E6FA217901E6790 (SqlDecimalStorage_t441A81FB2EBA2ECD471F6DF8FF650B7F81110E17* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7254,7 +7254,7 @@ IL_03ff:
 		return L_199;
 	}
 }
-// Method Definition Index: 33938
+// Method Definition Index: 34079
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlDecimalStorage_Compare_m2D5605F045DFF360D3DE042D94D41CF541665892 (SqlDecimalStorage_t441A81FB2EBA2ECD471F6DF8FF650B7F81110E17* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7278,7 +7278,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlDecimalStorage_Compare_m2D5605F045
 		return L_6;
 	}
 }
-// Method Definition Index: 33939
+// Method Definition Index: 34080
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlDecimalStorage_CompareValueTo_m99151EA8DBC11A58276F9F43CE3C1B7EE68FC1EB (SqlDecimalStorage_t441A81FB2EBA2ECD471F6DF8FF650B7F81110E17* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7298,7 +7298,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlDecimalStorage_CompareValueTo_m991
 		return L_3;
 	}
 }
-// Method Definition Index: 33940
+// Method Definition Index: 34081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDecimalStorage_ConvertValue_m0C8A76B9E6AEF04D5861CA02DC4143EE603DDC16 (SqlDecimalStorage_t441A81FB2EBA2ECD471F6DF8FF650B7F81110E17* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7329,7 +7329,7 @@ IL_000f:
 		return L_5;
 	}
 }
-// Method Definition Index: 33941
+// Method Definition Index: 34082
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDecimalStorage_Copy_m6AEE43779DBD73060E7BCCDC592A56DEA80E75CE (SqlDecimalStorage_t441A81FB2EBA2ECD471F6DF8FF650B7F81110E17* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -7345,7 +7345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDecimalStorage_Copy_m6AEE43779DBD7306
 		return;
 	}
 }
-// Method Definition Index: 33942
+// Method Definition Index: 34083
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDecimalStorage_Get_m7DD7B04BCBA8874A4A124DEE87ABA06F02F98958 (SqlDecimalStorage_t441A81FB2EBA2ECD471F6DF8FF650B7F81110E17* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7365,7 +7365,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDecimalStorage_Get_m7DD7B04
 		return L_5;
 	}
 }
-// Method Definition Index: 33943
+// Method Definition Index: 34084
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlDecimalStorage_IsNull_m1673FA78873669E79BBCE15D75A12BEC5A21ABBD (SqlDecimalStorage_t441A81FB2EBA2ECD471F6DF8FF650B7F81110E17* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7384,7 +7384,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlDecimalStorage_IsNull_m1673FA78873669
 		return L_2;
 	}
 }
-// Method Definition Index: 33944
+// Method Definition Index: 34085
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDecimalStorage_Set_m303844ED9BBA8D5D08F6454ABBAABF2FCA399D04 (SqlDecimalStorage_t441A81FB2EBA2ECD471F6DF8FF650B7F81110E17* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -7398,7 +7398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDecimalStorage_Set_m303844ED9BBA8D5D0
 		return;
 	}
 }
-// Method Definition Index: 33945
+// Method Definition Index: 34086
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDecimalStorage_SetCapacity_m27355FFA6DA45A309F361B36497EB1E62DA22430 (SqlDecimalStorage_t441A81FB2EBA2ECD471F6DF8FF650B7F81110E17* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7439,7 +7439,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 33946
+// Method Definition Index: 34087
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDecimalStorage_ConvertXmlToObject_m2E51443F5DCBB4E4536698CC47292FDEC294C38B (SqlDecimalStorage_t441A81FB2EBA2ECD471F6DF8FF650B7F81110E17* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7520,7 +7520,7 @@ IL_003d:
 		return L_13;
 	}
 }
-// Method Definition Index: 33947
+// Method Definition Index: 34088
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlDecimalStorage_ConvertObjectToXml_mE3FB10F99351C98D88C02B2C8566D4101C5AE24E (SqlDecimalStorage_t441A81FB2EBA2ECD471F6DF8FF650B7F81110E17* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7593,7 +7593,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 33948
+// Method Definition Index: 34089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDecimalStorage_GetEmptyStorage_m5F40EB9C1BB2D1DD2D7A2345E7B8445D1E7778D3 (SqlDecimalStorage_t441A81FB2EBA2ECD471F6DF8FF650B7F81110E17* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7608,7 +7608,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDecimalStorage_GetEmptyStor
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 33949
+// Method Definition Index: 34090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDecimalStorage_CopyValue_mCCA76443BF7441DFE214B6442EDF79A95CD95C81 (SqlDecimalStorage_t441A81FB2EBA2ECD471F6DF8FF650B7F81110E17* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7637,7 +7637,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDecimalStorage_CopyValue_mCCA76443BF7
 		return;
 	}
 }
-// Method Definition Index: 33950
+// Method Definition Index: 34091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDecimalStorage_SetStorage_m7807850A6FE40249425AEB585A6C5E215347E07D (SqlDecimalStorage_t441A81FB2EBA2ECD471F6DF8FF650B7F81110E17* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7661,7 +7661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDecimalStorage_SetStorage_m7807850A6F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 33951
+// Method Definition Index: 34092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDoubleStorage__ctor_mC813BE6407DC85AC5B7396FB66F3976DD476EF9E (SqlDoubleStorage_t0DECABF667CA933EB7456ABAA7CC258E66971383* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7691,7 +7691,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDoubleStorage__ctor_mC813BE6407DC85AC
 		return;
 	}
 }
-// Method Definition Index: 33952
+// Method Definition Index: 34093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDoubleStorage_Aggregate_mF000521AF34CA14D6C6D3B95EE76AE32E397FE78 (SqlDoubleStorage_t0DECABF667CA933EB7456ABAA7CC258E66971383* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8486,7 +8486,7 @@ IL_0405:
 		return L_202;
 	}
 }
-// Method Definition Index: 33953
+// Method Definition Index: 34094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlDoubleStorage_Compare_m60A0FEC76A50FA581EAB01D2CCA14A52B854ADB2 (SqlDoubleStorage_t0DECABF667CA933EB7456ABAA7CC258E66971383* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8510,7 +8510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlDoubleStorage_Compare_m60A0FEC76A5
 		return L_6;
 	}
 }
-// Method Definition Index: 33954
+// Method Definition Index: 34095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlDoubleStorage_CompareValueTo_mE5FFCCCFC464485C99C3BEC300A16B07DC4F7EEF (SqlDoubleStorage_t0DECABF667CA933EB7456ABAA7CC258E66971383* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8530,7 +8530,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlDoubleStorage_CompareValueTo_mE5FF
 		return L_3;
 	}
 }
-// Method Definition Index: 33955
+// Method Definition Index: 34096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDoubleStorage_ConvertValue_mDD925EDF829759C6AB6DA3F79FEC80504757D955 (SqlDoubleStorage_t0DECABF667CA933EB7456ABAA7CC258E66971383* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8561,7 +8561,7 @@ IL_000f:
 		return L_5;
 	}
 }
-// Method Definition Index: 33956
+// Method Definition Index: 34097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDoubleStorage_Copy_m96F2330A30430C32A95AE125CA769FE6B5A00DAE (SqlDoubleStorage_t0DECABF667CA933EB7456ABAA7CC258E66971383* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -8577,7 +8577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDoubleStorage_Copy_m96F2330A30430C32A
 		return;
 	}
 }
-// Method Definition Index: 33957
+// Method Definition Index: 34098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDoubleStorage_Get_m0ABF38D9C9047F8A4F92B516070D89B24B7BE5EA (SqlDoubleStorage_t0DECABF667CA933EB7456ABAA7CC258E66971383* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8597,7 +8597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDoubleStorage_Get_m0ABF38D9
 		return L_5;
 	}
 }
-// Method Definition Index: 33958
+// Method Definition Index: 34099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlDoubleStorage_IsNull_mA3083D6BA16CCDF04331D6CE31CF8EF8046E0EAD (SqlDoubleStorage_t0DECABF667CA933EB7456ABAA7CC258E66971383* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8616,7 +8616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlDoubleStorage_IsNull_mA3083D6BA16CCDF
 		return L_2;
 	}
 }
-// Method Definition Index: 33959
+// Method Definition Index: 34100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDoubleStorage_Set_m66AA6CA02EC8F6C5779DB15463E804DBD262808B (SqlDoubleStorage_t0DECABF667CA933EB7456ABAA7CC258E66971383* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -8630,7 +8630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDoubleStorage_Set_m66AA6CA02EC8F6C577
 		return;
 	}
 }
-// Method Definition Index: 33960
+// Method Definition Index: 34101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDoubleStorage_SetCapacity_m863E8EB404EAF286F7DBF7E2916CA48C1E331407 (SqlDoubleStorage_t0DECABF667CA933EB7456ABAA7CC258E66971383* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8671,7 +8671,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 33961
+// Method Definition Index: 34102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDoubleStorage_ConvertXmlToObject_mA13BE08497723F2EF4B3BB69242C2DFEAAF0339B (SqlDoubleStorage_t0DECABF667CA933EB7456ABAA7CC258E66971383* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8752,7 +8752,7 @@ IL_003d:
 		return L_13;
 	}
 }
-// Method Definition Index: 33962
+// Method Definition Index: 34103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlDoubleStorage_ConvertObjectToXml_mA64C4D1ABE8367138C7E335D02D933E68A8CA790 (SqlDoubleStorage_t0DECABF667CA933EB7456ABAA7CC258E66971383* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8825,7 +8825,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 33963
+// Method Definition Index: 34104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDoubleStorage_GetEmptyStorage_m113DF0C30BE20A8F39D41A60DCAE0149B1B1A31B (SqlDoubleStorage_t0DECABF667CA933EB7456ABAA7CC258E66971383* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8840,7 +8840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDoubleStorage_GetEmptyStora
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 33964
+// Method Definition Index: 34105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDoubleStorage_CopyValue_mA79FD20DF3328EEEB5FB7AE871D5E2F12919555F (SqlDoubleStorage_t0DECABF667CA933EB7456ABAA7CC258E66971383* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8869,7 +8869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDoubleStorage_CopyValue_mA79FD20DF332
 		return;
 	}
 }
-// Method Definition Index: 33965
+// Method Definition Index: 34106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDoubleStorage_SetStorage_m12FB8DD144DFB647F7EDE25738515B3CAD2AAEDB (SqlDoubleStorage_t0DECABF667CA933EB7456ABAA7CC258E66971383* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8893,7 +8893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDoubleStorage_SetStorage_m12FB8DD144D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 33966
+// Method Definition Index: 34107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlGuidStorage__ctor_mD4FFD0D530A6D60DAC9055C9AAA872383CF25C92 (SqlGuidStorage_tDF1FC414689723A6400F8E45E3DEA113BC4E7C0D* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8923,7 +8923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlGuidStorage__ctor_mD4FFD0D530A6D60DAC
 		return;
 	}
 }
-// Method Definition Index: 33967
+// Method Definition Index: 34108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlGuidStorage_Aggregate_m507A48A80846C74824F9782F332785D2C20E0629 (SqlGuidStorage_tDF1FC414689723A6400F8E45E3DEA113BC4E7C0D* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9080,7 +9080,7 @@ IL_0071:
 		return L_30;
 	}
 }
-// Method Definition Index: 33968
+// Method Definition Index: 34109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlGuidStorage_Compare_mFF38D16095B12F278F7532612D847A77E2AC6476 (SqlGuidStorage_tDF1FC414689723A6400F8E45E3DEA113BC4E7C0D* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9104,7 +9104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlGuidStorage_Compare_mFF38D16095B12
 		return L_6;
 	}
 }
-// Method Definition Index: 33969
+// Method Definition Index: 34110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlGuidStorage_CompareValueTo_mEBEE780FC80C90F9BB9F232851E349F79A1DE50E (SqlGuidStorage_tDF1FC414689723A6400F8E45E3DEA113BC4E7C0D* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9124,7 +9124,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlGuidStorage_CompareValueTo_mEBEE78
 		return L_3;
 	}
 }
-// Method Definition Index: 33970
+// Method Definition Index: 34111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlGuidStorage_ConvertValue_mE7AF0062DF2769B67B275FA2494DB2A5F48DB0D9 (SqlGuidStorage_tDF1FC414689723A6400F8E45E3DEA113BC4E7C0D* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9155,7 +9155,7 @@ IL_000f:
 		return L_5;
 	}
 }
-// Method Definition Index: 33971
+// Method Definition Index: 34112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlGuidStorage_Copy_m5A3C32795CE82FEFF200C1FD9C9432CC6C0ECB55 (SqlGuidStorage_tDF1FC414689723A6400F8E45E3DEA113BC4E7C0D* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -9171,7 +9171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlGuidStorage_Copy_m5A3C32795CE82FEFF20
 		return;
 	}
 }
-// Method Definition Index: 33972
+// Method Definition Index: 34113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlGuidStorage_Get_mED0B77FF3424590D67D843499BB641300787E684 (SqlGuidStorage_tDF1FC414689723A6400F8E45E3DEA113BC4E7C0D* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9191,7 +9191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlGuidStorage_Get_mED0B77FF34
 		return L_5;
 	}
 }
-// Method Definition Index: 33973
+// Method Definition Index: 34114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlGuidStorage_IsNull_m844F01904C1DE404295D11DAD806DC2798CAA505 (SqlGuidStorage_tDF1FC414689723A6400F8E45E3DEA113BC4E7C0D* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9210,7 +9210,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlGuidStorage_IsNull_m844F01904C1DE4042
 		return L_2;
 	}
 }
-// Method Definition Index: 33974
+// Method Definition Index: 34115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlGuidStorage_Set_mE833910DBCB99ACF7225E52AD71B4604CEB4AA5D (SqlGuidStorage_tDF1FC414689723A6400F8E45E3DEA113BC4E7C0D* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -9224,7 +9224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlGuidStorage_Set_mE833910DBCB99ACF7225
 		return;
 	}
 }
-// Method Definition Index: 33975
+// Method Definition Index: 34116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlGuidStorage_SetCapacity_mC60BFD461EEBA9A566D684106C89BA19AB50E6C2 (SqlGuidStorage_tDF1FC414689723A6400F8E45E3DEA113BC4E7C0D* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9265,7 +9265,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 33976
+// Method Definition Index: 34117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlGuidStorage_ConvertXmlToObject_mADC6F420E544FAFCD00E1DA53101A63C2EFF698B (SqlGuidStorage_tDF1FC414689723A6400F8E45E3DEA113BC4E7C0D* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9346,7 +9346,7 @@ IL_003d:
 		return L_13;
 	}
 }
-// Method Definition Index: 33977
+// Method Definition Index: 34118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlGuidStorage_ConvertObjectToXml_mA90C39A1A045C7E626178ED97F69144D92763C7B (SqlGuidStorage_tDF1FC414689723A6400F8E45E3DEA113BC4E7C0D* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9419,7 +9419,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 33978
+// Method Definition Index: 34119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlGuidStorage_GetEmptyStorage_mD55373637389F0F25C36457D8DE8F56FA9D50B90 (SqlGuidStorage_tDF1FC414689723A6400F8E45E3DEA113BC4E7C0D* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9434,7 +9434,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlGuidStorage_GetEmptyStorage
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 33979
+// Method Definition Index: 34120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlGuidStorage_CopyValue_m1CDAA46534C702A30F7E2E36DD1637BE14E80ECB (SqlGuidStorage_tDF1FC414689723A6400F8E45E3DEA113BC4E7C0D* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9463,7 +9463,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlGuidStorage_CopyValue_m1CDAA46534C702
 		return;
 	}
 }
-// Method Definition Index: 33980
+// Method Definition Index: 34121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlGuidStorage_SetStorage_m835A833A485F849E0AC96ADCCF400D3881D9ADC6 (SqlGuidStorage_tDF1FC414689723A6400F8E45E3DEA113BC4E7C0D* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9487,7 +9487,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlGuidStorage_SetStorage_m835A833A485F8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 33981
+// Method Definition Index: 34122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt16Storage__ctor_m3207646609A9E0EAC6A7C14EA0F803EA56F995C1 (SqlInt16Storage_t33D075AC0E657F836F3690503BE595FC190429E6* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9517,7 +9517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt16Storage__ctor_m3207646609A9E0EAC
 		return;
 	}
 }
-// Method Definition Index: 33982
+// Method Definition Index: 34123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt16Storage_Aggregate_mEC17381A65EBE0ED2F3009BA6453EDA0AF53EB6E (SqlInt16Storage_t33D075AC0E657F836F3690503BE595FC190429E6* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10324,7 +10324,7 @@ IL_0411:
 		return L_200;
 	}
 }
-// Method Definition Index: 33983
+// Method Definition Index: 34124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlInt16Storage_Compare_m6DE9D8EE4AE2DF1DE0E66DF97C9D4675ED7A2947 (SqlInt16Storage_t33D075AC0E657F836F3690503BE595FC190429E6* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10348,7 +10348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlInt16Storage_Compare_m6DE9D8EE4AE2
 		return L_6;
 	}
 }
-// Method Definition Index: 33984
+// Method Definition Index: 34125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlInt16Storage_CompareValueTo_m4E2B684C7689B3C0095CEA6FCD3BCAE57E4B63DD (SqlInt16Storage_t33D075AC0E657F836F3690503BE595FC190429E6* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10368,7 +10368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlInt16Storage_CompareValueTo_m4E2B6
 		return L_3;
 	}
 }
-// Method Definition Index: 33985
+// Method Definition Index: 34126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt16Storage_ConvertValue_m9AD5C4722AFA66D75F01E0493C72B79B5E3E74DE (SqlInt16Storage_t33D075AC0E657F836F3690503BE595FC190429E6* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10399,7 +10399,7 @@ IL_000f:
 		return L_5;
 	}
 }
-// Method Definition Index: 33986
+// Method Definition Index: 34127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt16Storage_Copy_mD5CB42256994A9953855FD6EF6157658511C8C70 (SqlInt16Storage_t33D075AC0E657F836F3690503BE595FC190429E6* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -10415,7 +10415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt16Storage_Copy_mD5CB42256994A99538
 		return;
 	}
 }
-// Method Definition Index: 33987
+// Method Definition Index: 34128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt16Storage_Get_mC3C9EEA967AD6234DD5A6EF0E8B66601F5ED9AAF (SqlInt16Storage_t33D075AC0E657F836F3690503BE595FC190429E6* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10435,7 +10435,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt16Storage_Get_mC3C9EEA96
 		return L_5;
 	}
 }
-// Method Definition Index: 33988
+// Method Definition Index: 34129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlInt16Storage_IsNull_m4BD7A7DC686D3424F4D02A1E97255CB2311BB792 (SqlInt16Storage_t33D075AC0E657F836F3690503BE595FC190429E6* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10454,7 +10454,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlInt16Storage_IsNull_m4BD7A7DC686D3424
 		return L_2;
 	}
 }
-// Method Definition Index: 33989
+// Method Definition Index: 34130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt16Storage_Set_m97079AB346F18DB9B56D7E5CD6B0DD7D6890D153 (SqlInt16Storage_t33D075AC0E657F836F3690503BE595FC190429E6* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -10468,7 +10468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt16Storage_Set_m97079AB346F18DB9B56
 		return;
 	}
 }
-// Method Definition Index: 33990
+// Method Definition Index: 34131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt16Storage_SetCapacity_m54D3F6803DD4B4FD7CE8D538439550B0B32544FD (SqlInt16Storage_t33D075AC0E657F836F3690503BE595FC190429E6* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10509,7 +10509,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 33991
+// Method Definition Index: 34132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt16Storage_ConvertXmlToObject_m2AA32A830C0C931711C3205331811834BEE9D8FD (SqlInt16Storage_t33D075AC0E657F836F3690503BE595FC190429E6* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10590,7 +10590,7 @@ IL_003d:
 		return L_13;
 	}
 }
-// Method Definition Index: 33992
+// Method Definition Index: 34133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlInt16Storage_ConvertObjectToXml_mCD024921FA6D1FCE2248466BF2E80365670BF06C (SqlInt16Storage_t33D075AC0E657F836F3690503BE595FC190429E6* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10663,7 +10663,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 33993
+// Method Definition Index: 34134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt16Storage_GetEmptyStorage_mA133B6180AD6CB01169F0A448C4D64760CBC5B28 (SqlInt16Storage_t33D075AC0E657F836F3690503BE595FC190429E6* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10678,7 +10678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt16Storage_GetEmptyStorag
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 33994
+// Method Definition Index: 34135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt16Storage_CopyValue_m743FA42BA5974DBEAAC5E5BB266430A718DC85A1 (SqlInt16Storage_t33D075AC0E657F836F3690503BE595FC190429E6* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10707,7 +10707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt16Storage_CopyValue_m743FA42BA5974
 		return;
 	}
 }
-// Method Definition Index: 33995
+// Method Definition Index: 34136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt16Storage_SetStorage_m11C3D70A09561D1362E9678019F41173DED50348 (SqlInt16Storage_t33D075AC0E657F836F3690503BE595FC190429E6* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10731,7 +10731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt16Storage_SetStorage_m11C3D70A0956
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 33996
+// Method Definition Index: 34137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt32Storage__ctor_m1B0C42ECD8A1C1CFFDB4722512AF9EE184D14677 (SqlInt32Storage_tC0E8F4C5A4F407E22E86EFC30FC5AE7E59ED8883* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10761,7 +10761,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt32Storage__ctor_m1B0C42ECD8A1C1CFF
 		return;
 	}
 }
-// Method Definition Index: 33997
+// Method Definition Index: 34138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt32Storage_Aggregate_m4798EAACD9C5EE7F30EEB8385B6F65CD83F379A1 (SqlInt32Storage_tC0E8F4C5A4F407E22E86EFC30FC5AE7E59ED8883* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11568,7 +11568,7 @@ IL_0411:
 		return L_200;
 	}
 }
-// Method Definition Index: 33998
+// Method Definition Index: 34139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlInt32Storage_Compare_m25DDD5F139DEBCE197ACF83EB7AFEE06F4295B41 (SqlInt32Storage_tC0E8F4C5A4F407E22E86EFC30FC5AE7E59ED8883* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11592,7 +11592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlInt32Storage_Compare_m25DDD5F139DE
 		return L_6;
 	}
 }
-// Method Definition Index: 33999
+// Method Definition Index: 34140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlInt32Storage_CompareValueTo_m536A0AFD779D9D77E6CD223B63F2F0F150316D8B (SqlInt32Storage_tC0E8F4C5A4F407E22E86EFC30FC5AE7E59ED8883* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11612,7 +11612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlInt32Storage_CompareValueTo_m536A0
 		return L_3;
 	}
 }
-// Method Definition Index: 34000
+// Method Definition Index: 34141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt32Storage_ConvertValue_mA6D2A11C0DF902118A29C74768AD50526A271B40 (SqlInt32Storage_tC0E8F4C5A4F407E22E86EFC30FC5AE7E59ED8883* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11643,7 +11643,7 @@ IL_000f:
 		return L_5;
 	}
 }
-// Method Definition Index: 34001
+// Method Definition Index: 34142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt32Storage_Copy_m7ECFFA0070DFDE63A0743BBF0BCFE8880FCD06EB (SqlInt32Storage_tC0E8F4C5A4F407E22E86EFC30FC5AE7E59ED8883* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -11659,7 +11659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt32Storage_Copy_m7ECFFA0070DFDE63A0
 		return;
 	}
 }
-// Method Definition Index: 34002
+// Method Definition Index: 34143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt32Storage_Get_mC5B5E9957341BF14C34D7726EF44EA7DEF5D3BFF (SqlInt32Storage_tC0E8F4C5A4F407E22E86EFC30FC5AE7E59ED8883* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11679,7 +11679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt32Storage_Get_mC5B5E9957
 		return L_5;
 	}
 }
-// Method Definition Index: 34003
+// Method Definition Index: 34144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlInt32Storage_IsNull_mB16C1F560431366ED17471AB501DCA80273A9974 (SqlInt32Storage_tC0E8F4C5A4F407E22E86EFC30FC5AE7E59ED8883* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11698,7 +11698,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlInt32Storage_IsNull_mB16C1F560431366E
 		return L_2;
 	}
 }
-// Method Definition Index: 34004
+// Method Definition Index: 34145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt32Storage_Set_mE7F257088DD65F755BE4158BBF88413CF8A77B0B (SqlInt32Storage_tC0E8F4C5A4F407E22E86EFC30FC5AE7E59ED8883* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -11712,7 +11712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt32Storage_Set_mE7F257088DD65F755BE
 		return;
 	}
 }
-// Method Definition Index: 34005
+// Method Definition Index: 34146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt32Storage_SetCapacity_m6717A2233B513B6610EBE3172FD266834E8B54B3 (SqlInt32Storage_tC0E8F4C5A4F407E22E86EFC30FC5AE7E59ED8883* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11753,7 +11753,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 34006
+// Method Definition Index: 34147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt32Storage_ConvertXmlToObject_m6AD51FD2B8AA416A0ADAA78C244BBF09B3D286DA (SqlInt32Storage_tC0E8F4C5A4F407E22E86EFC30FC5AE7E59ED8883* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11834,7 +11834,7 @@ IL_003d:
 		return L_13;
 	}
 }
-// Method Definition Index: 34007
+// Method Definition Index: 34148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlInt32Storage_ConvertObjectToXml_mF7CAE3512C59AD9657E65E52A22773F1622E761F (SqlInt32Storage_tC0E8F4C5A4F407E22E86EFC30FC5AE7E59ED8883* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11907,7 +11907,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 34008
+// Method Definition Index: 34149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt32Storage_GetEmptyStorage_m9FDA8D42C918B9DB7298DAC354889B5FE244EC8A (SqlInt32Storage_tC0E8F4C5A4F407E22E86EFC30FC5AE7E59ED8883* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11922,7 +11922,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt32Storage_GetEmptyStorag
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 34009
+// Method Definition Index: 34150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt32Storage_CopyValue_m37A3B6A9B0B1ACF138AF53D10D750FE961C969AF (SqlInt32Storage_tC0E8F4C5A4F407E22E86EFC30FC5AE7E59ED8883* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11951,7 +11951,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt32Storage_CopyValue_m37A3B6A9B0B1A
 		return;
 	}
 }
-// Method Definition Index: 34010
+// Method Definition Index: 34151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt32Storage_SetStorage_mC6D59F5051DF97F629AE46EFDB69C0016449DC4C (SqlInt32Storage_tC0E8F4C5A4F407E22E86EFC30FC5AE7E59ED8883* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11975,7 +11975,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt32Storage_SetStorage_mC6D59F5051DF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34011
+// Method Definition Index: 34152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt64Storage__ctor_m8C7A1A0C3F2B54F985F2D7B4A0B25445CA2E7C81 (SqlInt64Storage_t8723D45757F6629D826FF4C353550DF53A9875CB* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12005,7 +12005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt64Storage__ctor_m8C7A1A0C3F2B54F98
 		return;
 	}
 }
-// Method Definition Index: 34012
+// Method Definition Index: 34153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt64Storage_Aggregate_m85F5F3EEC1B4CB2577839DBF6B6F26E71E5DC1B7 (SqlInt64Storage_t8723D45757F6629D826FF4C353550DF53A9875CB* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12810,7 +12810,7 @@ IL_040d:
 		return L_199;
 	}
 }
-// Method Definition Index: 34013
+// Method Definition Index: 34154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlInt64Storage_Compare_m6386672539895623C4C61C212651E2A913EEAF00 (SqlInt64Storage_t8723D45757F6629D826FF4C353550DF53A9875CB* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12834,7 +12834,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlInt64Storage_Compare_m638667253989
 		return L_6;
 	}
 }
-// Method Definition Index: 34014
+// Method Definition Index: 34155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlInt64Storage_CompareValueTo_m03AEC78E1F1BAB5E5C354BCE49D330921ABEB418 (SqlInt64Storage_t8723D45757F6629D826FF4C353550DF53A9875CB* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12854,7 +12854,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlInt64Storage_CompareValueTo_m03AEC
 		return L_3;
 	}
 }
-// Method Definition Index: 34015
+// Method Definition Index: 34156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt64Storage_ConvertValue_mFDAEE72BAD7BF4814F2BBAC0B9485D6AE608F5A0 (SqlInt64Storage_t8723D45757F6629D826FF4C353550DF53A9875CB* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12885,7 +12885,7 @@ IL_000f:
 		return L_5;
 	}
 }
-// Method Definition Index: 34016
+// Method Definition Index: 34157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt64Storage_Copy_m61C6F6EC52B065184270FA0F1D86AF1B456BD85D (SqlInt64Storage_t8723D45757F6629D826FF4C353550DF53A9875CB* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -12901,7 +12901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt64Storage_Copy_m61C6F6EC52B0651842
 		return;
 	}
 }
-// Method Definition Index: 34017
+// Method Definition Index: 34158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt64Storage_Get_m81250E676E8E0A15EC1E23F87F9FF9BB7C0026DE (SqlInt64Storage_t8723D45757F6629D826FF4C353550DF53A9875CB* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12921,7 +12921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt64Storage_Get_m81250E676
 		return L_5;
 	}
 }
-// Method Definition Index: 34018
+// Method Definition Index: 34159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlInt64Storage_IsNull_mAC94C375343EC5DF586952840464CFFEBE740157 (SqlInt64Storage_t8723D45757F6629D826FF4C353550DF53A9875CB* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12940,7 +12940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlInt64Storage_IsNull_mAC94C375343EC5DF
 		return L_2;
 	}
 }
-// Method Definition Index: 34019
+// Method Definition Index: 34160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt64Storage_Set_m097D27CB9AE10EC0156A509257F55412BC6CC01C (SqlInt64Storage_t8723D45757F6629D826FF4C353550DF53A9875CB* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -12954,7 +12954,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt64Storage_Set_m097D27CB9AE10EC0156
 		return;
 	}
 }
-// Method Definition Index: 34020
+// Method Definition Index: 34161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt64Storage_SetCapacity_mE9DBCC22CABDE499C32BA0F02DC7F8EAA9522A8B (SqlInt64Storage_t8723D45757F6629D826FF4C353550DF53A9875CB* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12995,7 +12995,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 34021
+// Method Definition Index: 34162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt64Storage_ConvertXmlToObject_mA7AAFA1A19DEBE988021DEAF970AF782C9E3CE7B (SqlInt64Storage_t8723D45757F6629D826FF4C353550DF53A9875CB* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13076,7 +13076,7 @@ IL_003d:
 		return L_13;
 	}
 }
-// Method Definition Index: 34022
+// Method Definition Index: 34163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlInt64Storage_ConvertObjectToXml_m005E7D53AD3A78CC221394F6D408A9ED123BFA62 (SqlInt64Storage_t8723D45757F6629D826FF4C353550DF53A9875CB* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13149,7 +13149,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 34023
+// Method Definition Index: 34164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt64Storage_GetEmptyStorage_m9F28E57B0EB92242D9F3FA928C74D18BA19F5F7C (SqlInt64Storage_t8723D45757F6629D826FF4C353550DF53A9875CB* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13164,7 +13164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlInt64Storage_GetEmptyStorag
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 34024
+// Method Definition Index: 34165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt64Storage_CopyValue_m644E3E599959447D5EBD700752AAA55B75282238 (SqlInt64Storage_t8723D45757F6629D826FF4C353550DF53A9875CB* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13193,7 +13193,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt64Storage_CopyValue_m644E3E5999594
 		return;
 	}
 }
-// Method Definition Index: 34025
+// Method Definition Index: 34166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt64Storage_SetStorage_mC012B25018FD7CF33565F9D959295370DC01FF79 (SqlInt64Storage_t8723D45757F6629D826FF4C353550DF53A9875CB* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13217,7 +13217,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInt64Storage_SetStorage_mC012B25018FD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34026
+// Method Definition Index: 34167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlMoneyStorage__ctor_m84004060CB51CC01E5871F2F30170D2C6DF15161 (SqlMoneyStorage_t73DD2C8B83244A1B6651985BDF32387A74662B30* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13247,7 +13247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlMoneyStorage__ctor_m84004060CB51CC01E
 		return;
 	}
 }
-// Method Definition Index: 34027
+// Method Definition Index: 34168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlMoneyStorage_Aggregate_mF4899961886FE4256076DD35EED139C683D84913 (SqlMoneyStorage_t73DD2C8B83244A1B6651985BDF32387A74662B30* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14054,7 +14054,7 @@ IL_0412:
 		return L_200;
 	}
 }
-// Method Definition Index: 34028
+// Method Definition Index: 34169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlMoneyStorage_Compare_m4C13102D0224CD7223C3471D574F56B93E61D638 (SqlMoneyStorage_t73DD2C8B83244A1B6651985BDF32387A74662B30* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14078,7 +14078,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlMoneyStorage_Compare_m4C13102D0224
 		return L_6;
 	}
 }
-// Method Definition Index: 34029
+// Method Definition Index: 34170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlMoneyStorage_CompareValueTo_mDD0274C9AFEFDB19B507445544B5E19F12A28BCF (SqlMoneyStorage_t73DD2C8B83244A1B6651985BDF32387A74662B30* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14098,7 +14098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlMoneyStorage_CompareValueTo_mDD027
 		return L_3;
 	}
 }
-// Method Definition Index: 34030
+// Method Definition Index: 34171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlMoneyStorage_ConvertValue_mAA0363CF7B1BFBB9F60AA878D3ADE00FEA88AACC (SqlMoneyStorage_t73DD2C8B83244A1B6651985BDF32387A74662B30* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14129,7 +14129,7 @@ IL_000f:
 		return L_5;
 	}
 }
-// Method Definition Index: 34031
+// Method Definition Index: 34172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlMoneyStorage_Copy_m08FEC3C5D1558664ECFAB3CF77106E19C0B9BC2A (SqlMoneyStorage_t73DD2C8B83244A1B6651985BDF32387A74662B30* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -14145,7 +14145,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlMoneyStorage_Copy_m08FEC3C5D1558664EC
 		return;
 	}
 }
-// Method Definition Index: 34032
+// Method Definition Index: 34173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlMoneyStorage_Get_m5DBFB118AEF1252816DA19278F247923A465DBEC (SqlMoneyStorage_t73DD2C8B83244A1B6651985BDF32387A74662B30* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14165,7 +14165,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlMoneyStorage_Get_m5DBFB118A
 		return L_5;
 	}
 }
-// Method Definition Index: 34033
+// Method Definition Index: 34174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlMoneyStorage_IsNull_mAA7A523EFE61AF91F265229E3888BC4205333C89 (SqlMoneyStorage_t73DD2C8B83244A1B6651985BDF32387A74662B30* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14184,7 +14184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlMoneyStorage_IsNull_mAA7A523EFE61AF91
 		return L_2;
 	}
 }
-// Method Definition Index: 34034
+// Method Definition Index: 34175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlMoneyStorage_Set_m10F3997D0CE5FE713A0CDDD18F717455E6B1140A (SqlMoneyStorage_t73DD2C8B83244A1B6651985BDF32387A74662B30* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -14198,7 +14198,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlMoneyStorage_Set_m10F3997D0CE5FE713A0
 		return;
 	}
 }
-// Method Definition Index: 34035
+// Method Definition Index: 34176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlMoneyStorage_SetCapacity_mFF1346FBA8E29E2BECB43518B5D9A048A57B9494 (SqlMoneyStorage_t73DD2C8B83244A1B6651985BDF32387A74662B30* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14239,7 +14239,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 34036
+// Method Definition Index: 34177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlMoneyStorage_ConvertXmlToObject_m3A2F595B6F57251FABB62FD9ECC617B5AAD68160 (SqlMoneyStorage_t73DD2C8B83244A1B6651985BDF32387A74662B30* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14320,7 +14320,7 @@ IL_003d:
 		return L_13;
 	}
 }
-// Method Definition Index: 34037
+// Method Definition Index: 34178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlMoneyStorage_ConvertObjectToXml_m295A5744059F59012C21A49A628444C3CC5DF066 (SqlMoneyStorage_t73DD2C8B83244A1B6651985BDF32387A74662B30* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14393,7 +14393,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 34038
+// Method Definition Index: 34179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlMoneyStorage_GetEmptyStorage_m26B0A408F59A20B17AF96808407CA504E5FF5E35 (SqlMoneyStorage_t73DD2C8B83244A1B6651985BDF32387A74662B30* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14408,7 +14408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlMoneyStorage_GetEmptyStorag
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 34039
+// Method Definition Index: 34180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlMoneyStorage_CopyValue_m1192A4C462EB83DA739CE332B866265F32A66017 (SqlMoneyStorage_t73DD2C8B83244A1B6651985BDF32387A74662B30* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14437,7 +14437,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlMoneyStorage_CopyValue_m1192A4C462EB8
 		return;
 	}
 }
-// Method Definition Index: 34040
+// Method Definition Index: 34181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlMoneyStorage_SetStorage_m7056C602ACA5689E5E9BDB2B65296978657C0144 (SqlMoneyStorage_t73DD2C8B83244A1B6651985BDF32387A74662B30* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14461,7 +14461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlMoneyStorage_SetStorage_m7056C602ACA5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34041
+// Method Definition Index: 34182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlSingleStorage__ctor_mADD6A3F44DF260CCD886FB5DF2A5E48CC6736299 (SqlSingleStorage_t521641843FBC1C8159B0D17D082F680912027D31* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14491,7 +14491,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlSingleStorage__ctor_mADD6A3F44DF260CC
 		return;
 	}
 }
-// Method Definition Index: 34042
+// Method Definition Index: 34183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlSingleStorage_Aggregate_m1731FD5018821474EAEF100EF1F6F8436EF68893 (SqlSingleStorage_t521641843FBC1C8159B0D17D082F680912027D31* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15295,7 +15295,7 @@ IL_041a:
 		return L_199;
 	}
 }
-// Method Definition Index: 34043
+// Method Definition Index: 34184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlSingleStorage_Compare_mED5442A633D42178ED19A90DABF55A88D1416E0F (SqlSingleStorage_t521641843FBC1C8159B0D17D082F680912027D31* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15319,7 +15319,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlSingleStorage_Compare_mED5442A633D
 		return L_6;
 	}
 }
-// Method Definition Index: 34044
+// Method Definition Index: 34185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlSingleStorage_CompareValueTo_m291949F8E604865C4EC241D0A55A82BB3FB2E597 (SqlSingleStorage_t521641843FBC1C8159B0D17D082F680912027D31* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15339,7 +15339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlSingleStorage_CompareValueTo_m2919
 		return L_3;
 	}
 }
-// Method Definition Index: 34045
+// Method Definition Index: 34186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlSingleStorage_ConvertValue_m48336B1F2C615088566A16F762EFED19F8266F82 (SqlSingleStorage_t521641843FBC1C8159B0D17D082F680912027D31* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15370,7 +15370,7 @@ IL_000f:
 		return L_5;
 	}
 }
-// Method Definition Index: 34046
+// Method Definition Index: 34187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlSingleStorage_Copy_m518B3E5113DE52CF8C13F262D6B1D836BADB85A1 (SqlSingleStorage_t521641843FBC1C8159B0D17D082F680912027D31* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -15386,7 +15386,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlSingleStorage_Copy_m518B3E5113DE52CF8
 		return;
 	}
 }
-// Method Definition Index: 34047
+// Method Definition Index: 34188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlSingleStorage_Get_m4347389714E82FD420D46F05A548A70D4A271C79 (SqlSingleStorage_t521641843FBC1C8159B0D17D082F680912027D31* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15406,7 +15406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlSingleStorage_Get_m43473897
 		return L_5;
 	}
 }
-// Method Definition Index: 34048
+// Method Definition Index: 34189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlSingleStorage_IsNull_m33F149ABA2D6AD1A0EAC9658005347000A576C1E (SqlSingleStorage_t521641843FBC1C8159B0D17D082F680912027D31* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15425,7 +15425,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlSingleStorage_IsNull_m33F149ABA2D6AD1
 		return L_2;
 	}
 }
-// Method Definition Index: 34049
+// Method Definition Index: 34190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlSingleStorage_Set_m02C51116981892C7AB1E3F78B3D0DFE404E7A4F9 (SqlSingleStorage_t521641843FBC1C8159B0D17D082F680912027D31* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -15439,7 +15439,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlSingleStorage_Set_m02C51116981892C7AB
 		return;
 	}
 }
-// Method Definition Index: 34050
+// Method Definition Index: 34191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlSingleStorage_SetCapacity_m9B11DF67592C8D8047A0865D124A624145AC1617 (SqlSingleStorage_t521641843FBC1C8159B0D17D082F680912027D31* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15480,7 +15480,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 34051
+// Method Definition Index: 34192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlSingleStorage_ConvertXmlToObject_mFE6B90745DEC02DFA7FDEF845B9C90D45E86F360 (SqlSingleStorage_t521641843FBC1C8159B0D17D082F680912027D31* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15561,7 +15561,7 @@ IL_003d:
 		return L_13;
 	}
 }
-// Method Definition Index: 34052
+// Method Definition Index: 34193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlSingleStorage_ConvertObjectToXml_mABFEF7F6E98E8994CBBCAF5DC2F4A36F364C87EA (SqlSingleStorage_t521641843FBC1C8159B0D17D082F680912027D31* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15634,7 +15634,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 34053
+// Method Definition Index: 34194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlSingleStorage_GetEmptyStorage_mD0CE521CA27C290A082518C5828B70988074188B (SqlSingleStorage_t521641843FBC1C8159B0D17D082F680912027D31* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15649,7 +15649,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlSingleStorage_GetEmptyStora
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 34054
+// Method Definition Index: 34195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlSingleStorage_CopyValue_m7DBEE5DC5453DE7B9D718A5DACFD2732119034CE (SqlSingleStorage_t521641843FBC1C8159B0D17D082F680912027D31* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15678,7 +15678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlSingleStorage_CopyValue_m7DBEE5DC5453
 		return;
 	}
 }
-// Method Definition Index: 34055
+// Method Definition Index: 34196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlSingleStorage_SetStorage_m73E2E85DE4616B7DEEE2657A0E0E7E0446A08BB4 (SqlSingleStorage_t521641843FBC1C8159B0D17D082F680912027D31* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15702,7 +15702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlSingleStorage_SetStorage_m73E2E85DE46
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34056
+// Method Definition Index: 34197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlStringStorage__ctor_m18394D9693EC2AFD62867D241053298A7F892FC0 (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15732,7 +15732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlStringStorage__ctor_m18394D9693EC2AFD
 		return;
 	}
 }
-// Method Definition Index: 34057
+// Method Definition Index: 34198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlStringStorage_Aggregate_mEE8D15FE6D1B33441B8E0CE11F08EDD682EB5982 (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_recordNos, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16115,7 +16115,7 @@ IL_012d:
 		return L_85;
 	}
 }
-// Method Definition Index: 34058
+// Method Definition Index: 34199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlStringStorage_Compare_m1B6E49029A22509A9854041E2BC3F1F6BCC6EDD8 (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -16134,7 +16134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlStringStorage_Compare_m1B6E49029A2
 		return L_8;
 	}
 }
-// Method Definition Index: 34059
+// Method Definition Index: 34200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlStringStorage_Compare_m66A6DE5F012951BAF41F38E163EBB9AD684C487A (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D ___0_valueNo1, SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D ___1_valueNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16207,7 +16207,7 @@ IL_002a:
 		return L_7;
 	}
 }
-// Method Definition Index: 34060
+// Method Definition Index: 34201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlStringStorage_CompareValueTo_mC76BA5259F3F8588A829BD9F6CC6E645E2F06F5E (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16228,7 +16228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlStringStorage_CompareValueTo_mC76B
 		return L_5;
 	}
 }
-// Method Definition Index: 34061
+// Method Definition Index: 34202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlStringStorage_ConvertValue_mD98EAF5876167603CE76D7B8FA9C7E72B3216009 (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16259,7 +16259,7 @@ IL_000f:
 		return L_5;
 	}
 }
-// Method Definition Index: 34062
+// Method Definition Index: 34203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlStringStorage_Copy_m38145A011766872721B58D3520A64D77AC084974 (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -16275,7 +16275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlStringStorage_Copy_m38145A01176687272
 		return;
 	}
 }
-// Method Definition Index: 34063
+// Method Definition Index: 34204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlStringStorage_Get_mFE751BD4B4E7DEFC9A73179490FAE9A7A6DAD025 (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16295,7 +16295,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlStringStorage_Get_mFE751BD4
 		return L_5;
 	}
 }
-// Method Definition Index: 34064
+// Method Definition Index: 34205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlStringStorage_GetStringLength_mC66254BCB38D1B503A2225253576FF09065B7803 (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16336,7 +16336,7 @@ IL_0023:
 		return 0;
 	}
 }
-// Method Definition Index: 34065
+// Method Definition Index: 34206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlStringStorage_IsNull_m2EC56D4CF78739B5B0ADBBB552D4125030F8E80E (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16355,7 +16355,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlStringStorage_IsNull_m2EC56D4CF78739B
 		return L_2;
 	}
 }
-// Method Definition Index: 34066
+// Method Definition Index: 34207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlStringStorage_Set_m2E51B7BA5FF371D585FBCBB5123A49524831B79B (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -16369,7 +16369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlStringStorage_Set_m2E51B7BA5FF371D585
 		return;
 	}
 }
-// Method Definition Index: 34067
+// Method Definition Index: 34208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlStringStorage_SetCapacity_m95C957D1BF55409A7D7C8CEF9A4F59A3838BFBFC (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16410,7 +16410,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 34068
+// Method Definition Index: 34209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlStringStorage_ConvertXmlToObject_m422748A90B04409B0B47BAC7894F0F0B5819C7A1 (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16491,7 +16491,7 @@ IL_003d:
 		return L_13;
 	}
 }
-// Method Definition Index: 34069
+// Method Definition Index: 34210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlStringStorage_ConvertObjectToXml_mCFAA1CB5CEF3199FBB6043E313E413103D43CF9F (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16564,7 +16564,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 34070
+// Method Definition Index: 34211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlStringStorage_GetEmptyStorage_m505B1A9C60B51C14A22194C1E51CA60E84E6A30C (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16579,7 +16579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlStringStorage_GetEmptyStora
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 34071
+// Method Definition Index: 34212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlStringStorage_CopyValue_m61A8ED2D5AE251455853A6C847531B646F2AE14A (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16608,7 +16608,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlStringStorage_CopyValue_m61A8ED2D5AE2
 		return;
 	}
 }
-// Method Definition Index: 34072
+// Method Definition Index: 34213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlStringStorage_SetStorage_m28040DF27710F54199F5C2023607DDB775EF08A3 (SqlStringStorage_t94C5DE64AC3395FA6A9931AE0AD1561E5F73B22F* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16632,7 +16632,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlStringStorage_SetStorage_m28040DF2771
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34073
+// Method Definition Index: 34214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBooleanStorage__ctor_mFD58DBA18B9FAA1956AC9257E393F11F3BA0A120 (SqlBooleanStorage_tAE0880B17BCAC85D90CFCC823D50B112BC0BF731* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16662,7 +16662,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBooleanStorage__ctor_mFD58DBA18B9FAA1
 		return;
 	}
 }
-// Method Definition Index: 34074
+// Method Definition Index: 34215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBooleanStorage_Aggregate_m3B3E57CD8FACE461E615597A8D02BCB243AF03D7 (SqlBooleanStorage_tAE0880B17BCAC85D90CFCC823D50B112BC0BF731* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16996,7 +16996,7 @@ IL_0144:
 		return L_72;
 	}
 }
-// Method Definition Index: 34075
+// Method Definition Index: 34216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlBooleanStorage_Compare_mC9066E812C14A89D58B0FAE691BD63BBAB838C50 (SqlBooleanStorage_tAE0880B17BCAC85D90CFCC823D50B112BC0BF731* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17020,7 +17020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlBooleanStorage_Compare_mC9066E812C
 		return L_6;
 	}
 }
-// Method Definition Index: 34076
+// Method Definition Index: 34217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlBooleanStorage_CompareValueTo_m9F3A9EC979DA024D0910BC2D78E8334464CFDF81 (SqlBooleanStorage_tAE0880B17BCAC85D90CFCC823D50B112BC0BF731* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17040,7 +17040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlBooleanStorage_CompareValueTo_m9F3
 		return L_3;
 	}
 }
-// Method Definition Index: 34077
+// Method Definition Index: 34218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBooleanStorage_ConvertValue_m081BCCCDF91C08DA739D97F40801F33F9F229F62 (SqlBooleanStorage_tAE0880B17BCAC85D90CFCC823D50B112BC0BF731* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17071,7 +17071,7 @@ IL_000f:
 		return L_5;
 	}
 }
-// Method Definition Index: 34078
+// Method Definition Index: 34219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBooleanStorage_Copy_m775C111BD1984866EE96BACDE6079ABE16A0D6CC (SqlBooleanStorage_tAE0880B17BCAC85D90CFCC823D50B112BC0BF731* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -17087,7 +17087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBooleanStorage_Copy_m775C111BD1984866
 		return;
 	}
 }
-// Method Definition Index: 34079
+// Method Definition Index: 34220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBooleanStorage_Get_m289E873C9994E051D4A07ECED741064960DDA0F1 (SqlBooleanStorage_tAE0880B17BCAC85D90CFCC823D50B112BC0BF731* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17107,7 +17107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBooleanStorage_Get_m289E873
 		return L_5;
 	}
 }
-// Method Definition Index: 34080
+// Method Definition Index: 34221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlBooleanStorage_IsNull_m54CCB723C86805924436151884C19DAB311E5E8D (SqlBooleanStorage_tAE0880B17BCAC85D90CFCC823D50B112BC0BF731* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17126,7 +17126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlBooleanStorage_IsNull_m54CCB723C86805
 		return L_2;
 	}
 }
-// Method Definition Index: 34081
+// Method Definition Index: 34222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBooleanStorage_Set_mB021C4D47B089DFFF9396FC18DF400641A086587 (SqlBooleanStorage_tAE0880B17BCAC85D90CFCC823D50B112BC0BF731* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -17140,7 +17140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBooleanStorage_Set_mB021C4D47B089DFFF
 		return;
 	}
 }
-// Method Definition Index: 34082
+// Method Definition Index: 34223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBooleanStorage_SetCapacity_m11F4974C3FD0FF363E1151A115A7F95D42175CDC (SqlBooleanStorage_tAE0880B17BCAC85D90CFCC823D50B112BC0BF731* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17181,7 +17181,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 34083
+// Method Definition Index: 34224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBooleanStorage_ConvertXmlToObject_m11329AE44C2E788325467F5B4C7989AF5AB1851A (SqlBooleanStorage_tAE0880B17BCAC85D90CFCC823D50B112BC0BF731* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17262,7 +17262,7 @@ IL_003d:
 		return L_13;
 	}
 }
-// Method Definition Index: 34084
+// Method Definition Index: 34225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlBooleanStorage_ConvertObjectToXml_m2101EEDD4FE390C93079F837ADCF955E5717C0E1 (SqlBooleanStorage_tAE0880B17BCAC85D90CFCC823D50B112BC0BF731* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17335,7 +17335,7 @@ IL_002b:
 		return L_9;
 	}
 }
-// Method Definition Index: 34085
+// Method Definition Index: 34226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBooleanStorage_GetEmptyStorage_mCD80CD13E17631D53A0784BAF0A05CB5467EFBC8 (SqlBooleanStorage_tAE0880B17BCAC85D90CFCC823D50B112BC0BF731* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17350,7 +17350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlBooleanStorage_GetEmptyStor
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 34086
+// Method Definition Index: 34227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBooleanStorage_CopyValue_m2AAF9EBCFC32C8DF0FC28AC6B8F4A6AAFCCA9C87 (SqlBooleanStorage_tAE0880B17BCAC85D90CFCC823D50B112BC0BF731* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17379,7 +17379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBooleanStorage_CopyValue_m2AAF9EBCFC3
 		return;
 	}
 }
-// Method Definition Index: 34087
+// Method Definition Index: 34228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBooleanStorage_SetStorage_m734F52ECE8668182A29A9CC06682232901F16787 (SqlBooleanStorage_tAE0880B17BCAC85D90CFCC823D50B112BC0BF731* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17403,7 +17403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlBooleanStorage_SetStorage_m734F52ECE8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34088
+// Method Definition Index: 34229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingleStorage__ctor_m343C42F8D04A3616A1FD0D70D47C06DC8CE02D67 (SingleStorage_tE1D8B663170EBC119509B3C6D430FEC995193170* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17428,7 +17428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingleStorage__ctor_m343C42F8D04A3616A1F
 		return;
 	}
 }
-// Method Definition Index: 34089
+// Method Definition Index: 34230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SingleStorage_Aggregate_mB25EEF3F27B00330CEA140296FCC89D582E7F69B (SingleStorage_tE1D8B663170EBC119509B3C6D430FEC995193170* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18038,7 +18038,7 @@ IL_02e0:
 		return L_148;
 	}
 }
-// Method Definition Index: 34090
+// Method Definition Index: 34231
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SingleStorage_Compare_m618A2B3541F8A95481164EC0531805A275A85551 (SingleStorage_tE1D8B663170EBC119509B3C6D430FEC995193170* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -18097,7 +18097,7 @@ IL_0030:
 		return L_16;
 	}
 }
-// Method Definition Index: 34091
+// Method Definition Index: 34232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SingleStorage_CompareValueTo_mE6F3795F68450FA936EF627BB37E35D12F3C5149 (SingleStorage_tE1D8B663170EBC119509B3C6D430FEC995193170* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18168,7 +18168,7 @@ IL_0032:
 		return L_12;
 	}
 }
-// Method Definition Index: 34092
+// Method Definition Index: 34233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SingleStorage_ConvertValue_mBCF949551BC16D13E15A7CE3F9003D7F141E3D4A (SingleStorage_tE1D8B663170EBC119509B3C6D430FEC995193170* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18218,7 +18218,7 @@ IL_002e:
 		return L_9;
 	}
 }
-// Method Definition Index: 34093
+// Method Definition Index: 34234
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingleStorage_Copy_m68C56FBEE33C4295D5BA9D349FEDC9006BF45E0D (SingleStorage_tE1D8B663170EBC119509B3C6D430FEC995193170* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -18237,7 +18237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingleStorage_Copy_m68C56FBEE33C4295D5BA
 		return;
 	}
 }
-// Method Definition Index: 34094
+// Method Definition Index: 34235
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SingleStorage_Get_m6EDE1AC1373276BA052C0C9CF23D93C0D5919DD8 (SingleStorage_tE1D8B663170EBC119509B3C6D430FEC995193170* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18275,7 +18275,7 @@ IL_0018:
 		return L_9;
 	}
 }
-// Method Definition Index: 34095
+// Method Definition Index: 34236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingleStorage_Set_m8DC9A84A419CE2F4A0BB8C6505BCCFA238B03FE1 (SingleStorage_tE1D8B663170EBC119509B3C6D430FEC995193170* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18319,7 +18319,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 34096
+// Method Definition Index: 34237
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingleStorage_SetCapacity_mF0180302217CC3A8CE767D035AD2B3435C6D2EAC (SingleStorage_tE1D8B663170EBC119509B3C6D430FEC995193170* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18362,7 +18362,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 34097
+// Method Definition Index: 34238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SingleStorage_ConvertXmlToObject_m0E8576E68C39AA4FA4485AFF909758CEBF12F70F (SingleStorage_tE1D8B663170EBC119509B3C6D430FEC995193170* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18382,7 +18382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SingleStorage_ConvertXmlToObje
 		return L_3;
 	}
 }
-// Method Definition Index: 34098
+// Method Definition Index: 34239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SingleStorage_ConvertObjectToXml_m803668FC8302B5875530F196F4E32AE782A3F6F6 (SingleStorage_tE1D8B663170EBC119509B3C6D430FEC995193170* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18400,7 +18400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SingleStorage_ConvertObjectToXml_m8
 		return L_1;
 	}
 }
-// Method Definition Index: 34099
+// Method Definition Index: 34240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SingleStorage_GetEmptyStorage_m11878473248B188B35458BA84B58B2B989739A65 (SingleStorage_tE1D8B663170EBC119509B3C6D430FEC995193170* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18415,7 +18415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SingleStorage_GetEmptyStorage_
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 34100
+// Method Definition Index: 34241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingleStorage_CopyValue_m6741960CEE9AA1E762389D384FCFA6A2DBD6E069 (SingleStorage_tE1D8B663170EBC119509B3C6D430FEC995193170* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18444,7 +18444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingleStorage_CopyValue_m6741960CEE9AA1E
 		return;
 	}
 }
-// Method Definition Index: 34101
+// Method Definition Index: 34242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingleStorage_SetStorage_m7F24FF18D74DA9BB15E1862A9039AECAE025EFF8 (SingleStorage_tE1D8B663170EBC119509B3C6D430FEC995193170* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18470,7 +18470,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingleStorage_SetStorage_m7F24FF18D74DA9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34102
+// Method Definition Index: 34243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage__ctor_mCC1CE21121EEC6FCC4D9D6BF43DDD80BD538183A (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, Type_t* ___1_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18490,7 +18490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage__ctor_mCC1CE21121EEC6FCC4D
 		return;
 	}
 }
-// Method Definition Index: 34103
+// Method Definition Index: 34244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage__ctor_m94619A62207B20278BCFDCF5AE406465B4C64D0B (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, Type_t* ___1_type, RuntimeObject* ___2_nullValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18540,7 +18540,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage__ctor_m94619A62207B20278BC
 		return;
 	}
 }
-// Method Definition Index: 34104
+// Method Definition Index: 34245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlUdtStorage_GetStaticNullForUdtType_m82F5DEBE6A48BAB46B9C9FD8E42E918D5FCF1987 (Type_t* ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18577,7 +18577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlUdtStorage_GetStaticNullFor
 		return L_8;
 	}
 }
-// Method Definition Index: 34105
+// Method Definition Index: 34246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlUdtStorage_IsNull_mEFE02CB7FDFA9B3AD699E4DFFE9B3990501ECD56 (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18598,7 +18598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlUdtStorage_IsNull_mEFE02CB7FDFA9B3AD6
 		return L_4;
 	}
 }
-// Method Definition Index: 34106
+// Method Definition Index: 34247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlUdtStorage_Aggregate_m5D6036C23038ECD78C4881E9B5E49EEE9E957FE3 (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	{
@@ -18609,7 +18609,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlUdtStorage_Aggregate_m5D603
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqlUdtStorage_Aggregate_m5D6036C23038ECD78C4881E9B5E49EEE9E957FE3_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 34107
+// Method Definition Index: 34248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlUdtStorage_Compare_mCE1A55BFFE985475DCE8DC0384CD8F8563BE24F5 (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -18624,7 +18624,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlUdtStorage_Compare_mCE1A55BFFE9854
 		return L_5;
 	}
 }
-// Method Definition Index: 34108
+// Method Definition Index: 34249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlUdtStorage_CompareValueTo_m6FE681BA37983850EC12613E6FB61BAFE747CCFA (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, int32_t ___0_recordNo1, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18713,7 +18713,7 @@ IL_004d:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqlUdtStorage_CompareValueTo_m6FE681BA37983850EC12613E6FB61BAFE747CCFA_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 34109
+// Method Definition Index: 34250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage_Copy_mEBCE88996320989FB969911642FF388455C9C508 (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -18733,7 +18733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage_Copy_mEBCE88996320989FB969
 		return;
 	}
 }
-// Method Definition Index: 34110
+// Method Definition Index: 34251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlUdtStorage_Get_m126380C0285CE1B2C282D1EBFB225822144D8045 (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, int32_t ___0_recordNo, const RuntimeMethod* method) 
 {
 	{
@@ -18745,7 +18745,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlUdtStorage_Get_m126380C0285
 		return L_3;
 	}
 }
-// Method Definition Index: 34111
+// Method Definition Index: 34252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage_Set_m095FB8D317F1F198E8D649173B3ED77EE3487443 (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18840,7 +18840,7 @@ IL_005b:
 		return;
 	}
 }
-// Method Definition Index: 34112
+// Method Definition Index: 34253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage_SetCapacity_m7BA7B111C189176CD66693A42B157C6F56C7304B (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18883,7 +18883,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 34113
+// Method Definition Index: 34254
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR RuntimeObject* SqlUdtStorage_ConvertXmlToObject_mDDE1486865C2C7F96E26CB077E1759D649B4530B (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18984,7 +18984,7 @@ IL_004a:
 		return L_17;
 	}
 }
-// Method Definition Index: 34114
+// Method Definition Index: 34255
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR RuntimeObject* SqlUdtStorage_ConvertXmlToObject_m64771B8D93840BFF00509C689682D9EE9F107EE2 (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* ___0_xmlReader, XmlRootAttribute_t09EE81719C9B95C01B28D108765FB62737E75FAF* ___1_xmlAttrib, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19094,7 +19094,7 @@ IL_005b:
 		return L_21;
 	}
 }
-// Method Definition Index: 34115
+// Method Definition Index: 34256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlUdtStorage_ConvertObjectToXml_m5D7E9052FFE08E7DB5C2D88787F936FE00D9F132 (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19190,7 +19190,7 @@ IL_0045:
 		return L_15;
 	}
 }
-// Method Definition Index: 34116
+// Method Definition Index: 34257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage_ConvertObjectToXml_m3195087DA563349C3AECF07F1BA9425BB0F641A3 (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, RuntimeObject* ___0_value, XmlWriter_tCBC8D0C4891828A0A384C68D0414337F20E1A17F* ___1_xmlWriter, XmlRootAttribute_t09EE81719C9B95C01B28D108765FB62737E75FAF* ___2_xmlAttrib, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19229,7 +19229,7 @@ IL_0010:
 		return;
 	}
 }
-// Method Definition Index: 34117
+// Method Definition Index: 34258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlUdtStorage_GetEmptyStorage_m8D8DDBC6E73BA3CA4A853D33CB8211E3B3F0B2D2 (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19244,7 +19244,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlUdtStorage_GetEmptyStorage_
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 34118
+// Method Definition Index: 34259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage_CopyValue_m99C613BB5977F697C40353CFEFF0A8837E65796E (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19274,7 +19274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage_CopyValue_m99C613BB5977F69
 		return;
 	}
 }
-// Method Definition Index: 34119
+// Method Definition Index: 34260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage_SetStorage_m8BF8D6AE2C322AE7E847BCB5F98BDB87855CBC1D (SqlUdtStorage_t5F263716B666F5A31BD1DC9AC94981BF3185F067* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19290,7 +19290,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage_SetStorage_m8BF8D6AE2C322A
 		return;
 	}
 }
-// Method Definition Index: 34120
+// Method Definition Index: 34261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage__cctor_mF0EA2082C57417E4D77B7223924F2274033B834A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19317,7 +19317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage__cctor_mF0EA2082C57417E4D7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34121
+// Method Definition Index: 34262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_mA7537729315A16E6F6FAF4D6001216C6ECE6AA3E (U3CU3Ec__DisplayClass6_0_tA94B883F7263633503099BA2D2DA99C3A9A63977* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19325,7 +19325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_mA7537729
 		return;
 	}
 }
-// Method Definition Index: 34122
+// Method Definition Index: 34263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass6_0_U3CGetStaticNullForUdtTypeU3Eb__0_mA477120577648521172AF2A0786AAAA96563FA76 (U3CU3Ec__DisplayClass6_0_tA94B883F7263633503099BA2D2DA99C3A9A63977* __this, Type_t* ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19400,7 +19400,7 @@ IL_0049:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34123
+// Method Definition Index: 34264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringStorage__ctor_m63BD96A20EF9341221B0071365FA13E6FAD9E4C3 (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19424,7 +19424,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringStorage__ctor_m63BD96A20EF9341221B
 		return;
 	}
 }
-// Method Definition Index: 34124
+// Method Definition Index: 34265
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StringStorage_Aggregate_mC2EE2FB81839B9F011F59D648C034BC8AE072859 (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_recordNos, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19766,7 +19766,7 @@ IL_00f9:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_82, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StringStorage_Aggregate_mC2EE2FB81839B9F011F59D648C034BC8AE072859_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 34125
+// Method Definition Index: 34266
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StringStorage_Compare_m0A567B071F53BD6991CC87E5500D7E50EBF2986D (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -19830,7 +19830,7 @@ IL_0022:
 		return L_15;
 	}
 }
-// Method Definition Index: 34126
+// Method Definition Index: 34267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StringStorage_CompareValueTo_m5EAFAACC8F347C2FFB7F067F77175F2F7A84C958 (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19894,7 +19894,7 @@ IL_0024:
 		return L_12;
 	}
 }
-// Method Definition Index: 34127
+// Method Definition Index: 34268
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StringStorage_ConvertValue_mC3B62D07796E59D2E3873531C755EB17CD7B0BAC (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -19933,7 +19933,7 @@ IL_001e:
 		return L_6;
 	}
 }
-// Method Definition Index: 34128
+// Method Definition Index: 34269
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringStorage_Copy_m2FC31F0E784EE6298A04D660BCD72A5DAD8ED98E (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -19949,7 +19949,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringStorage_Copy_m2FC31F0E784EE6298A04
 		return;
 	}
 }
-// Method Definition Index: 34129
+// Method Definition Index: 34270
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StringStorage_Get_m20288AA6010E01527FF2E3773D0A44F80F18EFD1 (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, int32_t ___0_recordNo, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -19977,7 +19977,7 @@ IL_000e:
 		return L_6;
 	}
 }
-// Method Definition Index: 34130
+// Method Definition Index: 34271
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StringStorage_GetStringLength_m3D6F87B7581A9AC79937B30959336DA79F784481 (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -20007,7 +20007,7 @@ IL_000e:
 		return L_6;
 	}
 }
-// Method Definition Index: 34131
+// Method Definition Index: 34272
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StringStorage_IsNull_mAE9BBC8B0CE05D5E317026D8ECD0000557771004 (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	{
@@ -20019,7 +20019,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StringStorage_IsNull_mAE9BBC8B0CE05D5E31
 		return (bool)((((RuntimeObject*)(String_t*)L_3) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 	}
 }
-// Method Definition Index: 34132
+// Method Definition Index: 34273
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringStorage_Set_mAD6D9253CC059487F38D9E53F5DF1FC18FCCC896 (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -20052,7 +20052,7 @@ IL_0013:
 		return;
 	}
 }
-// Method Definition Index: 34133
+// Method Definition Index: 34274
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringStorage_SetCapacity_mEB4BAF562AADAABF339D9762CF60BC7ADE49EE62 (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20093,7 +20093,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 34134
+// Method Definition Index: 34275
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StringStorage_ConvertXmlToObject_mC6B637D705BE5EC9CA7E4B049F15A5D6E1056347 (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	{
@@ -20101,7 +20101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StringStorage_ConvertXmlToObje
 		return L_0;
 	}
 }
-// Method Definition Index: 34135
+// Method Definition Index: 34276
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringStorage_ConvertObjectToXml_mF4CE9753BDD89118B4307EF8D11FF7B93E132BB6 (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20115,7 +20115,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringStorage_ConvertObjectToXml_mF
 		return ((String_t*)CastclassSealed((RuntimeObject*)L_0, String_t_il2cpp_TypeInfo_var));
 	}
 }
-// Method Definition Index: 34136
+// Method Definition Index: 34277
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StringStorage_GetEmptyStorage_m8AD1A30B615579B9E00BD1227A471190489B2D17 (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20130,7 +20130,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StringStorage_GetEmptyStorage_
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 34137
+// Method Definition Index: 34278
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringStorage_CopyValue_m968284CF664BD99774C12EDC1FCE884B1090A05E (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20159,7 +20159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringStorage_CopyValue_m968284CF664BD99
 		return;
 	}
 }
-// Method Definition Index: 34138
+// Method Definition Index: 34279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringStorage_SetStorage_m62E3585282B27A5851768E5C555929D39EAE2524 (StringStorage_t5623F56E3F6C0F837E59522606FA5E4A1A63A0AC* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20183,7 +20183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringStorage_SetStorage_m62E3585282B27A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34139
+// Method Definition Index: 34280
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeSpanStorage__ctor_m6E245B33CB7D28B9DECA3F7560D9BCCF1FB9B7AE (TimeSpanStorage_tEB2C3069E8F22098F48B807F4CDDCDD5322E4F14* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20211,7 +20211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeSpanStorage__ctor_m6E245B33CB7D28B9D
 		return;
 	}
 }
-// Method Definition Index: 34140
+// Method Definition Index: 34281
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TimeSpanStorage_Aggregate_m6D1CAACF0A1EE0578178DE6DFC4073A66D8B4613 (TimeSpanStorage_tEB2C3069E8F22098F48B807F4CDDCDD5322E4F14* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20943,7 +20943,7 @@ IL_0376:
 		return L_173;
 	}
 }
-// Method Definition Index: 34141
+// Method Definition Index: 34282
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TimeSpanStorage_Compare_mB65C20AB60737F9AC6B9F7176853105E10E2D3D2 (TimeSpanStorage_tEB2C3069E8F22098F48B807F4CDDCDD5322E4F14* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21023,7 +21023,7 @@ IL_0042:
 		return L_21;
 	}
 }
-// Method Definition Index: 34142
+// Method Definition Index: 34283
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TimeSpanStorage_CompareValueTo_mE07DA84B0DD3AD5F39F7C6AB3F97155617A27DC0 (TimeSpanStorage_tEB2C3069E8F22098F48B807F4CDDCDD5322E4F14* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21102,7 +21102,7 @@ IL_003b:
 		return L_14;
 	}
 }
-// Method Definition Index: 34143
+// Method Definition Index: 34284
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A TimeSpanStorage_ConvertToTimeSpan_m7D2DC73F618C0558767AC1E2598F34E7E1009C33 (RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21195,7 +21195,7 @@ IL_0062:
 		return ((*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)((TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)UnBox(L_20, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var))));
 	}
 }
-// Method Definition Index: 34144
+// Method Definition Index: 34285
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TimeSpanStorage_ConvertValue_m371E0867393CE871858E89E2A8346B10306546E1 (TimeSpanStorage_tEB2C3069E8F22098F48B807F4CDDCDD5322E4F14* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21243,7 +21243,7 @@ IL_0023:
 		return L_8;
 	}
 }
-// Method Definition Index: 34145
+// Method Definition Index: 34286
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeSpanStorage_Copy_m5CF7E545BC3F5FAE97FFA058298DFA67B6BE365C (TimeSpanStorage_tEB2C3069E8F22098F48B807F4CDDCDD5322E4F14* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -21262,7 +21262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeSpanStorage_Copy_m5CF7E545BC3F5FAE97
 		return;
 	}
 }
-// Method Definition Index: 34146
+// Method Definition Index: 34287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TimeSpanStorage_Get_mA4C1E251EFDC2ED0B7F16D6B5B62F2C5AF7C81A0 (TimeSpanStorage_tEB2C3069E8F22098F48B807F4CDDCDD5322E4F14* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21307,7 +21307,7 @@ IL_0021:
 		return L_11;
 	}
 }
-// Method Definition Index: 34147
+// Method Definition Index: 34288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeSpanStorage_Set_m2A59D4579C7E1FF4F703CED8205FB45AEEC5BC70 (TimeSpanStorage_tEB2C3069E8F22098F48B807F4CDDCDD5322E4F14* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21351,7 +21351,7 @@ IL_0023:
 		return;
 	}
 }
-// Method Definition Index: 34148
+// Method Definition Index: 34289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeSpanStorage_SetCapacity_mD6215852BEEA93A22ECEAA0CE8990FC9C5FCB852 (TimeSpanStorage_tEB2C3069E8F22098F48B807F4CDDCDD5322E4F14* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21394,7 +21394,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 34149
+// Method Definition Index: 34290
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TimeSpanStorage_ConvertXmlToObject_m56D33704050D2030F4E83147509A7EB938388896 (TimeSpanStorage_tEB2C3069E8F22098F48B807F4CDDCDD5322E4F14* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21414,7 +21414,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TimeSpanStorage_ConvertXmlToOb
 		return L_3;
 	}
 }
-// Method Definition Index: 34150
+// Method Definition Index: 34291
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TimeSpanStorage_ConvertObjectToXml_mC07E48DFE1F5EFCA38ED16BA6342F38969FB4AE6 (TimeSpanStorage_tEB2C3069E8F22098F48B807F4CDDCDD5322E4F14* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21432,7 +21432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TimeSpanStorage_ConvertObjectToXml_
 		return L_1;
 	}
 }
-// Method Definition Index: 34151
+// Method Definition Index: 34292
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TimeSpanStorage_GetEmptyStorage_mCFD0F4BC4EF8056556FA4FA69DF13B57C501015A (TimeSpanStorage_tEB2C3069E8F22098F48B807F4CDDCDD5322E4F14* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21447,7 +21447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TimeSpanStorage_GetEmptyStorag
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 34152
+// Method Definition Index: 34293
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeSpanStorage_CopyValue_m987E2FACE30B0824832AF389FF69D217B17F1BBC (TimeSpanStorage_tEB2C3069E8F22098F48B807F4CDDCDD5322E4F14* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21476,7 +21476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeSpanStorage_CopyValue_m987E2FACE30B0
 		return;
 	}
 }
-// Method Definition Index: 34153
+// Method Definition Index: 34294
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeSpanStorage_SetStorage_mFEFD3C439BCF54396892B64023A53F93BF7A74AC (TimeSpanStorage_tEB2C3069E8F22098F48B807F4CDDCDD5322E4F14* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21494,7 +21494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeSpanStorage_SetStorage_mFEFD3C439BCF
 		return;
 	}
 }
-// Method Definition Index: 34154
+// Method Definition Index: 34295
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeSpanStorage__cctor_mBA1043B22579B9313D915B17B1EFD8C1911633EF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21519,7 +21519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeSpanStorage__cctor_mBA1043B22579B931
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34155
+// Method Definition Index: 34296
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt16Storage__ctor_mB265F46EB7A06637FAAB93762AC4C7988BEEFD5C (UInt16Storage_t7C13FE69DB3D901E0F3A122269F4030DE5FFE6F1* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21546,7 +21546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt16Storage__ctor_mB265F46EB7A06637FAA
 		return;
 	}
 }
-// Method Definition Index: 34156
+// Method Definition Index: 34297
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt16Storage_Aggregate_m9D5350772E070327A6EA6FFE0FFD28164D1AD846 (UInt16Storage_t7C13FE69DB3D901E0F3A122269F4030DE5FFE6F1* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22208,7 +22208,7 @@ IL_0301:
 		return L_159;
 	}
 }
-// Method Definition Index: 34157
+// Method Definition Index: 34298
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UInt16Storage_Compare_m7466F8EDCD2D1CE031604F73DD6DE91854B710E1 (UInt16Storage_t7C13FE69DB3D901E0F3A122269F4030DE5FFE6F1* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22274,7 +22274,7 @@ IL_0030:
 		return ((int32_t)il2cpp_codegen_subtract((int32_t)L_17, (int32_t)L_18));
 	}
 }
-// Method Definition Index: 34158
+// Method Definition Index: 34299
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UInt16Storage_CompareValueTo_m10106943B4636F0B83BEF9FA0C11621D36FCF2F1 (UInt16Storage_t7C13FE69DB3D901E0F3A122269F4030DE5FFE6F1* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22347,7 +22347,7 @@ IL_0032:
 		return L_13;
 	}
 }
-// Method Definition Index: 34159
+// Method Definition Index: 34300
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt16Storage_ConvertValue_m0E51B305A22AB4DBB31D6536BDD08B6D97791FB6 (UInt16Storage_t7C13FE69DB3D901E0F3A122269F4030DE5FFE6F1* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22397,7 +22397,7 @@ IL_002e:
 		return L_9;
 	}
 }
-// Method Definition Index: 34160
+// Method Definition Index: 34301
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt16Storage_Copy_m597B6CBE7CD554A4CCFF220C65158FEF2CED449C (UInt16Storage_t7C13FE69DB3D901E0F3A122269F4030DE5FFE6F1* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -22416,7 +22416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt16Storage_Copy_m597B6CBE7CD554A4CCFF
 		return;
 	}
 }
-// Method Definition Index: 34161
+// Method Definition Index: 34302
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt16Storage_Get_mE4C31263841B0DF601979B68DAB5664EF92AC2FE (UInt16Storage_t7C13FE69DB3D901E0F3A122269F4030DE5FFE6F1* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22457,7 +22457,7 @@ IL_001e:
 		return L_10;
 	}
 }
-// Method Definition Index: 34162
+// Method Definition Index: 34303
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt16Storage_Set_mD523C7C0D73D333CD3BADB5D651100726ADE54A6 (UInt16Storage_t7C13FE69DB3D901E0F3A122269F4030DE5FFE6F1* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22503,7 +22503,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 34163
+// Method Definition Index: 34304
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt16Storage_SetCapacity_mBE6353467D969AF49B2101D43CAD4CF04792DAAC (UInt16Storage_t7C13FE69DB3D901E0F3A122269F4030DE5FFE6F1* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22546,7 +22546,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 34164
+// Method Definition Index: 34305
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt16Storage_ConvertXmlToObject_m05135D726C21FE0351ACF89E61A97AB9C18F40A7 (UInt16Storage_t7C13FE69DB3D901E0F3A122269F4030DE5FFE6F1* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22566,7 +22566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt16Storage_ConvertXmlToObje
 		return L_3;
 	}
 }
-// Method Definition Index: 34165
+// Method Definition Index: 34306
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt16Storage_ConvertObjectToXml_m8042F9DA2C481FD061F16FCB70BAD61AB0B5E59B (UInt16Storage_t7C13FE69DB3D901E0F3A122269F4030DE5FFE6F1* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22584,7 +22584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt16Storage_ConvertObjectToXml_m8
 		return L_1;
 	}
 }
-// Method Definition Index: 34166
+// Method Definition Index: 34307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt16Storage_GetEmptyStorage_m1650AF396733BC1EB0AE39E69A2209A572759CA3 (UInt16Storage_t7C13FE69DB3D901E0F3A122269F4030DE5FFE6F1* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22599,7 +22599,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt16Storage_GetEmptyStorage_
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 34167
+// Method Definition Index: 34308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt16Storage_CopyValue_mB7F352A0AB795D12A52DB2FFBC53FE4FEFF0CAAF (UInt16Storage_t7C13FE69DB3D901E0F3A122269F4030DE5FFE6F1* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22628,7 +22628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt16Storage_CopyValue_mB7F352A0AB795D1
 		return;
 	}
 }
-// Method Definition Index: 34168
+// Method Definition Index: 34309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt16Storage_SetStorage_mAC549F2B7C36E8022B3369C7BD7DFE49A554C4D7 (UInt16Storage_t7C13FE69DB3D901E0F3A122269F4030DE5FFE6F1* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22654,7 +22654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt16Storage_SetStorage_mAC549F2B7C36E8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34169
+// Method Definition Index: 34310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt32Storage__ctor_m55769CF4B9B7C1D4A9A381F249C60AED4375BDD5 (UInt32Storage_tE443657FB5A2B5CB890027F5F90788A6EB08A93B* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22681,7 +22681,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt32Storage__ctor_m55769CF4B9B7C1D4A9A
 		return;
 	}
 }
-// Method Definition Index: 34170
+// Method Definition Index: 34311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt32Storage_Aggregate_m53C34B989370378E630691C2D4A91CB5A1D5EC83 (UInt32Storage_tE443657FB5A2B5CB890027F5F90788A6EB08A93B* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23343,7 +23343,7 @@ IL_0300:
 		return L_159;
 	}
 }
-// Method Definition Index: 34171
+// Method Definition Index: 34312
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UInt32Storage_Compare_mCB3441CD49DEF0E274E74B85A6F9639FAB1A7591 (UInt32Storage_tE443657FB5A2B5CB890027F5F90788A6EB08A93B* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23433,7 +23433,7 @@ IL_003c:
 		return (-1);
 	}
 }
-// Method Definition Index: 34172
+// Method Definition Index: 34313
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UInt32Storage_CompareValueTo_mE99C163F7AC7F8271B21A13123F93D399E1274C2 (UInt32Storage_tE443657FB5A2B5CB890027F5F90788A6EB08A93B* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23506,7 +23506,7 @@ IL_0032:
 		return L_13;
 	}
 }
-// Method Definition Index: 34173
+// Method Definition Index: 34314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt32Storage_ConvertValue_mF4598D5DDCA57F47F180B1126C0E8A22E5E495A2 (UInt32Storage_tE443657FB5A2B5CB890027F5F90788A6EB08A93B* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23556,7 +23556,7 @@ IL_002e:
 		return L_9;
 	}
 }
-// Method Definition Index: 34174
+// Method Definition Index: 34315
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt32Storage_Copy_mBDA62FFB81A6F88ADFA3032204805CB19DA2735D (UInt32Storage_tE443657FB5A2B5CB890027F5F90788A6EB08A93B* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -23575,7 +23575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt32Storage_Copy_mBDA62FFB81A6F88ADFA3
 		return;
 	}
 }
-// Method Definition Index: 34175
+// Method Definition Index: 34316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt32Storage_Get_m1C06C9C52E6125A9888DF0D8B3DCF6B5C9F28EA1 (UInt32Storage_tE443657FB5A2B5CB890027F5F90788A6EB08A93B* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23616,7 +23616,7 @@ IL_001e:
 		return L_10;
 	}
 }
-// Method Definition Index: 34176
+// Method Definition Index: 34317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt32Storage_Set_m843F72E4687BFCE156CE23687B22FD5370A55D39 (UInt32Storage_tE443657FB5A2B5CB890027F5F90788A6EB08A93B* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23662,7 +23662,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 34177
+// Method Definition Index: 34318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt32Storage_SetCapacity_m504021FCC565D33BF990E4D3378C435146CC4570 (UInt32Storage_tE443657FB5A2B5CB890027F5F90788A6EB08A93B* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23705,7 +23705,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 34178
+// Method Definition Index: 34319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt32Storage_ConvertXmlToObject_mA482D708EE6EDCBAD37A4535BE53ADE7220C691A (UInt32Storage_tE443657FB5A2B5CB890027F5F90788A6EB08A93B* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23725,7 +23725,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt32Storage_ConvertXmlToObje
 		return L_3;
 	}
 }
-// Method Definition Index: 34179
+// Method Definition Index: 34320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt32Storage_ConvertObjectToXml_m04AF1550A7C9F44E311B39D32AB881C4B4953D0B (UInt32Storage_tE443657FB5A2B5CB890027F5F90788A6EB08A93B* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23743,7 +23743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt32Storage_ConvertObjectToXml_m0
 		return L_1;
 	}
 }
-// Method Definition Index: 34180
+// Method Definition Index: 34321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt32Storage_GetEmptyStorage_m1B5B7D4F481E5203AFED7E72BAD3AA521909E7CB (UInt32Storage_tE443657FB5A2B5CB890027F5F90788A6EB08A93B* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23758,7 +23758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt32Storage_GetEmptyStorage_
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 34181
+// Method Definition Index: 34322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt32Storage_CopyValue_m78C2EEBFC72220EBDDDF4CA2AB0D08870B37176F (UInt32Storage_tE443657FB5A2B5CB890027F5F90788A6EB08A93B* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23787,7 +23787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt32Storage_CopyValue_m78C2EEBFC72220E
 		return;
 	}
 }
-// Method Definition Index: 34182
+// Method Definition Index: 34323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt32Storage_SetStorage_mD515C18C3AAC48ACDBC974B64DDEF3AFF99B4F19 (UInt32Storage_tE443657FB5A2B5CB890027F5F90788A6EB08A93B* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23813,7 +23813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt32Storage_SetStorage_mD515C18C3AAC48
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 34183
+// Method Definition Index: 34324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt64Storage__ctor_m4739DB811D5051982C0A46182B1CED3231D3728B (UInt64Storage_t68ED94D155B4DC8ED4AB06F0018867A3A1B0709B* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23840,7 +23840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt64Storage__ctor_m4739DB811D5051982C0
 		return;
 	}
 }
-// Method Definition Index: 34184
+// Method Definition Index: 34325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt64Storage_Aggregate_mF7D808CBBD794802EF4D51801AF8F33E416CA5C0 (UInt64Storage_t68ED94D155B4DC8ED4AB06F0018867A3A1B0709B* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_records, int32_t ___1_kind, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24473,7 +24473,7 @@ IL_02f2:
 		return L_156;
 	}
 }
-// Method Definition Index: 34185
+// Method Definition Index: 34326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UInt64Storage_Compare_m497C8877F483A956A5CE14BC12DBCAD11B5326D0 (UInt64Storage_t68ED94D155B4DC8ED4AB06F0018867A3A1B0709B* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24565,7 +24565,7 @@ IL_0048:
 		return (-1);
 	}
 }
-// Method Definition Index: 34186
+// Method Definition Index: 34327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UInt64Storage_CompareValueTo_m4631012F79D00A6F50308FA080619A065037CECE (UInt64Storage_t68ED94D155B4DC8ED4AB06F0018867A3A1B0709B* __this, int32_t ___0_recordNo, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24638,7 +24638,7 @@ IL_0032:
 		return L_13;
 	}
 }
-// Method Definition Index: 34187
+// Method Definition Index: 34328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt64Storage_ConvertValue_m9C2327BEE08C36F8C9595857ACF1B9DE225B7FD6 (UInt64Storage_t68ED94D155B4DC8ED4AB06F0018867A3A1B0709B* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24688,7 +24688,7 @@ IL_002e:
 		return L_9;
 	}
 }
-// Method Definition Index: 34188
+// Method Definition Index: 34329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt64Storage_Copy_m5970161F804C215F152AC08CFAAC9F360CE8AE05 (UInt64Storage_t68ED94D155B4DC8ED4AB06F0018867A3A1B0709B* __this, int32_t ___0_recordNo1, int32_t ___1_recordNo2, const RuntimeMethod* method) 
 {
 	{
@@ -24707,7 +24707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt64Storage_Copy_m5970161F804C215F152A
 		return;
 	}
 }
-// Method Definition Index: 34189
+// Method Definition Index: 34330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt64Storage_Get_m18070C4F819E03907B671EEDCD1477A066A4451B (UInt64Storage_t68ED94D155B4DC8ED4AB06F0018867A3A1B0709B* __this, int32_t ___0_record, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24748,7 +24748,7 @@ IL_001e:
 		return L_10;
 	}
 }
-// Method Definition Index: 34190
+// Method Definition Index: 34331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt64Storage_Set_mA5D71A68380191891CDCA959391EC0CE8F63141E (UInt64Storage_t68ED94D155B4DC8ED4AB06F0018867A3A1B0709B* __this, int32_t ___0_record, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24794,7 +24794,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 34191
+// Method Definition Index: 34332
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt64Storage_SetCapacity_m321FBB2BE52F0F24163A34FF33F264E46B3E34A2 (UInt64Storage_t68ED94D155B4DC8ED4AB06F0018867A3A1B0709B* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24837,7 +24837,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 34192
+// Method Definition Index: 34333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt64Storage_ConvertXmlToObject_m6629CD6A07D80A6DE52B879F1FE263950C0165B6 (UInt64Storage_t68ED94D155B4DC8ED4AB06F0018867A3A1B0709B* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24857,7 +24857,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt64Storage_ConvertXmlToObje
 		return L_3;
 	}
 }
-// Method Definition Index: 34193
+// Method Definition Index: 34334
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt64Storage_ConvertObjectToXml_m67EC50C8F8508499572151B251324490449EA539 (UInt64Storage_t68ED94D155B4DC8ED4AB06F0018867A3A1B0709B* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24875,7 +24875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt64Storage_ConvertObjectToXml_m6
 		return L_1;
 	}
 }
-// Method Definition Index: 34194
+// Method Definition Index: 34335
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt64Storage_GetEmptyStorage_mBBC649FCA8A68A813B02A292256AB5F5667B3EBB (UInt64Storage_t68ED94D155B4DC8ED4AB06F0018867A3A1B0709B* __this, int32_t ___0_recordCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24890,7 +24890,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UInt64Storage_GetEmptyStorage_
 		return (RuntimeObject*)L_1;
 	}
 }
-// Method Definition Index: 34195
+// Method Definition Index: 34336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt64Storage_CopyValue_m012F86C308F9BDB66FD66B0C9EEC8685E90A56A2 (UInt64Storage_t68ED94D155B4DC8ED4AB06F0018867A3A1B0709B* __this, int32_t ___0_record, RuntimeObject* ___1_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___2_nullbits, int32_t ___3_storeIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24919,7 +24919,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt64Storage_CopyValue_m012F86C308F9BDB
 		return;
 	}
 }
-// Method Definition Index: 34196
+// Method Definition Index: 34337
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UInt64Storage_SetStorage_mB462A195F4ECBF6D7DCC0A0D56D96B3F52ACFDB5 (UInt64Storage_t68ED94D155B4DC8ED4AB06F0018867A3A1B0709B* __this, RuntimeObject* ___0_store, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___1_nullbits, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25004,7 +25004,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 		return L_0;
 	}
 }
-// Method Definition Index: 33699
+// Method Definition Index: 33840
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DataStorage_SetNullStorage_mCC0FB7BAAD3C02EF497B786D9EF56A7714891EC7_inline (DataStorage_t862E6C556F9F1FB0BA5A4F51D926C40944A1EC7A* __this, BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* ___0_nullbits, const RuntimeMethod* method) 
 {
 	{
@@ -25014,7 +25014,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DataStorage_SetNullStorage_m
 		return;
 	}
 }
-// Method Definition Index: 2464
+// Method Definition Index: 2502
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t TimeSpan_get_Ticks_mC50131E57621F29FACC53B3241432ABB874FA1B5_inline (TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25022,7 +25022,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t TimeSpan_get_Ticks_mC5013
 		return L_0;
 	}
 }
-// Method Definition Index: 2023
+// Method Definition Index: 2024
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F Math_Round_mC44B363AC94B1B8DCB093A770B5C11E22F5A583E_inline (Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___0_d, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25039,7 +25039,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C094
 		return L_1;
 	}
 }
-// Method Definition Index: 2461
+// Method Definition Index: 2499
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TimeSpan__ctor_m061B122FA11D2063FE751C1F1D019DF1C8B10B1F_inline (TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* __this, int64_t ___0_ticks, const RuntimeMethod* method) 
 {
 	{

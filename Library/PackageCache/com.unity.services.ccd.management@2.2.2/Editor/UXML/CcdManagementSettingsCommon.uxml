@@ -1,0 +1,24 @@
+<UXML xmlns="UnityEngine.UIElements">   
+    <VisualElement class="project-settings-section-container">
+        <Label text="Getting Started" class="project-settings-title"/>
+        <VisualElement class="multi-field-block">
+            <VisualElement name="Dashboard" class="field-block link-button">
+                <TextElement text="Go to Dashboard" class="link-button"/>
+                <VisualElement class="external-link-icon"/>
+            </VisualElement>
+            <VisualElement name="ApiDoc" class="field-block link-button">
+                <TextElement text="Api Docs" class="link-button"/>
+                <VisualElement class="external-link-icon"/>
+            </VisualElement>
+            <VisualElement name="LearnMore" class="field-block link-button">
+                <TextElement text="Learn More" class="link-button"/>
+                <VisualElement class="external-link-icon"/>
+            </VisualElement>
+            <VisualElement name="Support" class="field-block link-button">
+                <TextElement text="CCD Support" class="link-button"/>
+                <VisualElement class="external-link-icon"/>
+            </VisualElement>
+        </VisualElement>
+    </VisualElement>
+    <VisualElement class="separator"/>
+</UXML>

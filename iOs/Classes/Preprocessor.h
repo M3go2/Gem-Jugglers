@@ -188,7 +188,7 @@
 // defines for used features
 //
 
-#define UNITY_DEVELOPER_BUILD 0
+#define UNITY_DEVELOPER_BUILD 1
 #define USE_IL2CPP_PCH 0
 #define UNITY_SNAPSHOT_VIEW_ON_APPLICATION_PAUSE 0
 

@@ -1,0 +1,13 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement class="project-settings-section-container">
+        <Label text="Cloud Content Delivery is enabled" class="project-settings-title"/>
+        <Label text="Consider integrating with the Addressables package" class="project-settings-small-title"/>
+        <Label text="Cloud Content Delivery pairs well with Adressables to allow you to configure profiles, upload and release content from within the Unity Editor." class="label-container"/>
+        <Image name="EnabledImage" class="image-container"/>
+        <VisualElement name="Guide" class="field-block link-button">
+            <TextElement text="Guide to using Addressables and Cloud Content Delivery" class="link-button"/>
+            <VisualElement class="external-link-icon"/>
+        </VisualElement>
+    </VisualElement>
+    <VisualElement class="separator"/>
+</UXML>

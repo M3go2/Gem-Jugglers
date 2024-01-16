@@ -909,11 +909,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 641bb8eb-e817-4814-98fb-767a181e3543
+  cloudProjectId: a9fbe7ee-14e3-4609-9e77-5af53052dd05
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Another Match 3
-  organizationId: carboemerald
+  projectName: Gem Jugglers
+  organizationId: mohamedmego570
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

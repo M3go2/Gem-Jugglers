@@ -1,0 +1,14 @@
+{
+  "name": "cloudcode-authoring",
+  "version": "0.1.0",
+  "description": "Cloud Code Authoring",
+  "bin": {
+    "script_parameters": "src/script_parameters.js"
+  },
+  "scripts": {
+    "test": "jest --silent"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}

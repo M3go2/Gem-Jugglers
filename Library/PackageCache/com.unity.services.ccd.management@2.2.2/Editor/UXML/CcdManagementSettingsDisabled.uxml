@@ -1,0 +1,14 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <Box class="disabled-container">
+        <Label text="Your organization is not yet using Unity Cloud Content Delivery. Visit the services marketplace to sign up and start hosting your content." class="label-container"/>
+        <VisualElement class="multi-field-block">
+            <VisualElement class="field-block">
+                <Button name="SignUpForCCD" text="Sign up for Cloud Content Delivery" class="button"/>
+            </VisualElement>
+            <VisualElement class="field-block">
+                <Button name="CheckCCDActivation" text="Check for Activation" class="button"/>
+            </VisualElement>
+        </VisualElement>
+    </Box>
+    <VisualElement class="separator"/>
+</UXML>

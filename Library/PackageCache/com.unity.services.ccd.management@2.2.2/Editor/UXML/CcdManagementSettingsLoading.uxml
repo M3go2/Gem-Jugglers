@@ -1,0 +1,5 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement class="loading-container">
+        <Label text="Loading..." class="loading"/>
+    </VisualElement>
+</UXML>

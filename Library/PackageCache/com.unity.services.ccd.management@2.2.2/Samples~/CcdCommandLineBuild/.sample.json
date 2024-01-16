@@ -1,0 +1,5 @@
+{
+  "displayName": "CCD Command Line Build", 
+  "description": "This is an example of how to use command line to build CCD.", 
+  "createSeparatePackage": false
+}

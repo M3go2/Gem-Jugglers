@@ -1,0 +1,15 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement class="project-settings-section-container">
+        <Label text="You're using Cloud Content Delivery and the Addressables Package" class="project-settings-title"/>
+        <Label text="You can now use Cloud Content Delivery paths inside your profiles in Window > Asset Management > Addressables > Profiles" class="label-container"/>
+        <Image name="EnabledImage" class="image-container"/>
+        <VisualElement class="field-block">
+            <Button name="Manage" text="Manage Addressables Profiles" class="button"/>
+        </VisualElement>
+        <VisualElement name="Guide" class="field-block link-button">
+            <TextElement text="Guide to using Addressables and Cloud Content Delivery" class="link-button"/>
+            <VisualElement class="external-link-icon"/>
+        </VisualElement>
+    </VisualElement>
+    <VisualElement class="separator"/>
+</UXML>

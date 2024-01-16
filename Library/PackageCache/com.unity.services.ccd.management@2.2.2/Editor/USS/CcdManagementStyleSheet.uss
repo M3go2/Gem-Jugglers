@@ -1,0 +1,80 @@
+.loading {
+    font-size: 25px;
+    -unity-text-align: middle-center;
+}
+
+.loading-container {
+    width: 100%;
+    align-content: center;
+}
+
+.project-settings-section-container,
+.project-settings-title-container {
+    padding:4px 4px 4px 8px;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+.project-settings-title {
+    padding-bottom: 5px;
+    font-size:16px;
+    -unity-font-style:bold;
+}
+
+.project-settings-small-title {
+    padding-top: 5px;
+    font-size:14px;
+    -unity-font-style:bold;
+}
+
+.multi-field-block {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.field-block {
+    flex-direction:row;
+    padding: 2px 16px 2px 2px;
+    flex-wrap: wrap;
+}
+
+.label-container {
+    flex-direction: row;
+    align-items: flex-start;
+    white-space: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.link-button {
+    flex-grow: 0;
+    align-self: flex-start;
+    cursor: link;
+    flex-direction: row;
+}
+
+.link-button:hover {
+    cursor: link;
+    color: #81B4FF; /*from dark.uss --unity-active-text-color*/
+}
+
+.disabled-container {
+    margin:8px 8px 8px 8px;
+    padding:8px 8px 8px 8px;
+    background-color: #323232;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #232323;
+}
+
+.image-container {
+    margin:4px 16px 4px 2px;
+    border-width: 1px;
+    border-color: #D2D2D2;
+    max-width: 426px;
+    max-height: 146px;
+}
+
+.button {
+    margin-left: 0;
+}

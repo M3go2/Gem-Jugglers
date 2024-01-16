@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns="UnityEngine.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.unity.services.cloudcode/Editor/Authoring/Modules/UI/Assets/CloudCodeModuleReferenceUi.uss" />
+
+    <uie:PropertyField binding-path="m_ModulePath" label="Path" focusable="true" />
+    <ui:VisualElement name="Apply Footer" class="apply-footer__container">
+        <ui:Button name="Revert" text="Revert" class="revert-button" />
+        <ui:Button name="Apply" text="Apply" class="apply-button" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Generate Footer" class="apply-footer__container">
+        <ui:Button name="Generate" text="Generate Solution" class="generate-button" />
+    </ui:VisualElement>
+</ui:UXML>
